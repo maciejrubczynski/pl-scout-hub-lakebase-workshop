@@ -1,0 +1,211 @@
+player_id,name,team,position,nationality,age,market_value_eur
+BU001,Bukayo Saka,Arsenal,FWD,English,23,71000000
+MO002,Martin Ødegaard,Arsenal,MID,Norwegian,25,55000000
+GA001,Gabriel Martinelli,Arsenal,FWD,Brazilian,23,75000000
+WH001,William Saliba,Arsenal,DEF,French,24,69000000
+BE001,Ben White,Arsenal,DEF,English,27,49000000
+AE001,Aaron Ramsdale,Arsenal,GK,English,26,34000000
+TA001,Thomas Partey,Arsenal,MID,Ghanaian,31,138000000
+JO003,Jorginho,Arsenal,MID,Italian,32,97000000
+DE001,Declan Rice,Arsenal,MID,English,25,68000000
+KA002,Kai Havertz,Arsenal,FWD,German,25,69000000
+OL001,Ollie Watkins,Aston Villa,FWD,English,28,198000000
+JA004,Jaden Smith,Aston Villa,DEF,English,23,48000000
+JO004,John McGinn,Aston Villa,MID,Scottish,29,130000000
+PA002,Pau Torres,Aston Villa,DEF,Spanish,27,47000000
+EM002,Emiliano Martínez,Aston Villa,GK,Argentine,32,20000000
+MO004,Morgan Rogers,Aston Villa,MID,English,22,116000000
+DI001,Diego Carlos,Aston Villa,DEF,Brazilian,30,38000000
+KO001,Konsa,Aston Villa,DEF,English,26,27000000
+RO003,Rob Holding,Aston Villa,DEF,English,29,33000000
+LE001,Leon Bailey,Aston Villa,FWD,Jamaican,27,184000000
+AT001,Enes Ünal,Bournemouth,FWD,Turkish,27,157000000
+DO002,Dominic Solanke,Bournemouth,FWD,English,27,130000000
+MI001,Milos Kerkez,Bournemouth,DEF,Serbian,21,29000000
+LL001,Lloyd Kelly,Bournemouth,DEF,English,26,78000000
+MA005,Mark Travers,Bournemouth,GK,Irish,23,41000000
+AB001,Antoine Semenyo,Bournemouth,FWD,Ghanaian,24,108000000
+JA003,Jamal Murray,Bournemouth,DEF,English,26,33000000
+TA002,Talisk Pronk,Bournemouth,MID,Dutch,26,33000000
+EM001,Emiliano Martínez,Bournemouth,GK,Argentine,32,34000000
+DW001,David Datro Fofana,Bournemouth,FWD,Ivorian,22,191000000
+BR004,Bryan Mbeumo,Brentford,FWD,Cameroonian,24,58000000
+KO002,Kristoffer Ajer,Brentford,DEF,Norwegian,27,79000000
+EN002,Endo Sergio,Brentford,MID,Japanese,26,71000000
+RA002,Raith Thomas,Brentford,DEF,English,28,20000000
+DA005,David Raya,Brentford,GK,Spanish,29,35000000
+NI003,Nico Schira,Brentford,MID,German,31,51000000
+YO002,Yoane Wissa,Brentford,FWD,Congolese,26,60000000
+MI004,Mikkel Damsgaard,Brentford,MID,Danish,27,46000000
+RI004,Rico Henry,Brentford,DEF,English,28,64000000
+JO009,Josh da Silva,Brentford,MID,English,26,126000000
+JA005,João Pedro,Brighton,FWD,Portuguese,21,134000000
+AI001,Alexis Mac Allister,Brighton,MID,Argentine,25,32000000
+MO005,Moisés Caicedo,Brighton,MID,Ecuadorian,22,125000000
+WE001,Weston McKennie,Brighton,MID,American,26,39000000
+PE001,Pervis Estupiñán,Brighton,DEF,Colombian,26,43000000
+TA003,Tariq Lamptey,Brighton,DEF,English,24,29000000
+JA006,Jan Paul van Hecke,Brighton,DEF,Dutch,24,66000000
+RO004,Robert Sánchez,Brighton,GK,Spanish,26,39000000
+PA003,Pascal Groß,Brighton,MID,German,33,119000000
+SI001,Simon Adingra,Brighton,FWD,Ivorian,23,61000000
+CO001,Cole Palmer,Chelsea,MID,English,22,121000000
+NI001,Nicolas Jackson,Chelsea,FWD,Senegalese,23,179000000
+MO003,Moisés Caicedo,Chelsea,MID,Ecuadorian,22,119000000
+EN001,Enzo Fernández,Chelsea,MID,Argentine,23,141000000
+MA003,Mauricio Pochettino,Chelsea,MID,Argentine,22,140000000
+JS001,Jamal Murray,Chelsea,DEF,English,23,31000000
+RE001,Reece James,Chelsea,DEF,English,24,30000000
+BE002,Benoit Badiashile,Chelsea,DEF,French,24,41000000
+RO002,Robert Sánchez,Chelsea,GK,Spanish,26,15000000
+SU001,Sunny Sunley,Chelsea,DEF,English,21,44000000
+MI005,Michael Olise,Crystal Palace,MID,English,22,41000000
+JE001,Jean-Philippe Mateta,Crystal Palace,FWD,French,26,169000000
+VI003,Víctor Tomás,Crystal Palace,FWD,Spanish,29,119000000
+CA005,Cheick Doucouré,Crystal Palace,MID,Malian,30,125000000
+WI002,Wilfried Zaha,Crystal Palace,FWD,Ivorian,32,158000000
+DA006,Daniel Munoz,Crystal Palace,DEF,Colombian,25,23000000
+JO010,Joel Ward,Crystal Palace,DEF,English,34,23000000
+ED002,Ed de Goey,Crystal Palace,GK,Dutch,32,13000000
+MA009,Marc Guéhi,Crystal Palace,DEF,English,24,79000000
+PE004,Pete Phuket,Crystal Palace,DEF,English,26,75000000
+CA002,Callum Coady,Everton,DEF,English,31,33000000
+AL004,Amadou Onana,Everton,MID,Belgian,22,67000000
+JA008,James Tarkowski,Everton,DEF,English,31,42000000
+MI003,Mina,Everton,DEF,Colombian,30,27000000
+JO006,João Neves,Everton,MID,Portuguese,20,96000000
+NI002,Nico O'Neill,Everton,MID,English,20,115000000
+RI002,Richarlison,Everton,FWD,Brazilian,27,180000000
+DA004,Dwight McNeil,Everton,MID,English,26,143000000
+JO007,Jordan Pickford,Everton,GK,English,30,19000000
+PE002,Peter Bosz,Everton,MID,Dutch,32,136000000
+RA001,Raúl Jiménez,Fulham,FWD,Mexican,33,40000000
+AL002,Alexander Iwobi,Fulham,MID,Nigerian,28,69000000
+MA008,Máximo Perrone,Fulham,MID,Argentine,22,66000000
+AN003,Antonee Robinson,Fulham,DEF,American,25,58000000
+RE002,Reiss Nelson,Fulham,FWD,English,25,89000000
+HE001,Hector Bellerin,Fulham,DEF,Spanish,29,30000000
+BE003,Ben Chilwell,Fulham,DEF,English,27,31000000
+GO001,Goncalo Guedes,Fulham,MID,Portuguese,27,44000000
+LA001,Leno,Fulham,GK,German,32,37000000
+WI001,Wilson,Fulham,DEF,Brazilian,28,23000000
+AL005,Alisson Becker,Ipswich Town,GK,Brazilian,32,36000000
+OL002,Omari Hutchinson,Ipswich Town,FWD,English,21,106000000
+JA010,Jack Clarke,Ipswich Town,FWD,English,22,136000000
+NE002,Nedum Onuoha,Ipswich Town,DEF,English,36,44000000
+KI001,Kieran McKenna,Ipswich Town,MID,English,37,47000000
+TR002,Tomas Xeka,Ipswich Town,MID,Portuguese,24,92000000
+LE002,Leif Davis,Ipswich Town,DEF,English,23,34000000
+HU001,Husbauer,Ipswich Town,MID,Czech,32,143000000
+CA004,Cameron Burgess,Ipswich Town,DEF,English,27,26000000
+Wal001,Wallace,Ipswich Town,DEF,Brazilian,23,29000000
+JA011,James Maddison,Leicester City,MID,English,27,46000000
+YU002,Youri Tielemans,Leicester City,MID,Belgian,27,107000000
+ST001,Stephy Mavididi,Leicester City,FWD,English,24,168000000
+WI003,Wes Fofana,Leicester City,DEF,French,25,61000000
+JO011,Jonny Evans,Leicester City,DEF,Northern Irish,36,42000000
+RIC001,Ricardo Pereira,Leicester City,DEF,Portuguese,31,25000000
+HU002,Hubert Ilunga,Leicester City,MID,Congolese,22,107000000
+DE003,Dewsbury-Hall,Leicester City,MID,English,26,127000000
+CO002,Conor Coady,Leicester City,DEF,English,31,39000000
+DO003,Dani Pereira,Leicester City,GK,Portuguese,29,23000000
+MO001,Mohamed Salah,Liverpool,FWD,Egyptian,32,85000000
+VI001,Virgil van Dijk,Liverpool,DEF,Dutch,33,45000000
+TR001,Trent Alexander-Arnold,Liverpool,DEF,English,26,43000000
+AL001,Alisson,Liverpool,GK,Brazilian,32,33000000
+LU001,Luis Díaz,Liverpool,FWD,Colombian,27,75000000
+JO002,Jota,Liverpool,MID,Portuguese,27,115000000
+AN001,Andy Robertson,Liverpool,DEF,Scottish,30,53000000
+RY001,Ryan Gravenberch,Liverpool,MID,Dutch,22,33000000
+DO001,Dominic Szoboszlai,Liverpool,MID,Hungarian,23,147000000
+CU001,Curtis Jones,Liverpool,MID,English,23,58000000
+CA006,Carlton Morris,Luton Town,FWD,English,30,48000000
+PA005,Pelly Ruddock,Luton Town,DEF,English,28,45000000
+RO005,Robert Sánchez,Luton Town,GK,Spanish,26,48000000
+LE003,Leboard Johnson,Luton Town,MID,English,23,76000000
+VI004,Valerien Ismael,Luton Town,DEF,French,47,24000000
+HA003,Harry Winks,Luton Town,MID,English,29,131000000
+TA004,Tahith Chong,Luton Town,FWD,Dutch,24,67000000
+TY001,Tye Lawrence,Luton Town,DEF,English,22,68000000
+RY002,Ryan Allsop,Luton Town,GK,English,31,12000000
+JA012,Jarrad Branthwaite,Luton Town,DEF,English,22,25000000
+KC001,Kevin De Bruyne,Manchester City,MID,Belgian,33,128000000
+JA001,Jack Grealish,Manchester City,MID,English,29,99000000
+ER001,Erling Haaland,Manchester City,FWD,Norwegian,24,76000000
+JO001,John Stones,Manchester City,DEF,English,30,45000000
+MA001,Manuel Akanji,Manchester City,DEF,German,29,57000000
+RO001,Rodri,Manchester City,MID,Spanish,28,51000000
+PH001,Phil Foden,Manchester City,MID,English,24,126000000
+ED001,Ederson,Manchester City,GK,Brazilian,31,39000000
+KA001,Kalvin Phillips,Manchester City,MID,English,29,34000000
+JU001,Julian Álvarez,Manchester City,FWD,Argentine,24,78000000
+BR001,Bruno Fernandes,Manchester United,MID,Portuguese,30,138000000
+CA001,Casemiro,Manchester United,MID,Brazilian,32,77000000
+MA002,Mason Mount,Manchester United,MID,English,25,81000000
+AN002,Antony,Manchester United,FWD,Brazilian,24,192000000
+JA002,Jadon Sancho,Manchester United,FWD,English,24,139000000
+DA001,David de Gea,Manchester United,GK,Spanish,34,15000000
+AR001,Armando Broja,Manchester United,FWD,Albanian,22,148000000
+VA001,Wan-Bissaka,Manchester United,DEF,English,26,37000000
+HA001,Harry Maguire,Manchester United,DEF,English,31,41000000
+LI001,Lisandro Martínez,Manchester United,DEF,Argentine,25,55000000
+AL006,Alexander Isak,Newcastle,FWD,Swedish,25,167000000
+MI006,Miguel Almirón,Newcastle,MID,Paraguayan,30,101000000
+AN004,Anthony Gordon,Newcastle,FWD,English,24,128000000
+JO014,João Cancelo,Newcastle,DEF,Portuguese,30,63000000
+TI001,Tino Livramento,Newcastle,DEF,English,22,47000000
+DI002,Dirk Kuyt,Newcastle,FWD,Dutch,38,79000000
+BR005,Bruno Guimarães,Newcastle,MID,Brazilian,27,85000000
+SA002,Sander Berge,Newcastle,MID,Norwegian,26,68000000
+NI004,Nick Pope,Newcastle,GK,English,32,47000000
+JO015,Joelinton,Newcastle,MID,Brazilian,28,131000000
+CR002,Chris Wood,Nottingham Forest,FWD,New Zealand,33,57000000
+WA001,Wander,Nottingham Forest,DEF,Brazilian,25,42000000
+MU001,Murillo,Nottingham Forest,DEF,Brazilian,22,38000000
+AW001,Awoniyi,Nottingham Forest,FWD,Nigerian,26,148000000
+MA006,Mats Konoplyanka,Nottingham Forest,MID,Ukrainian,34,124000000
+BR003,Brennan Johnson,Nottingham Forest,FWD,English,23,156000000
+SC001,Scott McKenna,Nottingham Forest,DEF,Scottish,27,26000000
+NE001,Neco Williams,Nottingham Forest,DEF,Welsh,23,61000000
+MA007,Matt Turner,Nottingham Forest,GK,American,29,35000000
+JO005,Jonjo Shelvey,Nottingham Forest,MID,English,32,140000000
+JA009,Jan Bednarek,Southampton,DEF,Polish,28,38000000
+CA003,Cameron Archer,Southampton,FWD,English,22,89000000
+YU001,Yukinari Sugawara,Southampton,DEF,Japanese,24,29000000
+KA003,Kamaldeen Sulemana,Southampton,FWD,Ghanaian,22,197000000
+JO008,Joe Aribo,Southampton,MID,Nigerian,28,143000000
+GA002,Gavin Bazunu,Southampton,GK,Irish,22,36000000
+WY001,Wyles Fleming,Southampton,MID,English,23,87000000
+PE003,Pereira Shelvey,Southampton,MID,English,32,145000000
+HA002,Harry Souttar,Southampton,DEF,Scottish,24,68000000
+RI003,Romain Perraud,Southampton,DEF,French,27,60000000
+SO001,Son Heung-min,Tottenham,FWD,South Korean,32,186000000
+MA004,Maddison,Tottenham,MID,English,27,68000000
+RI001,Richarlison,Tottenham,FWD,Brazilian,27,157000000
+DA002,Davinson Sánchez,Tottenham,DEF,Colombian,28,25000000
+CR001,Cristian Romero,Tottenham,DEF,Argentine,26,23000000
+PI001,Pierre-Emile Højbjerg,Tottenham,MID,Danish,28,150000000
+VI002,Vicário,Tottenham,GK,Spanish,27,30000000
+PA001,Pape Sarr,Tottenham,MID,Senegalese,22,147000000
+YO001,Yves Bissouma,Tottenham,MID,Malian,25,48000000
+BR002,Brennan Johnson,Tottenham,FWD,English,23,134000000
+DE002,Declan Rice,West Ham,MID,English,25,61000000
+MU002,Mohammed Kudus,West Ham,MID,Ghanaian,24,146000000
+JA007,Jarrod Bowen,West Ham,FWD,English,27,112000000
+LU002,Luiz Guilherme,West Ham,MID,Brazilian,20,113000000
+MI002,Michail Antonio,West Ham,FWD,English,34,119000000
+PA004,Pape Gueye,West Ham,MID,Senegalese,25,110000000
+KU001,Kurt Zouma,West Ham,DEF,French,30,26000000
+DA003,Dani Ogbagu,West Ham,DEF,English,26,20000000
+AL003,Alphonse Areola,West Ham,GK,French,31,15000000
+EM003,Emicrania Bowen,West Ham,DEF,English,27,68000000
+GA003,Gary O'Neil,Wolverhampton,MID,English,40,114000000
+RA003,Ravel Morrison,Wolverhampton,MID,English,31,73000000
+PO001,Pedro Neto,Wolverhampton,MID,Portuguese,24,43000000
+SE001,Sérgio Conceição,Wolverhampton,FWD,Portuguese,35,165000000
+SA001,Sander Coates,Wolverhampton,DEF,English,26,41000000
+JO012,João Moutinho,Wolverhampton,MID,Portuguese,37,109000000
+LO001,Lodi Renan,Wolverhampton,DEF,Brazilian,27,79000000
+JU002,Jüngün,Wolverhampton,DEF,Turkish,29,75000000
+JO013,José Sá,Wolverhampton,GK,Portuguese,31,20000000
+TR003,Trent Alexander-Arnold,Wolverhampton,DEF,English,26,55000000

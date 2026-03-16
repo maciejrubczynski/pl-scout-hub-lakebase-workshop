@@ -1,0 +1,1969 @@
+event_id,match_id,player_id,event_type,minute,match_date,home_team,away_team,home_score,away_score
+EV00001,M00001,JA010,yellow_card,85,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00002,M00001,LE002,substitution,57,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00003,M00001,Wal001,assist,43,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00004,M00001,CA004,assist,36,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00005,M00001,TR002,substitution,41,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00006,M00001,NE002,substitution,46,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00007,M00001,JA010,assist,17,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00008,M00001,TR002,goal,52,2024-12-24,Ipswich Town,Aston Villa,2,0
+EV00009,M00002,PA005,yellow_card,70,2024-12-04,Bournemouth,Luton Town,0,4
+EV00010,M00002,DO002,substitution,90,2024-12-04,Bournemouth,Luton Town,0,4
+EV00011,M00002,MI001,red_card,18,2024-12-04,Bournemouth,Luton Town,0,4
+EV00012,M00002,TY001,assist,32,2024-12-04,Bournemouth,Luton Town,0,4
+EV00013,M00002,JA003,assist,52,2024-12-04,Bournemouth,Luton Town,0,4
+EV00014,M00002,RO005,goal,49,2024-12-04,Bournemouth,Luton Town,0,4
+EV00015,M00002,PA005,yellow_card,87,2024-12-04,Bournemouth,Luton Town,0,4
+EV00016,M00002,RO005,yellow_card,33,2024-12-04,Bournemouth,Luton Town,0,4
+EV00017,M00002,EM001,assist,22,2024-12-04,Bournemouth,Luton Town,0,4
+EV00018,M00002,RY002,yellow_card,48,2024-12-04,Bournemouth,Luton Town,0,4
+EV00019,M00003,WI003,red_card,15,2024-09-16,Leicester City,Brighton,2,4
+EV00020,M00003,SI001,red_card,27,2024-09-16,Leicester City,Brighton,2,4
+EV00021,M00003,WI003,yellow_card,41,2024-09-16,Leicester City,Brighton,2,4
+EV00022,M00003,JA011,substitution,25,2024-09-16,Leicester City,Brighton,2,4
+EV00023,M00003,JA011,red_card,79,2024-09-16,Leicester City,Brighton,2,4
+EV00024,M00003,CO002,substitution,56,2024-09-16,Leicester City,Brighton,2,4
+EV00025,M00003,DO003,goal,82,2024-09-16,Leicester City,Brighton,2,4
+EV00026,M00003,PE001,assist,2,2024-09-16,Leicester City,Brighton,2,4
+EV00027,M00004,AL003,yellow_card,60,2024-12-05,West Ham,Brighton,3,1
+EV00028,M00004,MU002,red_card,58,2024-12-05,West Ham,Brighton,3,1
+EV00029,M00004,WE001,goal,61,2024-12-05,West Ham,Brighton,3,1
+EV00030,M00004,LU002,substitution,1,2024-12-05,West Ham,Brighton,3,1
+EV00031,M00004,JA007,substitution,21,2024-12-05,West Ham,Brighton,3,1
+EV00032,M00004,MU002,yellow_card,89,2024-12-05,West Ham,Brighton,3,1
+EV00033,M00004,RO004,assist,74,2024-12-05,West Ham,Brighton,3,1
+EV00034,M00004,AL003,goal,54,2024-12-05,West Ham,Brighton,3,1
+EV00035,M00004,PA003,goal,28,2024-12-05,West Ham,Brighton,3,1
+EV00036,M00004,AL003,substitution,53,2024-12-05,West Ham,Brighton,3,1
+EV00037,M00005,KA001,goal,60,2024-09-26,Manchester City,Leicester City,4,0
+EV00038,M00005,HU002,assist,14,2024-09-26,Manchester City,Leicester City,4,0
+EV00039,M00005,HU002,red_card,12,2024-09-26,Manchester City,Leicester City,4,0
+EV00040,M00005,JA001,substitution,22,2024-09-26,Manchester City,Leicester City,4,0
+EV00041,M00005,ED001,yellow_card,22,2024-09-26,Manchester City,Leicester City,4,0
+EV00042,M00005,JA001,yellow_card,79,2024-09-26,Manchester City,Leicester City,4,0
+EV00043,M00005,RIC001,yellow_card,21,2024-09-26,Manchester City,Leicester City,4,0
+EV00044,M00005,JU001,goal,45,2024-09-26,Manchester City,Leicester City,4,0
+EV00045,M00005,JA001,goal,30,2024-09-26,Manchester City,Leicester City,4,0
+EV00046,M00006,Wal001,red_card,34,2025-02-03,Everton,Ipswich Town,4,4
+EV00047,M00006,JA008,goal,5,2025-02-03,Everton,Ipswich Town,4,4
+EV00048,M00006,PE002,yellow_card,87,2025-02-03,Everton,Ipswich Town,4,4
+EV00049,M00006,JA010,assist,66,2025-02-03,Everton,Ipswich Town,4,4
+EV00050,M00006,DA004,red_card,28,2025-02-03,Everton,Ipswich Town,4,4
+EV00051,M00006,Wal001,goal,70,2025-02-03,Everton,Ipswich Town,4,4
+EV00052,M00006,LE002,red_card,48,2025-02-03,Everton,Ipswich Town,4,4
+EV00053,M00006,LE002,assist,22,2025-02-03,Everton,Ipswich Town,4,4
+EV00054,M00006,NI002,substitution,74,2025-02-03,Everton,Ipswich Town,4,4
+EV00055,M00006,LE002,goal,15,2025-02-03,Everton,Ipswich Town,4,4
+EV00056,M00007,JA010,assist,52,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00057,M00007,OL001,yellow_card,70,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00058,M00007,AL005,substitution,18,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00059,M00007,LE001,yellow_card,29,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00060,M00007,AL005,substitution,59,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00061,M00007,JA004,red_card,63,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00062,M00007,AL005,red_card,28,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00063,M00007,EM002,yellow_card,55,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00064,M00007,Wal001,goal,33,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00065,M00007,JA004,yellow_card,37,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00066,M00007,DI001,yellow_card,80,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00067,M00007,LE001,goal,72,2025-04-28,Ipswich Town,Aston Villa,0,4
+EV00068,M00008,MA008,yellow_card,50,2024-09-03,Fulham,Southampton,4,4
+EV00069,M00008,GO001,substitution,51,2024-09-03,Fulham,Southampton,4,4
+EV00070,M00008,WI001,assist,80,2024-09-03,Fulham,Southampton,4,4
+EV00071,M00008,WI001,yellow_card,19,2024-09-03,Fulham,Southampton,4,4
+EV00072,M00008,WI001,substitution,43,2024-09-03,Fulham,Southampton,4,4
+EV00073,M00008,RA001,substitution,45,2024-09-03,Fulham,Southampton,4,4
+EV00074,M00008,WI001,assist,74,2024-09-03,Fulham,Southampton,4,4
+EV00075,M00008,RA001,substitution,1,2024-09-03,Fulham,Southampton,4,4
+EV00076,M00008,CA003,assist,34,2024-09-03,Fulham,Southampton,4,4
+EV00077,M00009,KA001,goal,38,2024-09-04,Manchester City,Newcastle,2,0
+EV00078,M00009,RO001,substitution,51,2024-09-04,Manchester City,Newcastle,2,0
+EV00079,M00009,PH001,goal,53,2024-09-04,Manchester City,Newcastle,2,0
+EV00080,M00009,ER001,substitution,24,2024-09-04,Manchester City,Newcastle,2,0
+EV00081,M00009,ER001,goal,12,2024-09-04,Manchester City,Newcastle,2,0
+EV00082,M00009,DI002,yellow_card,45,2024-09-04,Manchester City,Newcastle,2,0
+EV00083,M00009,KA001,substitution,16,2024-09-04,Manchester City,Newcastle,2,0
+EV00084,M00009,RO001,substitution,38,2024-09-04,Manchester City,Newcastle,2,0
+EV00085,M00010,JU002,assist,42,2024-12-21,Wolverhampton,Fulham,4,3
+EV00086,M00010,SE001,red_card,63,2024-12-21,Wolverhampton,Fulham,4,3
+EV00087,M00010,GO001,assist,1,2024-12-21,Wolverhampton,Fulham,4,3
+EV00088,M00010,WI001,assist,36,2024-12-21,Wolverhampton,Fulham,4,3
+EV00089,M00010,SE001,goal,2,2024-12-21,Wolverhampton,Fulham,4,3
+EV00090,M00010,JO013,yellow_card,62,2024-12-21,Wolverhampton,Fulham,4,3
+EV00091,M00010,RE002,yellow_card,46,2024-12-21,Wolverhampton,Fulham,4,3
+EV00092,M00010,MA008,red_card,69,2024-12-21,Wolverhampton,Fulham,4,3
+EV00093,M00010,LA001,red_card,54,2024-12-21,Wolverhampton,Fulham,4,3
+EV00094,M00010,SA001,red_card,14,2024-12-21,Wolverhampton,Fulham,4,3
+EV00095,M00011,JA006,red_card,54,2025-01-20,Brighton,Crystal Palace,2,2
+EV00096,M00011,JA006,substitution,74,2025-01-20,Brighton,Crystal Palace,2,2
+EV00097,M00011,MO005,substitution,58,2025-01-20,Brighton,Crystal Palace,2,2
+EV00098,M00011,WE001,assist,19,2025-01-20,Brighton,Crystal Palace,2,2
+EV00099,M00011,JA006,substitution,71,2025-01-20,Brighton,Crystal Palace,2,2
+EV00100,M00011,DA006,assist,21,2025-01-20,Brighton,Crystal Palace,2,2
+EV00101,M00011,MI005,assist,23,2025-01-20,Brighton,Crystal Palace,2,2
+EV00102,M00011,JO010,goal,38,2025-01-20,Brighton,Crystal Palace,2,2
+EV00103,M00011,JA006,goal,22,2025-01-20,Brighton,Crystal Palace,2,2
+EV00104,M00012,RI001,substitution,13,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00105,M00012,YO001,red_card,88,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00106,M00012,VI002,assist,55,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00107,M00012,MA004,goal,9,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00108,M00012,BR002,red_card,38,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00109,M00012,YO001,red_card,9,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00110,M00012,YO001,goal,40,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00111,M00012,MI005,yellow_card,15,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00112,M00012,RI001,substitution,80,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00113,M00012,ED002,assist,78,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00114,M00012,MA004,substitution,12,2025-04-22,Tottenham,Crystal Palace,1,0
+EV00115,M00013,HE001,yellow_card,63,2024-11-08,Fulham,Brighton,4,1
+EV00116,M00013,WI001,yellow_card,80,2024-11-08,Fulham,Brighton,4,1
+EV00117,M00013,MA008,substitution,57,2024-11-08,Fulham,Brighton,4,1
+EV00118,M00013,WI001,goal,22,2024-11-08,Fulham,Brighton,4,1
+EV00119,M00013,WI001,assist,73,2024-11-08,Fulham,Brighton,4,1
+EV00120,M00013,RE002,substitution,66,2024-11-08,Fulham,Brighton,4,1
+EV00121,M00013,MA008,substitution,20,2024-11-08,Fulham,Brighton,4,1
+EV00122,M00013,BE003,goal,43,2024-11-08,Fulham,Brighton,4,1
+EV00123,M00013,WE001,yellow_card,66,2024-11-08,Fulham,Brighton,4,1
+EV00124,M00014,TR001,red_card,9,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00125,M00014,VI001,assist,51,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00126,M00014,AL001,yellow_card,90,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00127,M00014,JO012,substitution,11,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00128,M00014,JO012,yellow_card,16,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00129,M00014,JU002,substitution,44,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00130,M00014,JO013,substitution,85,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00131,M00014,LU001,goal,16,2024-12-27,Wolverhampton,Liverpool,1,3
+EV00132,M00015,KI001,yellow_card,73,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00133,M00015,TR002,yellow_card,49,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00134,M00015,AL005,yellow_card,31,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00135,M00015,NE002,red_card,87,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00136,M00015,JO013,substitution,75,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00137,M00015,RA003,substitution,14,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00138,M00015,RA003,substitution,71,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00139,M00015,RA003,substitution,20,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00140,M00015,AL005,red_card,62,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00141,M00015,TR003,substitution,90,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00142,M00015,SA001,yellow_card,14,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00143,M00015,LE002,red_card,6,2024-10-15,Wolverhampton,Ipswich Town,3,1
+EV00144,M00016,JA007,yellow_card,68,2024-11-06,Newcastle,West Ham,0,1
+EV00145,M00016,LU002,goal,1,2024-11-06,Newcastle,West Ham,0,1
+EV00146,M00016,AL003,assist,64,2024-11-06,Newcastle,West Ham,0,1
+EV00147,M00016,AN004,yellow_card,41,2024-11-06,Newcastle,West Ham,0,1
+EV00148,M00016,JA007,yellow_card,22,2024-11-06,Newcastle,West Ham,0,1
+EV00149,M00016,AL003,yellow_card,33,2024-11-06,Newcastle,West Ham,0,1
+EV00150,M00016,JO015,goal,36,2024-11-06,Newcastle,West Ham,0,1
+EV00151,M00016,BR005,yellow_card,41,2024-11-06,Newcastle,West Ham,0,1
+EV00152,M00016,JO014,yellow_card,77,2024-11-06,Newcastle,West Ham,0,1
+EV00153,M00016,JO015,substitution,70,2024-11-06,Newcastle,West Ham,0,1
+EV00154,M00016,MI006,goal,68,2024-11-06,Newcastle,West Ham,0,1
+EV00155,M00016,AL003,yellow_card,41,2024-11-06,Newcastle,West Ham,0,1
+EV00156,M00017,AL006,red_card,37,2025-01-27,Newcastle,Tottenham,2,0
+EV00157,M00017,DI002,assist,9,2025-01-27,Newcastle,Tottenham,2,0
+EV00158,M00017,BR005,yellow_card,77,2025-01-27,Newcastle,Tottenham,2,0
+EV00159,M00017,CR001,yellow_card,14,2025-01-27,Newcastle,Tottenham,2,0
+EV00160,M00017,TI001,red_card,68,2025-01-27,Newcastle,Tottenham,2,0
+EV00161,M00017,MI006,assist,2,2025-01-27,Newcastle,Tottenham,2,0
+EV00162,M00017,MA004,red_card,22,2025-01-27,Newcastle,Tottenham,2,0
+EV00163,M00017,AN004,goal,29,2025-01-27,Newcastle,Tottenham,2,0
+EV00164,M00017,VI002,goal,61,2025-01-27,Newcastle,Tottenham,2,0
+EV00165,M00017,MI006,goal,54,2025-01-27,Newcastle,Tottenham,2,0
+EV00166,M00017,AL006,yellow_card,73,2025-01-27,Newcastle,Tottenham,2,0
+EV00167,M00018,JA005,red_card,75,2024-12-02,Brighton,Everton,0,0
+EV00168,M00018,SI001,goal,89,2024-12-02,Brighton,Everton,0,0
+EV00169,M00018,SI001,substitution,44,2024-12-02,Brighton,Everton,0,0
+EV00170,M00018,JO006,yellow_card,75,2024-12-02,Brighton,Everton,0,0
+EV00171,M00018,AL004,red_card,48,2024-12-02,Brighton,Everton,0,0
+EV00172,M00018,MO005,substitution,36,2024-12-02,Brighton,Everton,0,0
+EV00173,M00018,JA005,substitution,9,2024-12-02,Brighton,Everton,0,0
+EV00174,M00018,NI002,goal,8,2024-12-02,Brighton,Everton,0,0
+EV00175,M00018,AL004,red_card,5,2024-12-02,Brighton,Everton,0,0
+EV00176,M00018,SI001,red_card,33,2024-12-02,Brighton,Everton,0,0
+EV00177,M00018,JA006,substitution,29,2024-12-02,Brighton,Everton,0,0
+EV00178,M00018,DA004,yellow_card,18,2024-12-02,Brighton,Everton,0,0
+EV00179,M00019,KC001,red_card,68,2025-01-24,West Ham,Manchester City,0,1
+EV00180,M00019,ER001,yellow_card,89,2025-01-24,West Ham,Manchester City,0,1
+EV00181,M00019,RO001,assist,2,2025-01-24,West Ham,Manchester City,0,1
+EV00182,M00019,PH001,red_card,25,2025-01-24,West Ham,Manchester City,0,1
+EV00183,M00019,KU001,yellow_card,72,2025-01-24,West Ham,Manchester City,0,1
+EV00184,M00019,DA003,yellow_card,78,2025-01-24,West Ham,Manchester City,0,1
+EV00185,M00019,EM003,assist,82,2025-01-24,West Ham,Manchester City,0,1
+EV00186,M00019,AL003,substitution,56,2025-01-24,West Ham,Manchester City,0,1
+EV00187,M00019,PA004,substitution,17,2025-01-24,West Ham,Manchester City,0,1
+EV00188,M00020,PE001,goal,21,2025-04-13,Southampton,Brighton,0,0
+EV00189,M00020,JA005,red_card,76,2025-04-13,Southampton,Brighton,0,0
+EV00190,M00020,GA002,red_card,4,2025-04-13,Southampton,Brighton,0,0
+EV00191,M00020,HA002,substitution,77,2025-04-13,Southampton,Brighton,0,0
+EV00192,M00020,KA003,assist,69,2025-04-13,Southampton,Brighton,0,0
+EV00193,M00020,WE001,assist,86,2025-04-13,Southampton,Brighton,0,0
+EV00194,M00020,YU001,substitution,74,2025-04-13,Southampton,Brighton,0,0
+EV00195,M00020,TA003,yellow_card,58,2025-04-13,Southampton,Brighton,0,0
+EV00196,M00020,JO008,yellow_card,59,2025-04-13,Southampton,Brighton,0,0
+EV00197,M00020,WE001,yellow_card,62,2025-04-13,Southampton,Brighton,0,0
+EV00198,M00021,NE002,substitution,47,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00199,M00021,TR002,assist,40,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00200,M00021,Wal001,substitution,4,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00201,M00021,TR002,goal,58,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00202,M00021,BU001,assist,4,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00203,M00021,OL002,yellow_card,90,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00204,M00021,KI001,substitution,79,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00205,M00021,TA001,goal,19,2025-04-21,Ipswich Town,Arsenal,4,1
+EV00206,M00022,LE002,substitution,55,2024-10-11,Ipswich Town,West Ham,1,1
+EV00207,M00022,CA004,yellow_card,30,2024-10-11,Ipswich Town,West Ham,1,1
+EV00208,M00022,JA010,substitution,89,2024-10-11,Ipswich Town,West Ham,1,1
+EV00209,M00022,CA004,substitution,54,2024-10-11,Ipswich Town,West Ham,1,1
+EV00210,M00022,KU001,yellow_card,63,2024-10-11,Ipswich Town,West Ham,1,1
+EV00211,M00022,MU002,goal,57,2024-10-11,Ipswich Town,West Ham,1,1
+EV00212,M00022,CA004,substitution,8,2024-10-11,Ipswich Town,West Ham,1,1
+EV00213,M00022,AL003,goal,82,2024-10-11,Ipswich Town,West Ham,1,1
+EV00214,M00022,KU001,red_card,32,2024-10-11,Ipswich Town,West Ham,1,1
+EV00215,M00022,Wal001,yellow_card,66,2024-10-11,Ipswich Town,West Ham,1,1
+EV00216,M00022,NE002,assist,67,2024-10-11,Ipswich Town,West Ham,1,1
+EV00217,M00022,KU001,red_card,7,2024-10-11,Ipswich Town,West Ham,1,1
+EV00218,M00023,TA002,red_card,72,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00219,M00023,DW001,red_card,58,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00220,M00023,MA007,red_card,41,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00221,M00023,NE001,substitution,14,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00222,M00023,AW001,assist,62,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00223,M00023,JO005,substitution,47,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00224,M00023,CR002,goal,18,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00225,M00023,NE001,goal,20,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00226,M00023,DO002,goal,45,2025-03-30,Nottingham Forest,Bournemouth,0,4
+EV00227,M00024,RO003,goal,70,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00228,M00024,JO004,assist,36,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00229,M00024,LE001,assist,44,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00230,M00024,JU002,goal,57,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00231,M00024,KO001,yellow_card,89,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00232,M00024,EM002,yellow_card,5,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00233,M00024,PO001,assist,22,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00234,M00024,JO012,red_card,44,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00235,M00024,RO003,yellow_card,90,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00236,M00024,OL001,goal,67,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00237,M00024,DI001,assist,45,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00238,M00024,JU002,assist,58,2025-02-16,Wolverhampton,Aston Villa,3,4
+EV00239,M00025,RO005,red_card,28,2024-12-17,Newcastle,Luton Town,1,0
+EV00240,M00025,DI002,red_card,52,2024-12-17,Newcastle,Luton Town,1,0
+EV00241,M00025,TI001,substitution,76,2024-12-17,Newcastle,Luton Town,1,0
+EV00242,M00025,JO014,substitution,30,2024-12-17,Newcastle,Luton Town,1,0
+EV00243,M00025,DI002,substitution,50,2024-12-17,Newcastle,Luton Town,1,0
+EV00244,M00025,RY002,red_card,67,2024-12-17,Newcastle,Luton Town,1,0
+EV00245,M00025,CA006,yellow_card,43,2024-12-17,Newcastle,Luton Town,1,0
+EV00246,M00025,DI002,goal,29,2024-12-17,Newcastle,Luton Town,1,0
+EV00247,M00025,TI001,red_card,31,2024-12-17,Newcastle,Luton Town,1,0
+EV00248,M00025,VI004,goal,24,2024-12-17,Newcastle,Luton Town,1,0
+EV00249,M00026,EM002,assist,50,2024-09-27,Aston Villa,Luton Town,2,3
+EV00250,M00026,JO004,assist,42,2024-09-27,Aston Villa,Luton Town,2,3
+EV00251,M00026,VI004,red_card,39,2024-09-27,Aston Villa,Luton Town,2,3
+EV00252,M00026,PA002,yellow_card,75,2024-09-27,Aston Villa,Luton Town,2,3
+EV00253,M00026,EM002,yellow_card,73,2024-09-27,Aston Villa,Luton Town,2,3
+EV00254,M00026,RO003,yellow_card,36,2024-09-27,Aston Villa,Luton Town,2,3
+EV00255,M00026,RO003,substitution,7,2024-09-27,Aston Villa,Luton Town,2,3
+EV00256,M00026,EM002,substitution,77,2024-09-27,Aston Villa,Luton Town,2,3
+EV00257,M00026,PA002,red_card,45,2024-09-27,Aston Villa,Luton Town,2,3
+EV00258,M00026,OL001,red_card,18,2024-09-27,Aston Villa,Luton Town,2,3
+EV00259,M00026,OL001,goal,50,2024-09-27,Aston Villa,Luton Town,2,3
+EV00260,M00026,LE001,assist,87,2024-09-27,Aston Villa,Luton Town,2,3
+EV00261,M00027,GA002,yellow_card,16,2025-02-14,Southampton,Crystal Palace,2,2
+EV00262,M00027,KA003,yellow_card,89,2025-02-14,Southampton,Crystal Palace,2,2
+EV00263,M00027,JE001,goal,81,2025-02-14,Southampton,Crystal Palace,2,2
+EV00264,M00027,JE001,yellow_card,21,2025-02-14,Southampton,Crystal Palace,2,2
+EV00265,M00027,JE001,assist,5,2025-02-14,Southampton,Crystal Palace,2,2
+EV00266,M00027,GA002,red_card,90,2025-02-14,Southampton,Crystal Palace,2,2
+EV00267,M00027,JE001,goal,53,2025-02-14,Southampton,Crystal Palace,2,2
+EV00268,M00027,CA003,red_card,59,2025-02-14,Southampton,Crystal Palace,2,2
+EV00269,M00027,MA009,assist,71,2025-02-14,Southampton,Crystal Palace,2,2
+EV00270,M00028,PA003,red_card,87,2024-12-21,Liverpool,Brighton,0,3
+EV00271,M00028,MO005,yellow_card,33,2024-12-21,Liverpool,Brighton,0,3
+EV00272,M00028,LU001,substitution,67,2024-12-21,Liverpool,Brighton,0,3
+EV00273,M00028,DO001,assist,41,2024-12-21,Liverpool,Brighton,0,3
+EV00274,M00028,SI001,yellow_card,87,2024-12-21,Liverpool,Brighton,0,3
+EV00275,M00028,JO002,assist,78,2024-12-21,Liverpool,Brighton,0,3
+EV00276,M00028,CU001,red_card,64,2024-12-21,Liverpool,Brighton,0,3
+EV00277,M00028,LU001,goal,8,2024-12-21,Liverpool,Brighton,0,3
+EV00278,M00028,RY001,substitution,10,2024-12-21,Liverpool,Brighton,0,3
+EV00279,M00029,EM003,red_card,63,2025-05-11,Southampton,West Ham,2,0
+EV00280,M00029,MI002,goal,85,2025-05-11,Southampton,West Ham,2,0
+EV00281,M00029,HA002,red_card,37,2025-05-11,Southampton,West Ham,2,0
+EV00282,M00029,CA003,yellow_card,82,2025-05-11,Southampton,West Ham,2,0
+EV00283,M00029,AL003,yellow_card,70,2025-05-11,Southampton,West Ham,2,0
+EV00284,M00029,KU001,red_card,73,2025-05-11,Southampton,West Ham,2,0
+EV00285,M00029,HA002,goal,60,2025-05-11,Southampton,West Ham,2,0
+EV00286,M00029,KA003,goal,58,2025-05-11,Southampton,West Ham,2,0
+EV00287,M00029,HA002,yellow_card,54,2025-05-11,Southampton,West Ham,2,0
+EV00288,M00029,JA009,assist,87,2025-05-11,Southampton,West Ham,2,0
+EV00289,M00029,EM003,assist,30,2025-05-11,Southampton,West Ham,2,0
+EV00290,M00030,MA008,substitution,17,2024-08-21,Fulham,Wolverhampton,0,2
+EV00291,M00030,JU002,yellow_card,49,2024-08-21,Fulham,Wolverhampton,0,2
+EV00292,M00030,TR003,red_card,49,2024-08-21,Fulham,Wolverhampton,0,2
+EV00293,M00030,JO013,yellow_card,77,2024-08-21,Fulham,Wolverhampton,0,2
+EV00294,M00030,MA008,assist,54,2024-08-21,Fulham,Wolverhampton,0,2
+EV00295,M00030,RA001,substitution,19,2024-08-21,Fulham,Wolverhampton,0,2
+EV00296,M00030,RA003,yellow_card,34,2024-08-21,Fulham,Wolverhampton,0,2
+EV00297,M00030,JU002,red_card,17,2024-08-21,Fulham,Wolverhampton,0,2
+EV00298,M00030,SA001,yellow_card,66,2024-08-21,Fulham,Wolverhampton,0,2
+EV00299,M00030,HE001,substitution,3,2024-08-21,Fulham,Wolverhampton,0,2
+EV00300,M00031,KA003,substitution,55,2025-01-12,Southampton,Manchester City,4,0
+EV00301,M00031,YU001,red_card,34,2025-01-12,Southampton,Manchester City,4,0
+EV00302,M00031,CA003,yellow_card,7,2025-01-12,Southampton,Manchester City,4,0
+EV00303,M00031,JA009,substitution,42,2025-01-12,Southampton,Manchester City,4,0
+EV00304,M00031,KA001,goal,39,2025-01-12,Southampton,Manchester City,4,0
+EV00305,M00031,PE003,goal,48,2025-01-12,Southampton,Manchester City,4,0
+EV00306,M00031,PE003,red_card,85,2025-01-12,Southampton,Manchester City,4,0
+EV00307,M00031,HA002,yellow_card,54,2025-01-12,Southampton,Manchester City,4,0
+EV00308,M00031,HA002,red_card,71,2025-01-12,Southampton,Manchester City,4,0
+EV00309,M00031,RI003,red_card,16,2025-01-12,Southampton,Manchester City,4,0
+EV00310,M00031,KA003,assist,58,2025-01-12,Southampton,Manchester City,4,0
+EV00311,M00032,MA005,goal,47,2024-12-19,Bournemouth,Chelsea,0,2
+EV00312,M00032,BE002,assist,26,2024-12-19,Bournemouth,Chelsea,0,2
+EV00313,M00032,RO002,red_card,4,2024-12-19,Bournemouth,Chelsea,0,2
+EV00314,M00032,DW001,goal,16,2024-12-19,Bournemouth,Chelsea,0,2
+EV00315,M00032,JA003,yellow_card,51,2024-12-19,Bournemouth,Chelsea,0,2
+EV00316,M00032,TA002,assist,63,2024-12-19,Bournemouth,Chelsea,0,2
+EV00317,M00032,MO003,goal,5,2024-12-19,Bournemouth,Chelsea,0,2
+EV00318,M00032,NI001,yellow_card,10,2024-12-19,Bournemouth,Chelsea,0,2
+EV00319,M00032,DW001,goal,66,2024-12-19,Bournemouth,Chelsea,0,2
+EV00320,M00032,RO002,yellow_card,79,2024-12-19,Bournemouth,Chelsea,0,2
+EV00321,M00032,TA002,assist,8,2024-12-19,Bournemouth,Chelsea,0,2
+EV00322,M00032,EN001,yellow_card,52,2024-12-19,Bournemouth,Chelsea,0,2
+EV00323,M00033,MI006,yellow_card,36,2024-10-31,West Ham,Newcastle,1,0
+EV00324,M00033,SA002,goal,45,2024-10-31,West Ham,Newcastle,1,0
+EV00325,M00033,JA007,red_card,47,2024-10-31,West Ham,Newcastle,1,0
+EV00326,M00033,MI002,goal,58,2024-10-31,West Ham,Newcastle,1,0
+EV00327,M00033,DA003,assist,76,2024-10-31,West Ham,Newcastle,1,0
+EV00328,M00033,DI002,assist,19,2024-10-31,West Ham,Newcastle,1,0
+EV00329,M00033,NI004,yellow_card,78,2024-10-31,West Ham,Newcastle,1,0
+EV00330,M00033,EM003,goal,7,2024-10-31,West Ham,Newcastle,1,0
+EV00331,M00033,JA007,substitution,50,2024-10-31,West Ham,Newcastle,1,0
+EV00332,M00033,AL006,assist,85,2024-10-31,West Ham,Newcastle,1,0
+EV00333,M00034,WA001,goal,11,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00334,M00034,NE001,substitution,2,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00335,M00034,JO005,substitution,44,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00336,M00034,HE001,goal,9,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00337,M00034,NE001,goal,37,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00338,M00034,MA006,substitution,65,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00339,M00034,WI001,red_card,65,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00340,M00034,RE002,yellow_card,23,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00341,M00034,AW001,red_card,34,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00342,M00034,CR002,assist,15,2025-05-11,Nottingham Forest,Fulham,4,1
+EV00343,M00035,AW001,goal,72,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00344,M00035,TA004,assist,22,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00345,M00035,RO005,red_card,29,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00346,M00035,NE001,red_card,76,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00347,M00035,BR003,goal,80,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00348,M00035,AW001,goal,41,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00349,M00035,MU001,substitution,12,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00350,M00035,PA005,goal,45,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00351,M00035,RY002,red_card,29,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00352,M00035,TA004,goal,4,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00353,M00035,MA006,red_card,50,2024-09-19,Nottingham Forest,Luton Town,0,1
+EV00354,M00036,MI006,goal,84,2024-12-30,Everton,Newcastle,2,0
+EV00355,M00036,JO014,assist,70,2024-12-30,Everton,Newcastle,2,0
+EV00356,M00036,JO007,substitution,31,2024-12-30,Everton,Newcastle,2,0
+EV00357,M00036,MI003,yellow_card,49,2024-12-30,Everton,Newcastle,2,0
+EV00358,M00036,JO014,assist,64,2024-12-30,Everton,Newcastle,2,0
+EV00359,M00036,RI002,yellow_card,20,2024-12-30,Everton,Newcastle,2,0
+EV00360,M00036,SA002,red_card,10,2024-12-30,Everton,Newcastle,2,0
+EV00361,M00036,JA008,substitution,22,2024-12-30,Everton,Newcastle,2,0
+EV00362,M00037,BR005,red_card,40,2024-08-25,Newcastle,Manchester United,4,3
+EV00363,M00037,SA002,yellow_card,31,2024-08-25,Newcastle,Manchester United,4,3
+EV00364,M00037,LI001,yellow_card,48,2024-08-25,Newcastle,Manchester United,4,3
+EV00365,M00037,CA001,yellow_card,15,2024-08-25,Newcastle,Manchester United,4,3
+EV00366,M00037,BR005,assist,55,2024-08-25,Newcastle,Manchester United,4,3
+EV00367,M00037,VA001,yellow_card,47,2024-08-25,Newcastle,Manchester United,4,3
+EV00368,M00037,BR001,yellow_card,9,2024-08-25,Newcastle,Manchester United,4,3
+EV00369,M00037,AL006,assist,51,2024-08-25,Newcastle,Manchester United,4,3
+EV00370,M00038,DA005,goal,60,2025-04-29,Chelsea,Brentford,3,2
+EV00371,M00038,CO001,assist,15,2025-04-29,Chelsea,Brentford,3,2
+EV00372,M00038,EN002,goal,26,2025-04-29,Chelsea,Brentford,3,2
+EV00373,M00038,JO009,yellow_card,74,2025-04-29,Chelsea,Brentford,3,2
+EV00374,M00038,RO002,red_card,41,2025-04-29,Chelsea,Brentford,3,2
+EV00375,M00038,SU001,substitution,6,2025-04-29,Chelsea,Brentford,3,2
+EV00376,M00038,KO002,red_card,26,2025-04-29,Chelsea,Brentford,3,2
+EV00377,M00038,EN002,assist,20,2025-04-29,Chelsea,Brentford,3,2
+EV00378,M00038,MO003,goal,4,2025-04-29,Chelsea,Brentford,3,2
+EV00379,M00038,DA005,red_card,39,2025-04-29,Chelsea,Brentford,3,2
+EV00380,M00038,YO002,assist,30,2025-04-29,Chelsea,Brentford,3,2
+EV00381,M00039,ST001,assist,39,2025-02-21,Bournemouth,Leicester City,2,3
+EV00382,M00039,YU002,assist,86,2025-02-21,Bournemouth,Leicester City,2,3
+EV00383,M00039,DO002,substitution,20,2025-02-21,Bournemouth,Leicester City,2,3
+EV00384,M00039,RIC001,yellow_card,71,2025-02-21,Bournemouth,Leicester City,2,3
+EV00385,M00039,DO002,red_card,58,2025-02-21,Bournemouth,Leicester City,2,3
+EV00386,M00039,DO003,red_card,2,2025-02-21,Bournemouth,Leicester City,2,3
+EV00387,M00039,JA011,assist,66,2025-02-21,Bournemouth,Leicester City,2,3
+EV00388,M00039,MA005,goal,9,2025-02-21,Bournemouth,Leicester City,2,3
+EV00389,M00039,JA011,red_card,74,2025-02-21,Bournemouth,Leicester City,2,3
+EV00390,M00039,DO003,goal,8,2025-02-21,Bournemouth,Leicester City,2,3
+EV00391,M00039,MA005,assist,7,2025-02-21,Bournemouth,Leicester City,2,3
+EV00392,M00039,DO003,assist,89,2025-02-21,Bournemouth,Leicester City,2,3
+EV00393,M00040,CO002,yellow_card,83,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00394,M00040,PO001,goal,40,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00395,M00040,LO001,goal,50,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00396,M00040,CO002,assist,39,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00397,M00040,RA003,red_card,41,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00398,M00040,TR003,yellow_card,53,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00399,M00040,HU002,yellow_card,70,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00400,M00040,CO002,yellow_card,83,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00401,M00040,DO003,assist,67,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00402,M00040,DO003,assist,5,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00403,M00040,PO001,substitution,65,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00404,M00040,JO013,red_card,39,2024-09-10,Wolverhampton,Leicester City,4,4
+EV00405,M00041,CA004,substitution,65,2024-11-16,Ipswich Town,West Ham,0,4
+EV00406,M00041,PA004,goal,14,2024-11-16,Ipswich Town,West Ham,0,4
+EV00407,M00041,HU001,yellow_card,7,2024-11-16,Ipswich Town,West Ham,0,4
+EV00408,M00041,KI001,goal,19,2024-11-16,Ipswich Town,West Ham,0,4
+EV00409,M00041,LE002,red_card,54,2024-11-16,Ipswich Town,West Ham,0,4
+EV00410,M00041,KI001,red_card,1,2024-11-16,Ipswich Town,West Ham,0,4
+EV00411,M00041,AL005,substitution,55,2024-11-16,Ipswich Town,West Ham,0,4
+EV00412,M00041,HU001,assist,13,2024-11-16,Ipswich Town,West Ham,0,4
+EV00413,M00042,VI001,assist,31,2025-01-11,Liverpool,Leicester City,0,1
+EV00414,M00042,AN001,substitution,27,2025-01-11,Liverpool,Leicester City,0,1
+EV00415,M00042,DO003,goal,30,2025-01-11,Liverpool,Leicester City,0,1
+EV00416,M00042,DO001,yellow_card,1,2025-01-11,Liverpool,Leicester City,0,1
+EV00417,M00042,DO001,yellow_card,26,2025-01-11,Liverpool,Leicester City,0,1
+EV00418,M00042,WI003,goal,57,2025-01-11,Liverpool,Leicester City,0,1
+EV00419,M00042,AL001,yellow_card,27,2025-01-11,Liverpool,Leicester City,0,1
+EV00420,M00042,JO002,yellow_card,37,2025-01-11,Liverpool,Leicester City,0,1
+EV00421,M00042,HU002,red_card,75,2025-01-11,Liverpool,Leicester City,0,1
+EV00422,M00042,CO002,goal,49,2025-01-11,Liverpool,Leicester City,0,1
+EV00423,M00042,TR001,assist,14,2025-01-11,Liverpool,Leicester City,0,1
+EV00424,M00042,RIC001,yellow_card,31,2025-01-11,Liverpool,Leicester City,0,1
+EV00425,M00043,RI002,red_card,38,2024-09-11,Manchester City,Everton,0,4
+EV00426,M00043,KC001,substitution,17,2024-09-11,Manchester City,Everton,0,4
+EV00427,M00043,PH001,substitution,25,2024-09-11,Manchester City,Everton,0,4
+EV00428,M00043,ER001,substitution,88,2024-09-11,Manchester City,Everton,0,4
+EV00429,M00043,ER001,substitution,12,2024-09-11,Manchester City,Everton,0,4
+EV00430,M00043,KC001,substitution,58,2024-09-11,Manchester City,Everton,0,4
+EV00431,M00043,RO001,yellow_card,54,2024-09-11,Manchester City,Everton,0,4
+EV00432,M00043,ER001,substitution,32,2024-09-11,Manchester City,Everton,0,4
+EV00433,M00043,JO007,assist,33,2024-09-11,Manchester City,Everton,0,4
+EV00434,M00043,MA001,red_card,39,2024-09-11,Manchester City,Everton,0,4
+EV00435,M00043,KA001,substitution,70,2024-09-11,Manchester City,Everton,0,4
+EV00436,M00043,JO001,red_card,33,2024-09-11,Manchester City,Everton,0,4
+EV00437,M00044,BE002,substitution,44,2024-11-18,Chelsea,Newcastle,1,4
+EV00438,M00044,DI002,yellow_card,31,2024-11-18,Chelsea,Newcastle,1,4
+EV00439,M00044,MA003,yellow_card,7,2024-11-18,Chelsea,Newcastle,1,4
+EV00440,M00044,RO002,substitution,53,2024-11-18,Chelsea,Newcastle,1,4
+EV00441,M00044,BR005,red_card,33,2024-11-18,Chelsea,Newcastle,1,4
+EV00442,M00044,MO003,substitution,47,2024-11-18,Chelsea,Newcastle,1,4
+EV00443,M00044,AL006,yellow_card,57,2024-11-18,Chelsea,Newcastle,1,4
+EV00444,M00044,JS001,red_card,15,2024-11-18,Chelsea,Newcastle,1,4
+EV00445,M00044,CO001,goal,2,2024-11-18,Chelsea,Newcastle,1,4
+EV00446,M00044,EN001,yellow_card,26,2024-11-18,Chelsea,Newcastle,1,4
+EV00447,M00045,LU002,substitution,37,2024-08-30,West Ham,Newcastle,3,3
+EV00448,M00045,DE002,yellow_card,5,2024-08-30,West Ham,Newcastle,3,3
+EV00449,M00045,AN004,goal,67,2024-08-30,West Ham,Newcastle,3,3
+EV00450,M00045,BR005,yellow_card,28,2024-08-30,West Ham,Newcastle,3,3
+EV00451,M00045,NI004,red_card,27,2024-08-30,West Ham,Newcastle,3,3
+EV00452,M00045,NI004,goal,65,2024-08-30,West Ham,Newcastle,3,3
+EV00453,M00045,MI006,assist,63,2024-08-30,West Ham,Newcastle,3,3
+EV00454,M00045,MI002,goal,67,2024-08-30,West Ham,Newcastle,3,3
+EV00455,M00046,TY001,assist,15,2024-08-25,Luton Town,Aston Villa,3,4
+EV00456,M00046,JA004,red_card,6,2024-08-25,Luton Town,Aston Villa,3,4
+EV00457,M00046,RO003,yellow_card,15,2024-08-25,Luton Town,Aston Villa,3,4
+EV00458,M00046,OL001,assist,33,2024-08-25,Luton Town,Aston Villa,3,4
+EV00459,M00046,TY001,substitution,63,2024-08-25,Luton Town,Aston Villa,3,4
+EV00460,M00046,TY001,goal,57,2024-08-25,Luton Town,Aston Villa,3,4
+EV00461,M00046,CA006,substitution,52,2024-08-25,Luton Town,Aston Villa,3,4
+EV00462,M00046,VI004,goal,53,2024-08-25,Luton Town,Aston Villa,3,4
+EV00463,M00046,JA004,yellow_card,76,2024-08-25,Luton Town,Aston Villa,3,4
+EV00464,M00046,LE001,red_card,81,2024-08-25,Luton Town,Aston Villa,3,4
+EV00465,M00046,PA005,red_card,72,2024-08-25,Luton Town,Aston Villa,3,4
+EV00466,M00047,WI002,yellow_card,35,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00467,M00047,ER001,red_card,54,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00468,M00047,ED001,red_card,60,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00469,M00047,KC001,substitution,48,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00470,M00047,MA001,red_card,21,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00471,M00047,MA001,red_card,50,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00472,M00047,KA001,substitution,52,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00473,M00047,JU001,yellow_card,69,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00474,M00047,ER001,yellow_card,7,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00475,M00047,PH001,substitution,44,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00476,M00047,JO001,goal,87,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00477,M00047,JO010,goal,33,2024-09-06,Manchester City,Crystal Palace,4,0
+EV00478,M00048,JO006,yellow_card,4,2025-01-04,Everton,Luton Town,1,1
+EV00479,M00048,LE003,red_card,77,2025-01-04,Everton,Luton Town,1,1
+EV00480,M00048,PA005,assist,18,2025-01-04,Everton,Luton Town,1,1
+EV00481,M00048,VI004,assist,1,2025-01-04,Everton,Luton Town,1,1
+EV00482,M00048,JO006,yellow_card,77,2025-01-04,Everton,Luton Town,1,1
+EV00483,M00048,CA006,red_card,43,2025-01-04,Everton,Luton Town,1,1
+EV00484,M00048,AL004,yellow_card,86,2025-01-04,Everton,Luton Town,1,1
+EV00485,M00048,RY002,goal,79,2025-01-04,Everton,Luton Town,1,1
+EV00486,M00048,RY002,goal,13,2025-01-04,Everton,Luton Town,1,1
+EV00487,M00048,VI004,yellow_card,61,2025-01-04,Everton,Luton Town,1,1
+EV00488,M00049,JE001,red_card,67,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00489,M00049,AN004,assist,37,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00490,M00049,PE004,substitution,58,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00491,M00049,JO015,yellow_card,68,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00492,M00049,VI003,goal,58,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00493,M00049,DA006,substitution,76,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00494,M00049,ED002,substitution,54,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00495,M00049,NI004,red_card,72,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00496,M00049,JE001,red_card,18,2024-08-24,Crystal Palace,Newcastle,4,3
+EV00497,M00050,KA001,red_card,42,2024-09-16,Manchester City,Fulham,1,2
+EV00498,M00050,JU001,red_card,71,2024-09-16,Manchester City,Fulham,1,2
+EV00499,M00050,MA001,yellow_card,55,2024-09-16,Manchester City,Fulham,1,2
+EV00500,M00050,JU001,red_card,71,2024-09-16,Manchester City,Fulham,1,2
+EV00501,M00050,HE001,goal,28,2024-09-16,Manchester City,Fulham,1,2
+EV00502,M00050,RE002,red_card,30,2024-09-16,Manchester City,Fulham,1,2
+EV00503,M00050,MA008,assist,53,2024-09-16,Manchester City,Fulham,1,2
+EV00504,M00050,WI001,yellow_card,81,2024-09-16,Manchester City,Fulham,1,2
+EV00505,M00051,RA003,assist,11,2025-03-03,Fulham,Wolverhampton,4,4
+EV00506,M00051,MA008,assist,12,2025-03-03,Fulham,Wolverhampton,4,4
+EV00507,M00051,PO001,goal,11,2025-03-03,Fulham,Wolverhampton,4,4
+EV00508,M00051,JO012,yellow_card,53,2025-03-03,Fulham,Wolverhampton,4,4
+EV00509,M00051,BE003,assist,70,2025-03-03,Fulham,Wolverhampton,4,4
+EV00510,M00051,GO001,red_card,5,2025-03-03,Fulham,Wolverhampton,4,4
+EV00511,M00051,JU002,goal,5,2025-03-03,Fulham,Wolverhampton,4,4
+EV00512,M00051,HE001,assist,11,2025-03-03,Fulham,Wolverhampton,4,4
+EV00513,M00051,MA008,assist,9,2025-03-03,Fulham,Wolverhampton,4,4
+EV00514,M00051,RA003,goal,64,2025-03-03,Fulham,Wolverhampton,4,4
+EV00515,M00051,RA003,yellow_card,6,2025-03-03,Fulham,Wolverhampton,4,4
+EV00516,M00051,JU002,red_card,47,2025-03-03,Fulham,Wolverhampton,4,4
+EV00517,M00052,TY001,goal,14,2024-11-06,Manchester United,Luton Town,2,3
+EV00518,M00052,JA002,assist,36,2024-11-06,Manchester United,Luton Town,2,3
+EV00519,M00052,AN002,red_card,12,2024-11-06,Manchester United,Luton Town,2,3
+EV00520,M00052,BR001,assist,52,2024-11-06,Manchester United,Luton Town,2,3
+EV00521,M00052,LE003,yellow_card,44,2024-11-06,Manchester United,Luton Town,2,3
+EV00522,M00052,PA005,yellow_card,14,2024-11-06,Manchester United,Luton Town,2,3
+EV00523,M00052,JA012,red_card,44,2024-11-06,Manchester United,Luton Town,2,3
+EV00524,M00052,PA005,yellow_card,28,2024-11-06,Manchester United,Luton Town,2,3
+EV00525,M00053,PA003,substitution,55,2025-04-19,Brighton,Crystal Palace,4,2
+EV00526,M00053,ED002,yellow_card,31,2025-04-19,Brighton,Crystal Palace,4,2
+EV00527,M00053,SI001,goal,64,2025-04-19,Brighton,Crystal Palace,4,2
+EV00528,M00053,AI001,red_card,28,2025-04-19,Brighton,Crystal Palace,4,2
+EV00529,M00053,AI001,red_card,81,2025-04-19,Brighton,Crystal Palace,4,2
+EV00530,M00053,JE001,yellow_card,32,2025-04-19,Brighton,Crystal Palace,4,2
+EV00531,M00053,WE001,substitution,51,2025-04-19,Brighton,Crystal Palace,4,2
+EV00532,M00053,PA003,yellow_card,53,2025-04-19,Brighton,Crystal Palace,4,2
+EV00533,M00054,AN001,substitution,70,2024-12-17,Liverpool,Southampton,4,2
+EV00534,M00054,CU001,goal,69,2024-12-17,Liverpool,Southampton,4,2
+EV00535,M00054,AN001,goal,45,2024-12-17,Liverpool,Southampton,4,2
+EV00536,M00054,CU001,assist,84,2024-12-17,Liverpool,Southampton,4,2
+EV00537,M00054,JA009,goal,20,2024-12-17,Liverpool,Southampton,4,2
+EV00538,M00054,TR001,red_card,33,2024-12-17,Liverpool,Southampton,4,2
+EV00539,M00054,CU001,yellow_card,44,2024-12-17,Liverpool,Southampton,4,2
+EV00540,M00054,DO001,red_card,23,2024-12-17,Liverpool,Southampton,4,2
+EV00541,M00055,SA001,goal,21,2025-02-05,Wolverhampton,Southampton,0,4
+EV00542,M00055,RI003,yellow_card,48,2025-02-05,Wolverhampton,Southampton,0,4
+EV00543,M00055,RI003,yellow_card,52,2025-02-05,Wolverhampton,Southampton,0,4
+EV00544,M00055,PE003,goal,49,2025-02-05,Wolverhampton,Southampton,0,4
+EV00545,M00055,TR003,goal,20,2025-02-05,Wolverhampton,Southampton,0,4
+EV00546,M00055,SE001,assist,65,2025-02-05,Wolverhampton,Southampton,0,4
+EV00547,M00055,GA002,yellow_card,40,2025-02-05,Wolverhampton,Southampton,0,4
+EV00548,M00055,JO013,goal,82,2025-02-05,Wolverhampton,Southampton,0,4
+EV00549,M00055,GA002,assist,81,2025-02-05,Wolverhampton,Southampton,0,4
+EV00550,M00056,JO012,yellow_card,38,2024-10-29,Wolverhampton,Southampton,1,1
+EV00551,M00056,RI003,red_card,52,2024-10-29,Wolverhampton,Southampton,1,1
+EV00552,M00056,PE003,red_card,3,2024-10-29,Wolverhampton,Southampton,1,1
+EV00553,M00056,PE003,yellow_card,29,2024-10-29,Wolverhampton,Southampton,1,1
+EV00554,M00056,GA003,substitution,3,2024-10-29,Wolverhampton,Southampton,1,1
+EV00555,M00056,SA001,substitution,9,2024-10-29,Wolverhampton,Southampton,1,1
+EV00556,M00056,SA001,goal,16,2024-10-29,Wolverhampton,Southampton,1,1
+EV00557,M00056,HA002,assist,79,2024-10-29,Wolverhampton,Southampton,1,1
+EV00558,M00056,KA003,assist,71,2024-10-29,Wolverhampton,Southampton,1,1
+EV00559,M00056,LO001,goal,10,2024-10-29,Wolverhampton,Southampton,1,1
+EV00560,M00056,TR003,assist,38,2024-10-29,Wolverhampton,Southampton,1,1
+EV00561,M00057,CA006,red_card,20,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00562,M00057,MA009,substitution,4,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00563,M00057,PA005,red_card,4,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00564,M00057,RY002,red_card,2,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00565,M00057,RY002,assist,76,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00566,M00057,HA003,yellow_card,41,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00567,M00057,PA005,yellow_card,5,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00568,M00057,TY001,red_card,74,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00569,M00057,TA004,goal,44,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00570,M00057,RY002,goal,78,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00571,M00057,DA006,substitution,19,2025-01-10,Crystal Palace,Luton Town,4,1
+EV00572,M00058,DA006,assist,69,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00573,M00058,RO001,assist,20,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00574,M00058,MA009,assist,13,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00575,M00058,KA001,substitution,12,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00576,M00058,JE001,goal,79,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00577,M00058,RO001,substitution,19,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00578,M00058,MI005,yellow_card,33,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00579,M00058,DA006,yellow_card,23,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00580,M00058,ED001,red_card,37,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00581,M00058,JU001,substitution,73,2025-01-09,Manchester City,Crystal Palace,0,2
+EV00582,M00059,EM001,assist,39,2025-05-11,Bournemouth,Chelsea,3,3
+EV00583,M00059,EN001,goal,47,2025-05-11,Bournemouth,Chelsea,3,3
+EV00584,M00059,MO003,red_card,38,2025-05-11,Bournemouth,Chelsea,3,3
+EV00585,M00059,JA003,red_card,10,2025-05-11,Bournemouth,Chelsea,3,3
+EV00586,M00059,MA005,substitution,41,2025-05-11,Bournemouth,Chelsea,3,3
+EV00587,M00059,EM001,goal,32,2025-05-11,Bournemouth,Chelsea,3,3
+EV00588,M00059,MI001,substitution,25,2025-05-11,Bournemouth,Chelsea,3,3
+EV00589,M00059,AB001,goal,3,2025-05-11,Bournemouth,Chelsea,3,3
+EV00590,M00059,MO003,red_card,66,2025-05-11,Bournemouth,Chelsea,3,3
+EV00591,M00059,NI001,assist,13,2025-05-11,Bournemouth,Chelsea,3,3
+EV00592,M00059,DO002,assist,67,2025-05-11,Bournemouth,Chelsea,3,3
+EV00593,M00060,JO007,assist,49,2024-11-21,Nottingham Forest,Everton,2,1
+EV00594,M00060,CA002,goal,74,2024-11-21,Nottingham Forest,Everton,2,1
+EV00595,M00060,MA007,substitution,56,2024-11-21,Nottingham Forest,Everton,2,1
+EV00596,M00060,WA001,substitution,63,2024-11-21,Nottingham Forest,Everton,2,1
+EV00597,M00060,JA008,assist,31,2024-11-21,Nottingham Forest,Everton,2,1
+EV00598,M00060,JA008,red_card,18,2024-11-21,Nottingham Forest,Everton,2,1
+EV00599,M00060,DA004,assist,71,2024-11-21,Nottingham Forest,Everton,2,1
+EV00600,M00060,JO006,yellow_card,42,2024-11-21,Nottingham Forest,Everton,2,1
+EV00601,M00061,MA003,yellow_card,31,2025-05-19,Chelsea,West Ham,0,1
+EV00602,M00061,DA003,yellow_card,30,2025-05-19,Chelsea,West Ham,0,1
+EV00603,M00061,PA004,red_card,90,2025-05-19,Chelsea,West Ham,0,1
+EV00604,M00061,KU001,red_card,38,2025-05-19,Chelsea,West Ham,0,1
+EV00605,M00061,DE002,red_card,70,2025-05-19,Chelsea,West Ham,0,1
+EV00606,M00061,DA003,goal,54,2025-05-19,Chelsea,West Ham,0,1
+EV00607,M00061,DE002,red_card,69,2025-05-19,Chelsea,West Ham,0,1
+EV00608,M00061,NI001,red_card,21,2025-05-19,Chelsea,West Ham,0,1
+EV00609,M00061,DE002,red_card,33,2025-05-19,Chelsea,West Ham,0,1
+EV00610,M00061,EN001,yellow_card,40,2025-05-19,Chelsea,West Ham,0,1
+EV00611,M00061,BE002,substitution,14,2025-05-19,Chelsea,West Ham,0,1
+EV00612,M00061,EN001,substitution,19,2025-05-19,Chelsea,West Ham,0,1
+EV00613,M00062,GA003,yellow_card,67,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00614,M00062,PO001,yellow_card,56,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00615,M00062,AN001,goal,14,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00616,M00062,SA001,yellow_card,7,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00617,M00062,MO001,assist,4,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00618,M00062,AL001,yellow_card,89,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00619,M00062,RA003,red_card,66,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00620,M00062,RY001,assist,16,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00621,M00062,JO013,goal,25,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00622,M00062,MO001,red_card,22,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00623,M00062,RA003,goal,24,2024-09-26,Wolverhampton,Liverpool,3,2
+EV00624,M00063,DO001,red_card,89,2025-04-26,Liverpool,Arsenal,3,0
+EV00625,M00063,AN001,substitution,27,2025-04-26,Liverpool,Arsenal,3,0
+EV00626,M00063,WH001,red_card,64,2025-04-26,Liverpool,Arsenal,3,0
+EV00627,M00063,DE001,red_card,39,2025-04-26,Liverpool,Arsenal,3,0
+EV00628,M00063,BU001,yellow_card,36,2025-04-26,Liverpool,Arsenal,3,0
+EV00629,M00063,DO001,yellow_card,18,2025-04-26,Liverpool,Arsenal,3,0
+EV00630,M00063,BU001,red_card,14,2025-04-26,Liverpool,Arsenal,3,0
+EV00631,M00063,CU001,goal,76,2025-04-26,Liverpool,Arsenal,3,0
+EV00632,M00064,JA002,red_card,70,2024-11-26,Manchester United,Southampton,4,4
+EV00633,M00064,BR001,assist,48,2024-11-26,Manchester United,Southampton,4,4
+EV00634,M00064,YU001,red_card,13,2024-11-26,Manchester United,Southampton,4,4
+EV00635,M00064,CA001,goal,33,2024-11-26,Manchester United,Southampton,4,4
+EV00636,M00064,JA002,substitution,21,2024-11-26,Manchester United,Southampton,4,4
+EV00637,M00064,VA001,substitution,56,2024-11-26,Manchester United,Southampton,4,4
+EV00638,M00064,YU001,assist,36,2024-11-26,Manchester United,Southampton,4,4
+EV00639,M00064,KA003,yellow_card,23,2024-11-26,Manchester United,Southampton,4,4
+EV00640,M00064,DA001,substitution,62,2024-11-26,Manchester United,Southampton,4,4
+EV00641,M00065,TA003,assist,17,2024-11-12,Wolverhampton,Brighton,0,1
+EV00642,M00065,PE001,yellow_card,16,2024-11-12,Wolverhampton,Brighton,0,1
+EV00643,M00065,JO012,yellow_card,81,2024-11-12,Wolverhampton,Brighton,0,1
+EV00644,M00065,AI001,yellow_card,24,2024-11-12,Wolverhampton,Brighton,0,1
+EV00645,M00065,JA006,red_card,8,2024-11-12,Wolverhampton,Brighton,0,1
+EV00646,M00065,MO005,yellow_card,50,2024-11-12,Wolverhampton,Brighton,0,1
+EV00647,M00065,LO001,substitution,33,2024-11-12,Wolverhampton,Brighton,0,1
+EV00648,M00065,PO001,assist,4,2024-11-12,Wolverhampton,Brighton,0,1
+EV00649,M00065,JA005,goal,82,2024-11-12,Wolverhampton,Brighton,0,1
+EV00650,M00065,TR003,red_card,66,2024-11-12,Wolverhampton,Brighton,0,1
+EV00651,M00065,PO001,assist,85,2024-11-12,Wolverhampton,Brighton,0,1
+EV00652,M00066,OL001,goal,70,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00653,M00066,KO001,yellow_card,11,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00654,M00066,OL001,yellow_card,75,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00655,M00066,MO004,goal,42,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00656,M00066,DO002,goal,73,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00657,M00066,TA002,red_card,8,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00658,M00066,EM001,red_card,57,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00659,M00066,AT001,substitution,27,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00660,M00066,RO003,yellow_card,65,2025-05-22,Bournemouth,Aston Villa,1,3
+EV00661,M00067,HU001,assist,15,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00662,M00067,VI001,yellow_card,80,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00663,M00067,DO001,yellow_card,61,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00664,M00067,TR001,yellow_card,29,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00665,M00067,TR002,yellow_card,89,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00666,M00067,LU001,substitution,54,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00667,M00067,OL002,assist,49,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00668,M00067,AL005,yellow_card,8,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00669,M00067,TR002,assist,16,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00670,M00067,DO001,substitution,44,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00671,M00067,VI001,red_card,9,2024-11-16,Liverpool,Ipswich Town,0,2
+EV00672,M00068,MO005,yellow_card,51,2024-10-09,Manchester City,Brighton,1,4
+EV00673,M00068,PH001,substitution,67,2024-10-09,Manchester City,Brighton,1,4
+EV00674,M00068,KA001,red_card,72,2024-10-09,Manchester City,Brighton,1,4
+EV00675,M00068,WE001,yellow_card,43,2024-10-09,Manchester City,Brighton,1,4
+EV00676,M00068,KC001,red_card,43,2024-10-09,Manchester City,Brighton,1,4
+EV00677,M00068,MA001,red_card,90,2024-10-09,Manchester City,Brighton,1,4
+EV00678,M00068,ER001,assist,25,2024-10-09,Manchester City,Brighton,1,4
+EV00679,M00068,KC001,goal,58,2024-10-09,Manchester City,Brighton,1,4
+EV00680,M00068,KC001,assist,8,2024-10-09,Manchester City,Brighton,1,4
+EV00681,M00068,JA001,goal,29,2024-10-09,Manchester City,Brighton,1,4
+EV00682,M00069,MI005,substitution,31,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00683,M00069,WI002,yellow_card,52,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00684,M00069,JO010,assist,10,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00685,M00069,PA002,assist,66,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00686,M00069,JO010,goal,21,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00687,M00069,KO001,red_card,77,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00688,M00069,PA002,goal,65,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00689,M00069,JO010,substitution,87,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00690,M00069,JO004,assist,61,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00691,M00069,WI002,yellow_card,83,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00692,M00069,WI002,substitution,43,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00693,M00069,DA006,yellow_card,68,2025-05-23,Crystal Palace,Aston Villa,4,2
+EV00694,M00070,Wal001,goal,49,2025-02-22,Everton,Ipswich Town,1,4
+EV00695,M00070,PE002,substitution,75,2025-02-22,Everton,Ipswich Town,1,4
+EV00696,M00070,RI002,assist,64,2025-02-22,Everton,Ipswich Town,1,4
+EV00697,M00070,NI002,assist,68,2025-02-22,Everton,Ipswich Town,1,4
+EV00698,M00070,PE002,substitution,73,2025-02-22,Everton,Ipswich Town,1,4
+EV00699,M00070,JA010,assist,79,2025-02-22,Everton,Ipswich Town,1,4
+EV00700,M00070,RI002,red_card,47,2025-02-22,Everton,Ipswich Town,1,4
+EV00701,M00070,DA004,yellow_card,63,2025-02-22,Everton,Ipswich Town,1,4
+EV00702,M00070,JO006,goal,2,2025-02-22,Everton,Ipswich Town,1,4
+EV00703,M00071,MA005,assist,82,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00704,M00071,OL001,red_card,71,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00705,M00071,DW001,goal,16,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00706,M00071,AT001,substitution,54,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00707,M00071,MI001,red_card,49,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00708,M00071,DI001,goal,66,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00709,M00071,DO002,red_card,26,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00710,M00071,LL001,substitution,33,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00711,M00071,MI001,goal,68,2025-01-13,Bournemouth,Aston Villa,2,4
+EV00712,M00072,RO002,yellow_card,15,2025-05-05,Liverpool,Chelsea,0,2
+EV00713,M00072,SU001,goal,36,2025-05-05,Liverpool,Chelsea,0,2
+EV00714,M00072,AN001,yellow_card,42,2025-05-05,Liverpool,Chelsea,0,2
+EV00715,M00072,VI001,assist,4,2025-05-05,Liverpool,Chelsea,0,2
+EV00716,M00072,VI001,substitution,22,2025-05-05,Liverpool,Chelsea,0,2
+EV00717,M00072,RO002,assist,64,2025-05-05,Liverpool,Chelsea,0,2
+EV00718,M00072,MO001,substitution,36,2025-05-05,Liverpool,Chelsea,0,2
+EV00719,M00072,VI001,yellow_card,55,2025-05-05,Liverpool,Chelsea,0,2
+EV00720,M00072,MO001,yellow_card,23,2025-05-05,Liverpool,Chelsea,0,2
+EV00721,M00072,CU001,substitution,44,2025-05-05,Liverpool,Chelsea,0,2
+EV00722,M00072,LU001,substitution,35,2025-05-05,Liverpool,Chelsea,0,2
+EV00723,M00073,JA012,goal,20,2025-03-24,Luton Town,West Ham,1,3
+EV00724,M00073,TA004,substitution,90,2025-03-24,Luton Town,West Ham,1,3
+EV00725,M00073,TA004,substitution,30,2025-03-24,Luton Town,West Ham,1,3
+EV00726,M00073,RY002,goal,77,2025-03-24,Luton Town,West Ham,1,3
+EV00727,M00073,KU001,goal,65,2025-03-24,Luton Town,West Ham,1,3
+EV00728,M00073,TY001,substitution,35,2025-03-24,Luton Town,West Ham,1,3
+EV00729,M00073,RO005,assist,11,2025-03-24,Luton Town,West Ham,1,3
+EV00730,M00073,PA005,yellow_card,54,2025-03-24,Luton Town,West Ham,1,3
+EV00731,M00073,PA004,goal,10,2025-03-24,Luton Town,West Ham,1,3
+EV00732,M00073,RY002,yellow_card,59,2025-03-24,Luton Town,West Ham,1,3
+EV00733,M00073,TA004,assist,82,2025-03-24,Luton Town,West Ham,1,3
+EV00734,M00073,TY001,substitution,30,2025-03-24,Luton Town,West Ham,1,3
+EV00735,M00074,SO001,red_card,30,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00736,M00074,MA007,assist,26,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00737,M00074,NE001,yellow_card,44,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00738,M00074,SO001,goal,48,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00739,M00074,MA004,assist,16,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00740,M00074,PA001,goal,64,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00741,M00074,DA002,substitution,70,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00742,M00074,SO001,red_card,46,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00743,M00074,SO001,substitution,41,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00744,M00074,SC001,yellow_card,37,2024-11-22,Tottenham,Nottingham Forest,2,0
+EV00745,M00075,GA002,red_card,76,2025-05-08,Crystal Palace,Southampton,0,2
+EV00746,M00075,DA006,red_card,3,2025-05-08,Crystal Palace,Southampton,0,2
+EV00747,M00075,CA003,assist,56,2025-05-08,Crystal Palace,Southampton,0,2
+EV00748,M00075,CA003,goal,42,2025-05-08,Crystal Palace,Southampton,0,2
+EV00749,M00075,CA003,assist,14,2025-05-08,Crystal Palace,Southampton,0,2
+EV00750,M00075,HA002,red_card,38,2025-05-08,Crystal Palace,Southampton,0,2
+EV00751,M00075,ED002,substitution,10,2025-05-08,Crystal Palace,Southampton,0,2
+EV00752,M00075,YU001,yellow_card,63,2025-05-08,Crystal Palace,Southampton,0,2
+EV00753,M00075,DA006,red_card,12,2025-05-08,Crystal Palace,Southampton,0,2
+EV00754,M00075,JO008,assist,63,2025-05-08,Crystal Palace,Southampton,0,2
+EV00755,M00075,JO010,assist,78,2025-05-08,Crystal Palace,Southampton,0,2
+EV00756,M00075,GA002,red_card,90,2025-05-08,Crystal Palace,Southampton,0,2
+EV00757,M00076,CU001,yellow_card,56,2024-11-23,Leicester City,Liverpool,0,2
+EV00758,M00076,TR001,goal,11,2024-11-23,Leicester City,Liverpool,0,2
+EV00759,M00076,ST001,substitution,30,2024-11-23,Leicester City,Liverpool,0,2
+EV00760,M00076,DO003,substitution,85,2024-11-23,Leicester City,Liverpool,0,2
+EV00761,M00076,HU002,substitution,47,2024-11-23,Leicester City,Liverpool,0,2
+EV00762,M00076,AN001,red_card,7,2024-11-23,Leicester City,Liverpool,0,2
+EV00763,M00076,WI003,goal,82,2024-11-23,Leicester City,Liverpool,0,2
+EV00764,M00076,DO001,red_card,13,2024-11-23,Leicester City,Liverpool,0,2
+EV00765,M00076,TR001,red_card,23,2024-11-23,Leicester City,Liverpool,0,2
+EV00766,M00076,HU002,yellow_card,64,2024-11-23,Leicester City,Liverpool,0,2
+EV00767,M00077,JO004,red_card,40,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00768,M00077,JO004,red_card,7,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00769,M00077,LE001,substitution,86,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00770,M00077,AL005,red_card,5,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00771,M00077,CA004,yellow_card,10,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00772,M00077,MO004,substitution,23,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00773,M00077,JO004,substitution,68,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00774,M00077,JA004,substitution,56,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00775,M00077,MO004,substitution,75,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00776,M00077,MO004,yellow_card,70,2025-05-18,Aston Villa,Ipswich Town,3,2
+EV00777,M00078,WI002,yellow_card,56,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00778,M00078,JE001,red_card,68,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00779,M00078,DW001,substitution,22,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00780,M00078,MI005,assist,33,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00781,M00078,MI005,goal,64,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00782,M00078,MA009,assist,88,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00783,M00078,LL001,goal,45,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00784,M00078,EM001,goal,79,2025-02-12,Bournemouth,Crystal Palace,4,2
+EV00785,M00079,WH001,goal,68,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00786,M00079,BU001,substitution,14,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00787,M00079,BU001,assist,30,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00788,M00079,JU002,goal,69,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00789,M00079,BU001,red_card,42,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00790,M00079,TA001,substitution,54,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00791,M00079,JO012,assist,59,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00792,M00079,JO003,substitution,42,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00793,M00079,DE001,yellow_card,32,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00794,M00079,AE001,substitution,7,2025-04-27,Arsenal,Wolverhampton,0,1
+EV00795,M00080,PH001,goal,16,2024-08-20,Manchester City,Fulham,3,0
+EV00796,M00080,RA001,yellow_card,26,2024-08-20,Manchester City,Fulham,3,0
+EV00797,M00080,ER001,substitution,34,2024-08-20,Manchester City,Fulham,3,0
+EV00798,M00080,KA001,goal,63,2024-08-20,Manchester City,Fulham,3,0
+EV00799,M00080,AL002,red_card,74,2024-08-20,Manchester City,Fulham,3,0
+EV00800,M00080,RO001,substitution,47,2024-08-20,Manchester City,Fulham,3,0
+EV00801,M00080,RE002,yellow_card,48,2024-08-20,Manchester City,Fulham,3,0
+EV00802,M00080,LA001,goal,4,2024-08-20,Manchester City,Fulham,3,0
+EV00803,M00080,KC001,substitution,53,2024-08-20,Manchester City,Fulham,3,0
+EV00804,M00080,ER001,red_card,37,2024-08-20,Manchester City,Fulham,3,0
+EV00805,M00080,ER001,yellow_card,53,2024-08-20,Manchester City,Fulham,3,0
+EV00806,M00080,PH001,assist,3,2024-08-20,Manchester City,Fulham,3,0
+EV00807,M00081,MO002,goal,88,2024-12-15,Arsenal,Brentford,0,2
+EV00808,M00081,TA001,assist,7,2024-12-15,Arsenal,Brentford,0,2
+EV00809,M00081,DA005,assist,24,2024-12-15,Arsenal,Brentford,0,2
+EV00810,M00081,GA001,substitution,16,2024-12-15,Arsenal,Brentford,0,2
+EV00811,M00081,DA005,yellow_card,78,2024-12-15,Arsenal,Brentford,0,2
+EV00812,M00081,KA002,goal,18,2024-12-15,Arsenal,Brentford,0,2
+EV00813,M00081,AE001,assist,17,2024-12-15,Arsenal,Brentford,0,2
+EV00814,M00081,BU001,assist,70,2024-12-15,Arsenal,Brentford,0,2
+EV00815,M00081,NI003,assist,53,2024-12-15,Arsenal,Brentford,0,2
+EV00816,M00081,RA002,goal,70,2024-12-15,Arsenal,Brentford,0,2
+EV00817,M00081,BU001,yellow_card,78,2024-12-15,Arsenal,Brentford,0,2
+EV00818,M00082,HE001,substitution,43,2024-11-16,Fulham,Brentford,4,0
+EV00819,M00082,AN003,goal,90,2024-11-16,Fulham,Brentford,4,0
+EV00820,M00082,LA001,substitution,64,2024-11-16,Fulham,Brentford,4,0
+EV00821,M00082,KO002,red_card,63,2024-11-16,Fulham,Brentford,4,0
+EV00822,M00082,KO002,red_card,48,2024-11-16,Fulham,Brentford,4,0
+EV00823,M00082,RA001,red_card,15,2024-11-16,Fulham,Brentford,4,0
+EV00824,M00082,AN003,red_card,76,2024-11-16,Fulham,Brentford,4,0
+EV00825,M00082,GO001,yellow_card,5,2024-11-16,Fulham,Brentford,4,0
+EV00826,M00082,BR004,yellow_card,57,2024-11-16,Fulham,Brentford,4,0
+EV00827,M00083,Wal001,yellow_card,57,2025-05-20,Ipswich Town,West Ham,1,3
+EV00828,M00083,AL005,red_card,90,2025-05-20,Ipswich Town,West Ham,1,3
+EV00829,M00083,KU001,red_card,90,2025-05-20,Ipswich Town,West Ham,1,3
+EV00830,M00083,DA003,red_card,22,2025-05-20,Ipswich Town,West Ham,1,3
+EV00831,M00083,JA010,red_card,69,2025-05-20,Ipswich Town,West Ham,1,3
+EV00832,M00083,Wal001,substitution,49,2025-05-20,Ipswich Town,West Ham,1,3
+EV00833,M00083,OL002,substitution,25,2025-05-20,Ipswich Town,West Ham,1,3
+EV00834,M00083,Wal001,substitution,25,2025-05-20,Ipswich Town,West Ham,1,3
+EV00835,M00083,KI001,substitution,36,2025-05-20,Ipswich Town,West Ham,1,3
+EV00836,M00084,TR002,yellow_card,12,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00837,M00084,NE002,yellow_card,2,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00838,M00084,AL005,red_card,63,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00839,M00084,AN001,yellow_card,46,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00840,M00084,LU001,red_card,51,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00841,M00084,Wal001,yellow_card,48,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00842,M00084,Wal001,assist,47,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00843,M00084,JA010,assist,18,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00844,M00084,LE002,assist,65,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00845,M00084,VI001,substitution,15,2024-10-04,Liverpool,Ipswich Town,0,4
+EV00846,M00085,GO001,red_card,84,2025-01-12,Arsenal,Fulham,1,3
+EV00847,M00085,RA001,red_card,26,2025-01-12,Arsenal,Fulham,1,3
+EV00848,M00085,TA001,red_card,2,2025-01-12,Arsenal,Fulham,1,3
+EV00849,M00085,DE001,assist,32,2025-01-12,Arsenal,Fulham,1,3
+EV00850,M00085,LA001,goal,66,2025-01-12,Arsenal,Fulham,1,3
+EV00851,M00085,HE001,yellow_card,47,2025-01-12,Arsenal,Fulham,1,3
+EV00852,M00085,BU001,goal,48,2025-01-12,Arsenal,Fulham,1,3
+EV00853,M00085,AL002,yellow_card,14,2025-01-12,Arsenal,Fulham,1,3
+EV00854,M00086,HU002,substitution,83,2024-12-17,Leicester City,Tottenham,4,2
+EV00855,M00086,ST001,assist,73,2024-12-17,Leicester City,Tottenham,4,2
+EV00856,M00086,HU002,substitution,52,2024-12-17,Leicester City,Tottenham,4,2
+EV00857,M00086,CO002,yellow_card,78,2024-12-17,Leicester City,Tottenham,4,2
+EV00858,M00086,PA001,goal,50,2024-12-17,Leicester City,Tottenham,4,2
+EV00859,M00086,YU002,assist,26,2024-12-17,Leicester City,Tottenham,4,2
+EV00860,M00086,BR002,yellow_card,5,2024-12-17,Leicester City,Tottenham,4,2
+EV00861,M00086,WI003,goal,9,2024-12-17,Leicester City,Tottenham,4,2
+EV00862,M00086,HU002,red_card,15,2024-12-17,Leicester City,Tottenham,4,2
+EV00863,M00086,YU002,assist,82,2024-12-17,Leicester City,Tottenham,4,2
+EV00864,M00087,JO003,red_card,62,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00865,M00087,JO010,goal,33,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00866,M00087,VI003,yellow_card,59,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00867,M00087,DA006,red_card,34,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00868,M00087,MO002,substitution,22,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00869,M00087,JO010,goal,75,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00870,M00087,KA002,substitution,43,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00871,M00087,BU001,assist,62,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00872,M00087,JE001,yellow_card,5,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00873,M00087,KA002,red_card,18,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00874,M00087,WI002,red_card,56,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00875,M00087,CA005,red_card,40,2025-04-12,Arsenal,Crystal Palace,0,2
+EV00876,M00088,AL004,yellow_card,56,2025-05-09,Southampton,Everton,1,4
+EV00877,M00088,DA004,yellow_card,75,2025-05-09,Southampton,Everton,1,4
+EV00878,M00088,MI003,goal,7,2025-05-09,Southampton,Everton,1,4
+EV00879,M00088,GA002,assist,90,2025-05-09,Southampton,Everton,1,4
+EV00880,M00088,MI003,red_card,40,2025-05-09,Southampton,Everton,1,4
+EV00881,M00088,JA008,red_card,40,2025-05-09,Southampton,Everton,1,4
+EV00882,M00088,JO008,substitution,43,2025-05-09,Southampton,Everton,1,4
+EV00883,M00088,WY001,assist,62,2025-05-09,Southampton,Everton,1,4
+EV00884,M00088,WY001,yellow_card,29,2025-05-09,Southampton,Everton,1,4
+EV00885,M00088,KA003,substitution,81,2025-05-09,Southampton,Everton,1,4
+EV00886,M00089,LO001,assist,70,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00887,M00089,JU002,assist,41,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00888,M00089,EM002,yellow_card,33,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00889,M00089,JU002,assist,18,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00890,M00089,JO013,goal,33,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00891,M00089,TR003,red_card,55,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00892,M00089,GA003,yellow_card,84,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00893,M00089,JU002,yellow_card,70,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00894,M00089,JA004,substitution,43,2025-02-25,Aston Villa,Wolverhampton,4,4
+EV00895,M00090,DE003,assist,4,2024-09-07,Tottenham,Leicester City,3,4
+EV00896,M00090,SO001,red_card,74,2024-09-07,Tottenham,Leicester City,3,4
+EV00897,M00090,SO001,assist,72,2024-09-07,Tottenham,Leicester City,3,4
+EV00898,M00090,VI002,goal,41,2024-09-07,Tottenham,Leicester City,3,4
+EV00899,M00090,SO001,red_card,57,2024-09-07,Tottenham,Leicester City,3,4
+EV00900,M00090,DO003,goal,4,2024-09-07,Tottenham,Leicester City,3,4
+EV00901,M00090,RI001,substitution,80,2024-09-07,Tottenham,Leicester City,3,4
+EV00902,M00090,RIC001,red_card,18,2024-09-07,Tottenham,Leicester City,3,4
+EV00903,M00091,JA002,goal,43,2024-08-27,Manchester United,Arsenal,1,2
+EV00904,M00091,DE001,yellow_card,86,2024-08-27,Manchester United,Arsenal,1,2
+EV00905,M00091,CA001,red_card,89,2024-08-27,Manchester United,Arsenal,1,2
+EV00906,M00091,CA001,substitution,28,2024-08-27,Manchester United,Arsenal,1,2
+EV00907,M00091,MA002,goal,38,2024-08-27,Manchester United,Arsenal,1,2
+EV00908,M00091,WH001,goal,29,2024-08-27,Manchester United,Arsenal,1,2
+EV00909,M00091,MO002,goal,78,2024-08-27,Manchester United,Arsenal,1,2
+EV00910,M00091,LI001,red_card,4,2024-08-27,Manchester United,Arsenal,1,2
+EV00911,M00091,AR001,yellow_card,50,2024-08-27,Manchester United,Arsenal,1,2
+EV00912,M00091,BR001,yellow_card,69,2024-08-27,Manchester United,Arsenal,1,2
+EV00913,M00091,MO002,yellow_card,16,2024-08-27,Manchester United,Arsenal,1,2
+EV00914,M00092,AT001,yellow_card,11,2025-03-05,Bournemouth,Chelsea,0,3
+EV00915,M00092,DW001,goal,16,2025-03-05,Bournemouth,Chelsea,0,3
+EV00916,M00092,CO001,assist,33,2025-03-05,Bournemouth,Chelsea,0,3
+EV00917,M00092,MO003,goal,83,2025-03-05,Bournemouth,Chelsea,0,3
+EV00918,M00092,JA003,yellow_card,64,2025-03-05,Bournemouth,Chelsea,0,3
+EV00919,M00092,DO002,yellow_card,50,2025-03-05,Bournemouth,Chelsea,0,3
+EV00920,M00092,BE002,yellow_card,3,2025-03-05,Bournemouth,Chelsea,0,3
+EV00921,M00092,MA003,assist,5,2025-03-05,Bournemouth,Chelsea,0,3
+EV00922,M00093,RE002,red_card,41,2025-05-16,Fulham,Arsenal,0,2
+EV00923,M00093,TA001,yellow_card,88,2025-05-16,Fulham,Arsenal,0,2
+EV00924,M00093,BE003,yellow_card,41,2025-05-16,Fulham,Arsenal,0,2
+EV00925,M00093,BE003,goal,82,2025-05-16,Fulham,Arsenal,0,2
+EV00926,M00093,GO001,substitution,89,2025-05-16,Fulham,Arsenal,0,2
+EV00927,M00093,BE003,yellow_card,77,2025-05-16,Fulham,Arsenal,0,2
+EV00928,M00093,WI001,substitution,52,2025-05-16,Fulham,Arsenal,0,2
+EV00929,M00093,MA008,red_card,28,2025-05-16,Fulham,Arsenal,0,2
+EV00930,M00093,MA008,assist,25,2025-05-16,Fulham,Arsenal,0,2
+EV00931,M00094,DA005,red_card,51,2025-04-02,Brentford,Ipswich Town,3,1
+EV00932,M00094,TR002,goal,32,2025-04-02,Brentford,Ipswich Town,3,1
+EV00933,M00094,KO002,assist,21,2025-04-02,Brentford,Ipswich Town,3,1
+EV00934,M00094,LE002,goal,76,2025-04-02,Brentford,Ipswich Town,3,1
+EV00935,M00094,BR004,goal,10,2025-04-02,Brentford,Ipswich Town,3,1
+EV00936,M00094,HU001,assist,42,2025-04-02,Brentford,Ipswich Town,3,1
+EV00937,M00094,EN002,yellow_card,41,2025-04-02,Brentford,Ipswich Town,3,1
+EV00938,M00094,JA010,goal,11,2025-04-02,Brentford,Ipswich Town,3,1
+EV00939,M00094,CA004,yellow_card,90,2025-04-02,Brentford,Ipswich Town,3,1
+EV00940,M00095,MA004,yellow_card,62,2024-12-20,Newcastle,Tottenham,4,1
+EV00941,M00095,YO001,red_card,54,2024-12-20,Newcastle,Tottenham,4,1
+EV00942,M00095,BR002,red_card,43,2024-12-20,Newcastle,Tottenham,4,1
+EV00943,M00095,RI001,goal,60,2024-12-20,Newcastle,Tottenham,4,1
+EV00944,M00095,TI001,substitution,66,2024-12-20,Newcastle,Tottenham,4,1
+EV00945,M00095,PI001,yellow_card,4,2024-12-20,Newcastle,Tottenham,4,1
+EV00946,M00095,NI004,substitution,25,2024-12-20,Newcastle,Tottenham,4,1
+EV00947,M00095,CR001,yellow_card,3,2024-12-20,Newcastle,Tottenham,4,1
+EV00948,M00096,SE001,red_card,11,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00949,M00096,PO001,yellow_card,30,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00950,M00096,GA003,substitution,25,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00951,M00096,TR003,assist,42,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00952,M00096,LO001,red_card,43,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00953,M00096,TR002,yellow_card,20,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00954,M00096,JU002,yellow_card,22,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00955,M00096,JU002,yellow_card,67,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00956,M00096,PO001,substitution,66,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00957,M00096,LE002,yellow_card,43,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00958,M00096,PO001,substitution,46,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00959,M00096,GA003,substitution,12,2024-10-10,Wolverhampton,Ipswich Town,2,1
+EV00960,M00097,AE001,red_card,49,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00961,M00097,PO001,assist,13,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00962,M00097,TR003,substitution,48,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00963,M00097,SA001,red_card,47,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00964,M00097,JU002,yellow_card,66,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00965,M00097,LO001,assist,69,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00966,M00097,TR003,substitution,86,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00967,M00097,TR003,assist,77,2025-01-27,Wolverhampton,Arsenal,2,2
+EV00968,M00098,JO013,red_card,17,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00969,M00098,MA004,substitution,57,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00970,M00098,VI002,goal,77,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00971,M00098,PI001,red_card,24,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00972,M00098,PI001,yellow_card,57,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00973,M00098,JO012,yellow_card,34,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00974,M00098,BR002,red_card,86,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00975,M00098,RA003,yellow_card,49,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00976,M00098,BR002,yellow_card,65,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00977,M00098,PI001,red_card,74,2025-04-05,Tottenham,Wolverhampton,2,0
+EV00978,M00099,EN002,yellow_card,56,2024-11-01,Brentford,Manchester City,1,4
+EV00979,M00099,JO001,goal,8,2024-11-01,Brentford,Manchester City,1,4
+EV00980,M00099,RA002,red_card,55,2024-11-01,Brentford,Manchester City,1,4
+EV00981,M00099,EN002,assist,54,2024-11-01,Brentford,Manchester City,1,4
+EV00982,M00099,JO009,substitution,33,2024-11-01,Brentford,Manchester City,1,4
+EV00983,M00099,JA001,goal,35,2024-11-01,Brentford,Manchester City,1,4
+EV00984,M00099,DA005,goal,82,2024-11-01,Brentford,Manchester City,1,4
+EV00985,M00099,RA002,yellow_card,70,2024-11-01,Brentford,Manchester City,1,4
+EV00986,M00099,PH001,assist,25,2024-11-01,Brentford,Manchester City,1,4
+EV00987,M00100,EM001,goal,65,2025-01-26,Bournemouth,Luton Town,0,3
+EV00988,M00100,EM001,red_card,40,2025-01-26,Bournemouth,Luton Town,0,3
+EV00989,M00100,VI004,assist,66,2025-01-26,Bournemouth,Luton Town,0,3
+EV00990,M00100,AB001,yellow_card,54,2025-01-26,Bournemouth,Luton Town,0,3
+EV00991,M00100,MI001,assist,36,2025-01-26,Bournemouth,Luton Town,0,3
+EV00992,M00100,DW001,assist,45,2025-01-26,Bournemouth,Luton Town,0,3
+EV00993,M00100,LL001,assist,12,2025-01-26,Bournemouth,Luton Town,0,3
+EV00994,M00100,HA003,assist,4,2025-01-26,Bournemouth,Luton Town,0,3
+EV00995,M00100,TA002,red_card,79,2025-01-26,Bournemouth,Luton Town,0,3
+EV00996,M00101,ST001,goal,36,2025-03-16,Leicester City,Newcastle,2,2
+EV00997,M00101,DO003,substitution,67,2025-03-16,Leicester City,Newcastle,2,2
+EV00998,M00101,DE003,red_card,52,2025-03-16,Leicester City,Newcastle,2,2
+EV00999,M00101,AN004,assist,54,2025-03-16,Leicester City,Newcastle,2,2
+EV01000,M00101,ST001,substitution,55,2025-03-16,Leicester City,Newcastle,2,2
+EV01001,M00101,BR005,assist,90,2025-03-16,Leicester City,Newcastle,2,2
+EV01002,M00101,DE003,red_card,74,2025-03-16,Leicester City,Newcastle,2,2
+EV01003,M00101,WI003,goal,70,2025-03-16,Leicester City,Newcastle,2,2
+EV01004,M00101,RIC001,assist,68,2025-03-16,Leicester City,Newcastle,2,2
+EV01005,M00101,ST001,goal,73,2025-03-16,Leicester City,Newcastle,2,2
+EV01006,M00102,MA003,goal,86,2024-12-12,Chelsea,West Ham,2,0
+EV01007,M00102,CO001,goal,51,2024-12-12,Chelsea,West Ham,2,0
+EV01008,M00102,JA007,yellow_card,22,2024-12-12,Chelsea,West Ham,2,0
+EV01009,M00102,SU001,yellow_card,22,2024-12-12,Chelsea,West Ham,2,0
+EV01010,M00102,SU001,substitution,9,2024-12-12,Chelsea,West Ham,2,0
+EV01011,M00102,DE002,assist,68,2024-12-12,Chelsea,West Ham,2,0
+EV01012,M00102,MA003,substitution,43,2024-12-12,Chelsea,West Ham,2,0
+EV01013,M00102,NI001,yellow_card,43,2024-12-12,Chelsea,West Ham,2,0
+EV01014,M00103,MO005,assist,53,2024-10-27,Liverpool,Brighton,1,4
+EV01015,M00103,CU001,substitution,17,2024-10-27,Liverpool,Brighton,1,4
+EV01016,M00103,LU001,assist,4,2024-10-27,Liverpool,Brighton,1,4
+EV01017,M00103,MO001,goal,46,2024-10-27,Liverpool,Brighton,1,4
+EV01018,M00103,LU001,goal,36,2024-10-27,Liverpool,Brighton,1,4
+EV01019,M00103,RO004,assist,45,2024-10-27,Liverpool,Brighton,1,4
+EV01020,M00103,RY001,substitution,75,2024-10-27,Liverpool,Brighton,1,4
+EV01021,M00103,DO001,assist,43,2024-10-27,Liverpool,Brighton,1,4
+EV01022,M00103,RY001,assist,50,2024-10-27,Liverpool,Brighton,1,4
+EV01023,M00103,WE001,goal,53,2024-10-27,Liverpool,Brighton,1,4
+EV01024,M00104,SO001,yellow_card,89,2024-12-30,Tottenham,West Ham,1,1
+EV01025,M00104,DA002,goal,76,2024-12-30,Tottenham,West Ham,1,1
+EV01026,M00104,BR002,substitution,59,2024-12-30,Tottenham,West Ham,1,1
+EV01027,M00104,DA002,goal,72,2024-12-30,Tottenham,West Ham,1,1
+EV01028,M00104,SO001,red_card,45,2024-12-30,Tottenham,West Ham,1,1
+EV01029,M00104,SO001,goal,73,2024-12-30,Tottenham,West Ham,1,1
+EV01030,M00104,DA003,red_card,6,2024-12-30,Tottenham,West Ham,1,1
+EV01031,M00104,PA004,goal,78,2024-12-30,Tottenham,West Ham,1,1
+EV01032,M00105,WI001,substitution,60,2024-12-07,Fulham,Brighton,1,0
+EV01033,M00105,JA006,red_card,1,2024-12-07,Fulham,Brighton,1,0
+EV01034,M00105,AL002,substitution,51,2024-12-07,Fulham,Brighton,1,0
+EV01035,M00105,MA008,yellow_card,42,2024-12-07,Fulham,Brighton,1,0
+EV01036,M00105,GO001,goal,61,2024-12-07,Fulham,Brighton,1,0
+EV01037,M00105,AN003,assist,15,2024-12-07,Fulham,Brighton,1,0
+EV01038,M00105,WE001,assist,45,2024-12-07,Fulham,Brighton,1,0
+EV01039,M00105,HE001,goal,42,2024-12-07,Fulham,Brighton,1,0
+EV01040,M00105,SI001,yellow_card,9,2024-12-07,Fulham,Brighton,1,0
+EV01041,M00105,JA005,yellow_card,77,2024-12-07,Fulham,Brighton,1,0
+EV01042,M00105,WE001,assist,70,2024-12-07,Fulham,Brighton,1,0
+EV01043,M00105,LA001,yellow_card,56,2024-12-07,Fulham,Brighton,1,0
+EV01044,M00106,JO012,red_card,10,2024-09-08,Southampton,Wolverhampton,1,3
+EV01045,M00106,JU002,goal,81,2024-09-08,Southampton,Wolverhampton,1,3
+EV01046,M00106,PO001,red_card,2,2024-09-08,Southampton,Wolverhampton,1,3
+EV01047,M00106,JA009,goal,75,2024-09-08,Southampton,Wolverhampton,1,3
+EV01048,M00106,PE003,goal,23,2024-09-08,Southampton,Wolverhampton,1,3
+EV01049,M00106,SE001,red_card,62,2024-09-08,Southampton,Wolverhampton,1,3
+EV01050,M00106,GA003,assist,31,2024-09-08,Southampton,Wolverhampton,1,3
+EV01051,M00106,JO008,substitution,68,2024-09-08,Southampton,Wolverhampton,1,3
+EV01052,M00106,CA003,yellow_card,74,2024-09-08,Southampton,Wolverhampton,1,3
+EV01053,M00106,JO012,red_card,11,2024-09-08,Southampton,Wolverhampton,1,3
+EV01054,M00107,JA008,goal,90,2025-04-08,Everton,Chelsea,4,2
+EV01055,M00107,RI002,red_card,77,2025-04-08,Everton,Chelsea,4,2
+EV01056,M00107,NI001,goal,50,2025-04-08,Everton,Chelsea,4,2
+EV01057,M00107,JO007,yellow_card,79,2025-04-08,Everton,Chelsea,4,2
+EV01058,M00107,EN001,yellow_card,54,2025-04-08,Everton,Chelsea,4,2
+EV01059,M00107,MA003,goal,47,2025-04-08,Everton,Chelsea,4,2
+EV01060,M00107,CO001,goal,84,2025-04-08,Everton,Chelsea,4,2
+EV01061,M00107,MA003,yellow_card,69,2025-04-08,Everton,Chelsea,4,2
+EV01062,M00107,NI002,goal,4,2025-04-08,Everton,Chelsea,4,2
+EV01063,M00107,EN001,assist,59,2025-04-08,Everton,Chelsea,4,2
+EV01064,M00107,MI003,assist,81,2025-04-08,Everton,Chelsea,4,2
+EV01065,M00107,JO006,red_card,74,2025-04-08,Everton,Chelsea,4,2
+EV01066,M00108,TR001,yellow_card,19,2024-10-01,Liverpool,Luton Town,4,0
+EV01067,M00108,VI001,substitution,44,2024-10-01,Liverpool,Luton Town,4,0
+EV01068,M00108,MO001,substitution,70,2024-10-01,Liverpool,Luton Town,4,0
+EV01069,M00108,AN001,substitution,81,2024-10-01,Liverpool,Luton Town,4,0
+EV01070,M00108,LE003,yellow_card,3,2024-10-01,Liverpool,Luton Town,4,0
+EV01071,M00108,CU001,red_card,54,2024-10-01,Liverpool,Luton Town,4,0
+EV01072,M00108,VI004,red_card,62,2024-10-01,Liverpool,Luton Town,4,0
+EV01073,M00108,JA012,yellow_card,37,2024-10-01,Liverpool,Luton Town,4,0
+EV01074,M00108,VI004,assist,21,2024-10-01,Liverpool,Luton Town,4,0
+EV01075,M00109,JA004,yellow_card,82,2025-05-24,Aston Villa,Southampton,4,3
+EV01076,M00109,CA003,goal,87,2025-05-24,Aston Villa,Southampton,4,3
+EV01077,M00109,JA009,yellow_card,20,2025-05-24,Aston Villa,Southampton,4,3
+EV01078,M00109,EM002,substitution,85,2025-05-24,Aston Villa,Southampton,4,3
+EV01079,M00109,LE001,red_card,40,2025-05-24,Aston Villa,Southampton,4,3
+EV01080,M00109,HA002,assist,65,2025-05-24,Aston Villa,Southampton,4,3
+EV01081,M00109,KO001,substitution,43,2025-05-24,Aston Villa,Southampton,4,3
+EV01082,M00109,LE001,goal,6,2025-05-24,Aston Villa,Southampton,4,3
+EV01083,M00110,MI003,goal,16,2024-10-11,Everton,Ipswich Town,1,1
+EV01084,M00110,LE002,goal,4,2024-10-11,Everton,Ipswich Town,1,1
+EV01085,M00110,JO006,substitution,6,2024-10-11,Everton,Ipswich Town,1,1
+EV01086,M00110,KI001,yellow_card,67,2024-10-11,Everton,Ipswich Town,1,1
+EV01087,M00110,HU001,red_card,16,2024-10-11,Everton,Ipswich Town,1,1
+EV01088,M00110,Wal001,yellow_card,19,2024-10-11,Everton,Ipswich Town,1,1
+EV01089,M00110,JO006,substitution,12,2024-10-11,Everton,Ipswich Town,1,1
+EV01090,M00110,AL004,red_card,50,2024-10-11,Everton,Ipswich Town,1,1
+EV01091,M00111,DO002,red_card,71,2024-10-31,Bournemouth,Leicester City,2,3
+EV01092,M00111,AT001,assist,28,2024-10-31,Bournemouth,Leicester City,2,3
+EV01093,M00111,JA003,assist,36,2024-10-31,Bournemouth,Leicester City,2,3
+EV01094,M00111,CO002,assist,59,2024-10-31,Bournemouth,Leicester City,2,3
+EV01095,M00111,CO002,goal,74,2024-10-31,Bournemouth,Leicester City,2,3
+EV01096,M00111,RIC001,red_card,75,2024-10-31,Bournemouth,Leicester City,2,3
+EV01097,M00111,TA002,substitution,21,2024-10-31,Bournemouth,Leicester City,2,3
+EV01098,M00111,HU002,red_card,5,2024-10-31,Bournemouth,Leicester City,2,3
+EV01099,M00111,ST001,yellow_card,57,2024-10-31,Bournemouth,Leicester City,2,3
+EV01100,M00111,TA002,goal,5,2024-10-31,Bournemouth,Leicester City,2,3
+EV01101,M00111,EM001,red_card,76,2024-10-31,Bournemouth,Leicester City,2,3
+EV01102,M00112,TA004,substitution,22,2025-04-29,Luton Town,Chelsea,1,4
+EV01103,M00112,JS001,yellow_card,65,2025-04-29,Luton Town,Chelsea,1,4
+EV01104,M00112,LE003,red_card,15,2025-04-29,Luton Town,Chelsea,1,4
+EV01105,M00112,JS001,yellow_card,43,2025-04-29,Luton Town,Chelsea,1,4
+EV01106,M00112,TA004,substitution,39,2025-04-29,Luton Town,Chelsea,1,4
+EV01107,M00112,MA003,goal,39,2025-04-29,Luton Town,Chelsea,1,4
+EV01108,M00112,BE002,yellow_card,28,2025-04-29,Luton Town,Chelsea,1,4
+EV01109,M00112,JS001,goal,18,2025-04-29,Luton Town,Chelsea,1,4
+EV01110,M00112,TA004,assist,75,2025-04-29,Luton Town,Chelsea,1,4
+EV01111,M00113,VI002,goal,75,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01112,M00113,SA001,red_card,23,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01113,M00113,VI002,yellow_card,17,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01114,M00113,MA004,assist,8,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01115,M00113,RA003,assist,73,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01116,M00113,MA004,goal,58,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01117,M00113,SO001,red_card,24,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01118,M00113,RA003,red_card,42,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01119,M00113,RI001,substitution,7,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01120,M00113,MA004,yellow_card,41,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01121,M00113,SO001,yellow_card,56,2024-09-05,Tottenham,Wolverhampton,0,0
+EV01122,M00114,BR002,red_card,79,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01123,M00114,PA001,substitution,58,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01124,M00114,SE001,yellow_card,22,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01125,M00114,JO012,assist,21,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01126,M00114,YO001,goal,67,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01127,M00114,MA004,substitution,83,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01128,M00114,SO001,substitution,66,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01129,M00114,DA002,goal,37,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01130,M00114,RI001,substitution,86,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01131,M00114,LO001,red_card,35,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01132,M00114,PI001,yellow_card,66,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01133,M00114,SO001,red_card,29,2024-11-07,Tottenham,Wolverhampton,3,3
+EV01134,M00115,PE004,goal,15,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01135,M00115,ED002,goal,37,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01136,M00115,JE001,yellow_card,20,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01137,M00115,CA005,assist,73,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01138,M00115,PO001,goal,14,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01139,M00115,JO012,assist,54,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01140,M00115,ED002,substitution,1,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01141,M00115,JO010,substitution,69,2025-01-31,Crystal Palace,Wolverhampton,0,3
+EV01142,M00116,CU001,goal,46,2025-02-16,Fulham,Liverpool,3,3
+EV01143,M00116,BE003,yellow_card,73,2025-02-16,Fulham,Liverpool,3,3
+EV01144,M00116,MO001,red_card,28,2025-02-16,Fulham,Liverpool,3,3
+EV01145,M00116,WI001,red_card,16,2025-02-16,Fulham,Liverpool,3,3
+EV01146,M00116,RA001,yellow_card,11,2025-02-16,Fulham,Liverpool,3,3
+EV01147,M00116,LA001,substitution,86,2025-02-16,Fulham,Liverpool,3,3
+EV01148,M00116,HE001,substitution,63,2025-02-16,Fulham,Liverpool,3,3
+EV01149,M00116,TR001,yellow_card,36,2025-02-16,Fulham,Liverpool,3,3
+EV01150,M00117,DA002,assist,61,2024-11-16,Everton,Tottenham,4,2
+EV01151,M00117,DA004,substitution,58,2024-11-16,Everton,Tottenham,4,2
+EV01152,M00117,PA001,red_card,18,2024-11-16,Everton,Tottenham,4,2
+EV01153,M00117,RI001,assist,70,2024-11-16,Everton,Tottenham,4,2
+EV01154,M00117,JO006,substitution,62,2024-11-16,Everton,Tottenham,4,2
+EV01155,M00117,PE002,substitution,13,2024-11-16,Everton,Tottenham,4,2
+EV01156,M00117,PA001,goal,34,2024-11-16,Everton,Tottenham,4,2
+EV01157,M00117,DA004,goal,74,2024-11-16,Everton,Tottenham,4,2
+EV01158,M00117,BR002,assist,81,2024-11-16,Everton,Tottenham,4,2
+EV01159,M00117,DA004,substitution,31,2024-11-16,Everton,Tottenham,4,2
+EV01160,M00117,CA002,goal,69,2024-11-16,Everton,Tottenham,4,2
+EV01161,M00117,MI003,assist,79,2024-11-16,Everton,Tottenham,4,2
+EV01162,M00118,SI001,goal,88,2024-09-18,Brighton,Southampton,4,2
+EV01163,M00118,PE001,goal,57,2024-09-18,Brighton,Southampton,4,2
+EV01164,M00118,TA003,assist,1,2024-09-18,Brighton,Southampton,4,2
+EV01165,M00118,HA002,red_card,52,2024-09-18,Brighton,Southampton,4,2
+EV01166,M00118,AI001,substitution,8,2024-09-18,Brighton,Southampton,4,2
+EV01167,M00118,GA002,red_card,76,2024-09-18,Brighton,Southampton,4,2
+EV01168,M00118,JA006,goal,11,2024-09-18,Brighton,Southampton,4,2
+EV01169,M00118,YU001,goal,86,2024-09-18,Brighton,Southampton,4,2
+EV01170,M00118,JA005,substitution,66,2024-09-18,Brighton,Southampton,4,2
+EV01171,M00119,AN003,yellow_card,76,2025-02-28,Fulham,Chelsea,3,3
+EV01172,M00119,NI001,red_card,20,2025-02-28,Fulham,Chelsea,3,3
+EV01173,M00119,RE002,substitution,3,2025-02-28,Fulham,Chelsea,3,3
+EV01174,M00119,RE001,red_card,6,2025-02-28,Fulham,Chelsea,3,3
+EV01175,M00119,AL002,substitution,59,2025-02-28,Fulham,Chelsea,3,3
+EV01176,M00119,HE001,substitution,45,2025-02-28,Fulham,Chelsea,3,3
+EV01177,M00119,MA003,red_card,25,2025-02-28,Fulham,Chelsea,3,3
+EV01178,M00119,RA001,goal,15,2025-02-28,Fulham,Chelsea,3,3
+EV01179,M00119,MA003,red_card,11,2025-02-28,Fulham,Chelsea,3,3
+EV01180,M00119,MA008,assist,78,2025-02-28,Fulham,Chelsea,3,3
+EV01181,M00119,EN001,assist,63,2025-02-28,Fulham,Chelsea,3,3
+EV01182,M00120,BE003,red_card,82,2025-04-03,Everton,Fulham,3,4
+EV01183,M00120,GO001,red_card,34,2025-04-03,Everton,Fulham,3,4
+EV01184,M00120,HE001,yellow_card,2,2025-04-03,Everton,Fulham,3,4
+EV01185,M00120,PE002,assist,17,2025-04-03,Everton,Fulham,3,4
+EV01186,M00120,PE002,substitution,63,2025-04-03,Everton,Fulham,3,4
+EV01187,M00120,RA001,assist,19,2025-04-03,Everton,Fulham,3,4
+EV01188,M00120,MA008,goal,88,2025-04-03,Everton,Fulham,3,4
+EV01189,M00120,AL004,goal,35,2025-04-03,Everton,Fulham,3,4
+EV01190,M00120,RA001,assist,83,2025-04-03,Everton,Fulham,3,4
+EV01191,M00120,JO006,substitution,34,2025-04-03,Everton,Fulham,3,4
+EV01192,M00120,AL004,substitution,81,2025-04-03,Everton,Fulham,3,4
+EV01193,M00121,BR001,goal,60,2025-03-18,Chelsea,Manchester United,3,3
+EV01194,M00121,SU001,assist,13,2025-03-18,Chelsea,Manchester United,3,3
+EV01195,M00121,AN002,goal,41,2025-03-18,Chelsea,Manchester United,3,3
+EV01196,M00121,EN001,goal,14,2025-03-18,Chelsea,Manchester United,3,3
+EV01197,M00121,NI001,substitution,50,2025-03-18,Chelsea,Manchester United,3,3
+EV01198,M00121,HA001,goal,44,2025-03-18,Chelsea,Manchester United,3,3
+EV01199,M00121,JA002,goal,28,2025-03-18,Chelsea,Manchester United,3,3
+EV01200,M00121,NI001,red_card,12,2025-03-18,Chelsea,Manchester United,3,3
+EV01201,M00121,SU001,yellow_card,7,2025-03-18,Chelsea,Manchester United,3,3
+EV01202,M00121,MA003,substitution,81,2025-03-18,Chelsea,Manchester United,3,3
+EV01203,M00121,EN001,assist,71,2025-03-18,Chelsea,Manchester United,3,3
+EV01204,M00122,JO009,yellow_card,79,2024-08-31,Brentford,Tottenham,2,3
+EV01205,M00122,PA001,red_card,22,2024-08-31,Brentford,Tottenham,2,3
+EV01206,M00122,YO002,substitution,2,2024-08-31,Brentford,Tottenham,2,3
+EV01207,M00122,MI004,substitution,24,2024-08-31,Brentford,Tottenham,2,3
+EV01208,M00122,DA005,red_card,45,2024-08-31,Brentford,Tottenham,2,3
+EV01209,M00122,RA002,assist,22,2024-08-31,Brentford,Tottenham,2,3
+EV01210,M00122,YO001,assist,55,2024-08-31,Brentford,Tottenham,2,3
+EV01211,M00122,MI004,substitution,62,2024-08-31,Brentford,Tottenham,2,3
+EV01212,M00123,JA003,red_card,38,2024-08-16,Tottenham,Bournemouth,4,0
+EV01213,M00123,JA003,assist,56,2024-08-16,Tottenham,Bournemouth,4,0
+EV01214,M00123,SO001,yellow_card,49,2024-08-16,Tottenham,Bournemouth,4,0
+EV01215,M00123,MA005,goal,12,2024-08-16,Tottenham,Bournemouth,4,0
+EV01216,M00123,PA001,goal,64,2024-08-16,Tottenham,Bournemouth,4,0
+EV01217,M00123,JA003,red_card,90,2024-08-16,Tottenham,Bournemouth,4,0
+EV01218,M00123,SO001,red_card,41,2024-08-16,Tottenham,Bournemouth,4,0
+EV01219,M00123,MA004,assist,54,2024-08-16,Tottenham,Bournemouth,4,0
+EV01220,M00123,MA005,yellow_card,82,2024-08-16,Tottenham,Bournemouth,4,0
+EV01221,M00123,CR001,red_card,48,2024-08-16,Tottenham,Bournemouth,4,0
+EV01222,M00124,BE002,assist,67,2025-05-15,Arsenal,Chelsea,3,2
+EV01223,M00124,JO003,goal,89,2025-05-15,Arsenal,Chelsea,3,2
+EV01224,M00124,RE001,red_card,2,2025-05-15,Arsenal,Chelsea,3,2
+EV01225,M00124,KA002,substitution,19,2025-05-15,Arsenal,Chelsea,3,2
+EV01226,M00124,WH001,red_card,56,2025-05-15,Arsenal,Chelsea,3,2
+EV01227,M00124,SU001,yellow_card,21,2025-05-15,Arsenal,Chelsea,3,2
+EV01228,M00124,BE001,substitution,33,2025-05-15,Arsenal,Chelsea,3,2
+EV01229,M00124,BU001,goal,57,2025-05-15,Arsenal,Chelsea,3,2
+EV01230,M00125,LE001,substitution,40,2024-09-20,Aston Villa,Southampton,1,0
+EV01231,M00125,KO001,yellow_card,21,2024-09-20,Aston Villa,Southampton,1,0
+EV01232,M00125,GA002,yellow_card,63,2024-09-20,Aston Villa,Southampton,1,0
+EV01233,M00125,KO001,substitution,44,2024-09-20,Aston Villa,Southampton,1,0
+EV01234,M00125,CA003,yellow_card,30,2024-09-20,Aston Villa,Southampton,1,0
+EV01235,M00125,JO004,substitution,13,2024-09-20,Aston Villa,Southampton,1,0
+EV01236,M00125,PA002,substitution,74,2024-09-20,Aston Villa,Southampton,1,0
+EV01237,M00125,LE001,assist,60,2024-09-20,Aston Villa,Southampton,1,0
+EV01238,M00125,RO003,substitution,51,2024-09-20,Aston Villa,Southampton,1,0
+EV01239,M00125,EM002,substitution,18,2024-09-20,Aston Villa,Southampton,1,0
+EV01240,M00126,CA002,red_card,20,2025-01-28,Everton,Luton Town,3,1
+EV01241,M00126,JA012,yellow_card,1,2025-01-28,Everton,Luton Town,3,1
+EV01242,M00126,HA003,yellow_card,26,2025-01-28,Everton,Luton Town,3,1
+EV01243,M00126,TY001,yellow_card,21,2025-01-28,Everton,Luton Town,3,1
+EV01244,M00126,JO006,assist,61,2025-01-28,Everton,Luton Town,3,1
+EV01245,M00126,CA002,yellow_card,75,2025-01-28,Everton,Luton Town,3,1
+EV01246,M00126,MI003,assist,75,2025-01-28,Everton,Luton Town,3,1
+EV01247,M00126,VI004,red_card,29,2025-01-28,Everton,Luton Town,3,1
+EV01248,M00127,PE004,yellow_card,8,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01249,M00127,MI006,assist,11,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01250,M00127,WI002,assist,11,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01251,M00127,JO015,assist,43,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01252,M00127,JO014,assist,9,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01253,M00127,JO014,yellow_card,81,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01254,M00127,ED002,red_card,76,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01255,M00127,AL006,assist,43,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01256,M00127,MA009,goal,60,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01257,M00127,TI001,goal,14,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01258,M00127,JE001,assist,43,2024-12-21,Newcastle,Crystal Palace,3,0
+EV01259,M00128,DI002,goal,74,2024-08-16,Aston Villa,Newcastle,3,1
+EV01260,M00128,MI006,assist,32,2024-08-16,Aston Villa,Newcastle,3,1
+EV01261,M00128,JO015,assist,49,2024-08-16,Aston Villa,Newcastle,3,1
+EV01262,M00128,JA004,substitution,31,2024-08-16,Aston Villa,Newcastle,3,1
+EV01263,M00128,JO004,goal,12,2024-08-16,Aston Villa,Newcastle,3,1
+EV01264,M00128,EM002,goal,84,2024-08-16,Aston Villa,Newcastle,3,1
+EV01265,M00128,KO001,substitution,78,2024-08-16,Aston Villa,Newcastle,3,1
+EV01266,M00128,AL006,red_card,87,2024-08-16,Aston Villa,Newcastle,3,1
+EV01267,M00128,AN004,red_card,11,2024-08-16,Aston Villa,Newcastle,3,1
+EV01268,M00128,NI004,yellow_card,53,2024-08-16,Aston Villa,Newcastle,3,1
+EV01269,M00129,PH001,yellow_card,64,2024-10-11,Manchester City,West Ham,4,2
+EV01270,M00129,KC001,red_card,46,2024-10-11,Manchester City,West Ham,4,2
+EV01271,M00129,LU002,goal,40,2024-10-11,Manchester City,West Ham,4,2
+EV01272,M00129,ED001,goal,74,2024-10-11,Manchester City,West Ham,4,2
+EV01273,M00129,JA001,substitution,54,2024-10-11,Manchester City,West Ham,4,2
+EV01274,M00129,MI002,yellow_card,54,2024-10-11,Manchester City,West Ham,4,2
+EV01275,M00129,KA001,red_card,76,2024-10-11,Manchester City,West Ham,4,2
+EV01276,M00129,JA001,substitution,69,2024-10-11,Manchester City,West Ham,4,2
+EV01277,M00129,JO001,goal,82,2024-10-11,Manchester City,West Ham,4,2
+EV01278,M00130,GA003,substitution,34,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01279,M00130,GA003,assist,60,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01280,M00130,ER001,assist,20,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01281,M00130,RA003,yellow_card,5,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01282,M00130,TR003,assist,5,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01283,M00130,SA001,substitution,77,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01284,M00130,RO001,yellow_card,60,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01285,M00130,JU002,substitution,69,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01286,M00130,JU002,assist,70,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01287,M00130,SE001,goal,52,2024-08-30,Wolverhampton,Manchester City,0,2
+EV01288,M00131,DI002,assist,56,2025-04-12,Newcastle,West Ham,1,0
+EV01289,M00131,JO014,yellow_card,82,2025-04-12,Newcastle,West Ham,1,0
+EV01290,M00131,SA002,goal,55,2025-04-12,Newcastle,West Ham,1,0
+EV01291,M00131,LU002,goal,52,2025-04-12,Newcastle,West Ham,1,0
+EV01292,M00131,JA007,red_card,23,2025-04-12,Newcastle,West Ham,1,0
+EV01293,M00131,JO015,substitution,62,2025-04-12,Newcastle,West Ham,1,0
+EV01294,M00131,EM003,red_card,45,2025-04-12,Newcastle,West Ham,1,0
+EV01295,M00131,MI006,red_card,18,2025-04-12,Newcastle,West Ham,1,0
+EV01296,M00131,SA002,red_card,11,2025-04-12,Newcastle,West Ham,1,0
+EV01297,M00132,WI001,assist,22,2025-02-10,Chelsea,Fulham,3,1
+EV01298,M00132,AL002,red_card,55,2025-02-10,Chelsea,Fulham,3,1
+EV01299,M00132,WI001,goal,33,2025-02-10,Chelsea,Fulham,3,1
+EV01300,M00132,AN003,goal,18,2025-02-10,Chelsea,Fulham,3,1
+EV01301,M00132,SU001,yellow_card,55,2025-02-10,Chelsea,Fulham,3,1
+EV01302,M00132,RO002,goal,66,2025-02-10,Chelsea,Fulham,3,1
+EV01303,M00132,RO002,goal,13,2025-02-10,Chelsea,Fulham,3,1
+EV01304,M00132,RA001,assist,71,2025-02-10,Chelsea,Fulham,3,1
+EV01305,M00132,NI001,yellow_card,55,2025-02-10,Chelsea,Fulham,3,1
+EV01306,M00133,WI003,yellow_card,28,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01307,M00133,JO011,substitution,39,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01308,M00133,HU002,goal,74,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01309,M00133,PO001,yellow_card,36,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01310,M00133,DE003,goal,33,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01311,M00133,JO012,goal,21,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01312,M00133,ST001,goal,4,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01313,M00133,ST001,substitution,41,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01314,M00133,ST001,goal,5,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01315,M00133,DO003,substitution,44,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01316,M00133,DO003,yellow_card,54,2025-03-24,Leicester City,Wolverhampton,3,4
+EV01317,M00134,TA003,substitution,62,2025-01-19,Brighton,Liverpool,3,2
+EV01318,M00134,PE001,assist,40,2025-01-19,Brighton,Liverpool,3,2
+EV01319,M00134,VI001,red_card,32,2025-01-19,Brighton,Liverpool,3,2
+EV01320,M00134,RY001,assist,79,2025-01-19,Brighton,Liverpool,3,2
+EV01321,M00134,TA003,goal,6,2025-01-19,Brighton,Liverpool,3,2
+EV01322,M00134,AI001,goal,81,2025-01-19,Brighton,Liverpool,3,2
+EV01323,M00134,AN001,assist,62,2025-01-19,Brighton,Liverpool,3,2
+EV01324,M00134,RO004,red_card,42,2025-01-19,Brighton,Liverpool,3,2
+EV01325,M00135,KO001,red_card,32,2025-02-08,Aston Villa,West Ham,2,1
+EV01326,M00135,RO003,assist,40,2025-02-08,Aston Villa,West Ham,2,1
+EV01327,M00135,DA003,red_card,90,2025-02-08,Aston Villa,West Ham,2,1
+EV01328,M00135,RO003,substitution,68,2025-02-08,Aston Villa,West Ham,2,1
+EV01329,M00135,MI002,red_card,60,2025-02-08,Aston Villa,West Ham,2,1
+EV01330,M00135,DE002,yellow_card,25,2025-02-08,Aston Villa,West Ham,2,1
+EV01331,M00135,JO004,goal,90,2025-02-08,Aston Villa,West Ham,2,1
+EV01332,M00135,PA002,yellow_card,76,2025-02-08,Aston Villa,West Ham,2,1
+EV01333,M00136,WI003,yellow_card,79,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01334,M00136,TR003,red_card,12,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01335,M00136,DO003,assist,58,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01336,M00136,GA003,assist,44,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01337,M00136,PO001,substitution,10,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01338,M00136,LO001,substitution,76,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01339,M00136,SE001,goal,10,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01340,M00136,LO001,goal,61,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01341,M00136,PO001,assist,20,2024-10-21,Wolverhampton,Leicester City,1,2
+EV01342,M00137,KA002,goal,34,2024-12-16,Southampton,Arsenal,0,2
+EV01343,M00137,MO002,red_card,46,2024-12-16,Southampton,Arsenal,0,2
+EV01344,M00137,TA001,red_card,38,2024-12-16,Southampton,Arsenal,0,2
+EV01345,M00137,HA002,yellow_card,57,2024-12-16,Southampton,Arsenal,0,2
+EV01346,M00137,WH001,goal,50,2024-12-16,Southampton,Arsenal,0,2
+EV01347,M00137,HA002,yellow_card,41,2024-12-16,Southampton,Arsenal,0,2
+EV01348,M00137,DE001,red_card,24,2024-12-16,Southampton,Arsenal,0,2
+EV01349,M00137,CA003,yellow_card,20,2024-12-16,Southampton,Arsenal,0,2
+EV01350,M00138,PA002,yellow_card,83,2025-01-27,Aston Villa,Liverpool,3,3
+EV01351,M00138,RY001,red_card,2,2025-01-27,Aston Villa,Liverpool,3,3
+EV01352,M00138,JO004,substitution,48,2025-01-27,Aston Villa,Liverpool,3,3
+EV01353,M00138,LE001,red_card,32,2025-01-27,Aston Villa,Liverpool,3,3
+EV01354,M00138,CU001,red_card,52,2025-01-27,Aston Villa,Liverpool,3,3
+EV01355,M00138,MO004,red_card,18,2025-01-27,Aston Villa,Liverpool,3,3
+EV01356,M00138,LU001,yellow_card,8,2025-01-27,Aston Villa,Liverpool,3,3
+EV01357,M00138,DI001,goal,51,2025-01-27,Aston Villa,Liverpool,3,3
+EV01358,M00139,LU001,yellow_card,8,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01359,M00139,JE001,red_card,73,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01360,M00139,WI002,substitution,72,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01361,M00139,DO001,yellow_card,49,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01362,M00139,WI002,yellow_card,16,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01363,M00139,CU001,assist,19,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01364,M00139,MO001,assist,21,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01365,M00139,MO001,assist,63,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01366,M00139,WI002,substitution,18,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01367,M00139,VI003,yellow_card,64,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01368,M00139,RY001,assist,28,2025-02-17,Crystal Palace,Liverpool,1,4
+EV01369,M00140,BU001,yellow_card,30,2025-02-11,Manchester United,Arsenal,3,2
+EV01370,M00140,VA001,goal,20,2025-02-11,Manchester United,Arsenal,3,2
+EV01371,M00140,MO002,goal,53,2025-02-11,Manchester United,Arsenal,3,2
+EV01372,M00140,DA001,yellow_card,90,2025-02-11,Manchester United,Arsenal,3,2
+EV01373,M00140,AR001,red_card,34,2025-02-11,Manchester United,Arsenal,3,2
+EV01374,M00140,MO002,red_card,60,2025-02-11,Manchester United,Arsenal,3,2
+EV01375,M00140,BR001,goal,4,2025-02-11,Manchester United,Arsenal,3,2
+EV01376,M00140,DE001,red_card,57,2025-02-11,Manchester United,Arsenal,3,2
+EV01377,M00140,AN002,assist,46,2025-02-11,Manchester United,Arsenal,3,2
+EV01378,M00141,PA005,substitution,62,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01379,M00141,PA005,assist,26,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01380,M00141,WI002,yellow_card,10,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01381,M00141,WI002,red_card,14,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01382,M00141,HA003,substitution,72,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01383,M00141,VI003,goal,7,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01384,M00141,PA005,yellow_card,23,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01385,M00141,TY001,substitution,77,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01386,M00141,TA004,substitution,40,2024-10-24,Luton Town,Crystal Palace,3,4
+EV01387,M00142,JA005,goal,26,2024-11-14,Brighton,Leicester City,2,0
+EV01388,M00142,JA006,substitution,47,2024-11-14,Brighton,Leicester City,2,0
+EV01389,M00142,HU002,assist,85,2024-11-14,Brighton,Leicester City,2,0
+EV01390,M00142,WI003,yellow_card,67,2024-11-14,Brighton,Leicester City,2,0
+EV01391,M00142,DE003,assist,10,2024-11-14,Brighton,Leicester City,2,0
+EV01392,M00142,TA003,goal,65,2024-11-14,Brighton,Leicester City,2,0
+EV01393,M00142,AI001,red_card,46,2024-11-14,Brighton,Leicester City,2,0
+EV01394,M00142,CO002,assist,26,2024-11-14,Brighton,Leicester City,2,0
+EV01395,M00142,MO005,goal,21,2024-11-14,Brighton,Leicester City,2,0
+EV01396,M00142,RO004,substitution,26,2024-11-14,Brighton,Leicester City,2,0
+EV01397,M00142,WE001,substitution,7,2024-11-14,Brighton,Leicester City,2,0
+EV01398,M00142,TA003,assist,40,2024-11-14,Brighton,Leicester City,2,0
+EV01399,M00143,JO005,assist,7,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01400,M00143,JO005,red_card,74,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01401,M00143,CA004,substitution,15,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01402,M00143,SC001,goal,17,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01403,M00143,BR003,red_card,57,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01404,M00143,CR002,goal,34,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01405,M00143,NE002,substitution,81,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01406,M00143,WA001,yellow_card,13,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01407,M00143,NE001,assist,53,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01408,M00143,OL002,yellow_card,4,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01409,M00143,MA006,assist,18,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01410,M00143,BR003,yellow_card,62,2024-11-06,Ipswich Town,Nottingham Forest,2,2
+EV01411,M00144,JA007,red_card,43,2025-03-24,Manchester United,West Ham,2,1
+EV01412,M00144,AL003,goal,83,2025-03-24,Manchester United,West Ham,2,1
+EV01413,M00144,EM003,goal,1,2025-03-24,Manchester United,West Ham,2,1
+EV01414,M00144,VA001,red_card,86,2025-03-24,Manchester United,West Ham,2,1
+EV01415,M00144,JA002,yellow_card,35,2025-03-24,Manchester United,West Ham,2,1
+EV01416,M00144,AR001,red_card,34,2025-03-24,Manchester United,West Ham,2,1
+EV01417,M00144,MU002,yellow_card,27,2025-03-24,Manchester United,West Ham,2,1
+EV01418,M00144,LI001,red_card,46,2025-03-24,Manchester United,West Ham,2,1
+EV01419,M00145,PE002,goal,55,2025-04-01,Everton,Southampton,2,0
+EV01420,M00145,JO006,assist,46,2025-04-01,Everton,Southampton,2,0
+EV01421,M00145,WY001,yellow_card,6,2025-04-01,Everton,Southampton,2,0
+EV01422,M00145,JA009,assist,58,2025-04-01,Everton,Southampton,2,0
+EV01423,M00145,CA002,yellow_card,1,2025-04-01,Everton,Southampton,2,0
+EV01424,M00145,KA003,yellow_card,70,2025-04-01,Everton,Southampton,2,0
+EV01425,M00145,JO006,substitution,43,2025-04-01,Everton,Southampton,2,0
+EV01426,M00145,MI003,assist,60,2025-04-01,Everton,Southampton,2,0
+EV01427,M00145,MI003,red_card,6,2025-04-01,Everton,Southampton,2,0
+EV01428,M00145,CA003,red_card,73,2025-04-01,Everton,Southampton,2,0
+EV01429,M00145,RI002,substitution,50,2025-04-01,Everton,Southampton,2,0
+EV01430,M00145,GA002,yellow_card,54,2025-04-01,Everton,Southampton,2,0
+EV01431,M00146,CO001,assist,71,2025-01-18,Chelsea,Southampton,1,4
+EV01432,M00146,PE003,yellow_card,34,2025-01-18,Chelsea,Southampton,1,4
+EV01433,M00146,MA003,red_card,48,2025-01-18,Chelsea,Southampton,1,4
+EV01434,M00146,EN001,substitution,76,2025-01-18,Chelsea,Southampton,1,4
+EV01435,M00146,HA002,goal,68,2025-01-18,Chelsea,Southampton,1,4
+EV01436,M00146,BE002,assist,42,2025-01-18,Chelsea,Southampton,1,4
+EV01437,M00146,MO003,substitution,5,2025-01-18,Chelsea,Southampton,1,4
+EV01438,M00146,JA009,yellow_card,28,2025-01-18,Chelsea,Southampton,1,4
+EV01439,M00146,CO001,assist,16,2025-01-18,Chelsea,Southampton,1,4
+EV01440,M00146,YU001,assist,45,2025-01-18,Chelsea,Southampton,1,4
+EV01441,M00146,JA009,red_card,14,2025-01-18,Chelsea,Southampton,1,4
+EV01442,M00146,BE002,assist,49,2025-01-18,Chelsea,Southampton,1,4
+EV01443,M00147,LE003,goal,71,2025-04-05,Fulham,Luton Town,4,0
+EV01444,M00147,LE003,red_card,45,2025-04-05,Fulham,Luton Town,4,0
+EV01445,M00147,BE003,goal,5,2025-04-05,Fulham,Luton Town,4,0
+EV01446,M00147,TY001,red_card,58,2025-04-05,Fulham,Luton Town,4,0
+EV01447,M00147,AN003,substitution,28,2025-04-05,Fulham,Luton Town,4,0
+EV01448,M00147,AL002,red_card,19,2025-04-05,Fulham,Luton Town,4,0
+EV01449,M00147,HA003,red_card,50,2025-04-05,Fulham,Luton Town,4,0
+EV01450,M00147,VI004,goal,29,2025-04-05,Fulham,Luton Town,4,0
+EV01451,M00147,RA001,substitution,2,2025-04-05,Fulham,Luton Town,4,0
+EV01452,M00147,TA004,red_card,40,2025-04-05,Fulham,Luton Town,4,0
+EV01453,M00147,AL002,substitution,69,2025-04-05,Fulham,Luton Town,4,0
+EV01454,M00147,RO005,yellow_card,57,2025-04-05,Fulham,Luton Town,4,0
+EV01455,M00148,DA003,substitution,45,2025-04-28,West Ham,Everton,3,4
+EV01456,M00148,PE002,red_card,62,2025-04-28,West Ham,Everton,3,4
+EV01457,M00148,AL003,goal,42,2025-04-28,West Ham,Everton,3,4
+EV01458,M00148,AL004,goal,88,2025-04-28,West Ham,Everton,3,4
+EV01459,M00148,MU002,red_card,57,2025-04-28,West Ham,Everton,3,4
+EV01460,M00148,DA003,substitution,60,2025-04-28,West Ham,Everton,3,4
+EV01461,M00148,CA002,yellow_card,76,2025-04-28,West Ham,Everton,3,4
+EV01462,M00148,AL004,yellow_card,55,2025-04-28,West Ham,Everton,3,4
+EV01463,M00148,DA004,yellow_card,12,2025-04-28,West Ham,Everton,3,4
+EV01464,M00148,LU002,goal,8,2025-04-28,West Ham,Everton,3,4
+EV01465,M00149,JO012,goal,51,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01466,M00149,SA001,red_card,46,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01467,M00149,DA002,yellow_card,60,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01468,M00149,MA004,assist,84,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01469,M00149,VI002,red_card,63,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01470,M00149,YO001,substitution,81,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01471,M00149,SO001,substitution,73,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01472,M00149,PI001,substitution,81,2025-02-14,Tottenham,Wolverhampton,4,3
+EV01473,M00150,CA006,goal,10,2024-11-30,Luton Town,Manchester City,0,0
+EV01474,M00150,JA012,substitution,73,2024-11-30,Luton Town,Manchester City,0,0
+EV01475,M00150,PA005,goal,53,2024-11-30,Luton Town,Manchester City,0,0
+EV01476,M00150,ER001,yellow_card,65,2024-11-30,Luton Town,Manchester City,0,0
+EV01477,M00150,PH001,red_card,67,2024-11-30,Luton Town,Manchester City,0,0
+EV01478,M00150,RY002,assist,85,2024-11-30,Luton Town,Manchester City,0,0
+EV01479,M00150,RY002,substitution,20,2024-11-30,Luton Town,Manchester City,0,0
+EV01480,M00150,CA006,substitution,17,2024-11-30,Luton Town,Manchester City,0,0
+EV01481,M00150,VI004,substitution,70,2024-11-30,Luton Town,Manchester City,0,0
+EV01482,M00150,LE003,yellow_card,21,2024-11-30,Luton Town,Manchester City,0,0
+EV01483,M00150,TY001,goal,40,2024-11-30,Luton Town,Manchester City,0,0
+EV01484,M00150,KC001,red_card,14,2024-11-30,Luton Town,Manchester City,0,0
+EV01485,M00151,WA001,red_card,88,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01486,M00151,AN002,yellow_card,48,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01487,M00151,AR001,red_card,43,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01488,M00151,JA002,goal,33,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01489,M00151,WA001,assist,42,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01490,M00151,DA001,yellow_card,36,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01491,M00151,CR002,yellow_card,44,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01492,M00151,JO005,goal,17,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01493,M00151,WA001,red_card,35,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01494,M00151,AW001,yellow_card,16,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01495,M00151,NE001,assist,90,2024-12-11,Manchester United,Nottingham Forest,0,3
+EV01496,M00152,BR002,assist,59,2025-02-20,West Ham,Tottenham,2,1
+EV01497,M00152,EM003,yellow_card,8,2025-02-20,West Ham,Tottenham,2,1
+EV01498,M00152,PI001,yellow_card,24,2025-02-20,West Ham,Tottenham,2,1
+EV01499,M00152,MA004,goal,78,2025-02-20,West Ham,Tottenham,2,1
+EV01500,M00152,VI002,yellow_card,73,2025-02-20,West Ham,Tottenham,2,1
+EV01501,M00152,DE002,substitution,71,2025-02-20,West Ham,Tottenham,2,1
+EV01502,M00152,PA004,red_card,39,2025-02-20,West Ham,Tottenham,2,1
+EV01503,M00152,VI002,assist,10,2025-02-20,West Ham,Tottenham,2,1
+EV01504,M00152,DA003,yellow_card,16,2025-02-20,West Ham,Tottenham,2,1
+EV01505,M00152,DA003,substitution,68,2025-02-20,West Ham,Tottenham,2,1
+EV01506,M00152,EM003,red_card,43,2025-02-20,West Ham,Tottenham,2,1
+EV01507,M00153,CR002,red_card,61,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01508,M00153,MA007,yellow_card,35,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01509,M00153,MA007,yellow_card,47,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01510,M00153,MO004,yellow_card,30,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01511,M00153,JO005,substitution,41,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01512,M00153,MU001,substitution,73,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01513,M00153,AW001,substitution,51,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01514,M00153,BR003,red_card,81,2024-11-28,Nottingham Forest,Aston Villa,0,0
+EV01515,M00154,JS001,assist,41,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01516,M00154,RE001,yellow_card,73,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01517,M00154,NI001,yellow_card,58,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01518,M00154,AL005,assist,6,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01519,M00154,NE002,assist,74,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01520,M00154,BE002,yellow_card,79,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01521,M00154,RE001,goal,49,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01522,M00154,RE001,yellow_card,84,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01523,M00154,MA003,yellow_card,60,2025-03-30,Chelsea,Ipswich Town,1,1
+EV01524,M00155,AL002,substitution,20,2025-03-24,Fulham,Everton,4,2
+EV01525,M00155,CA002,red_card,12,2025-03-24,Fulham,Everton,4,2
+EV01526,M00155,MI003,yellow_card,59,2025-03-24,Fulham,Everton,4,2
+EV01527,M00155,AN003,red_card,30,2025-03-24,Fulham,Everton,4,2
+EV01528,M00155,RE002,assist,21,2025-03-24,Fulham,Everton,4,2
+EV01529,M00155,HE001,goal,26,2025-03-24,Fulham,Everton,4,2
+EV01530,M00155,RE002,red_card,10,2025-03-24,Fulham,Everton,4,2
+EV01531,M00155,JO007,yellow_card,17,2025-03-24,Fulham,Everton,4,2
+EV01532,M00155,BE003,yellow_card,47,2025-03-24,Fulham,Everton,4,2
+EV01533,M00156,JA011,red_card,85,2024-11-15,Leicester City,Manchester United,0,4
+EV01534,M00156,AN002,yellow_card,32,2024-11-15,Leicester City,Manchester United,0,4
+EV01535,M00156,JO011,substitution,36,2024-11-15,Leicester City,Manchester United,0,4
+EV01536,M00156,CA001,goal,74,2024-11-15,Leicester City,Manchester United,0,4
+EV01537,M00156,HA001,assist,44,2024-11-15,Leicester City,Manchester United,0,4
+EV01538,M00156,AR001,yellow_card,5,2024-11-15,Leicester City,Manchester United,0,4
+EV01539,M00156,AR001,yellow_card,54,2024-11-15,Leicester City,Manchester United,0,4
+EV01540,M00156,CA001,yellow_card,11,2024-11-15,Leicester City,Manchester United,0,4
+EV01541,M00157,JA004,red_card,75,2025-05-25,Luton Town,Aston Villa,2,0
+EV01542,M00157,JA004,assist,76,2025-05-25,Luton Town,Aston Villa,2,0
+EV01543,M00157,LE001,red_card,61,2025-05-25,Luton Town,Aston Villa,2,0
+EV01544,M00157,HA003,assist,32,2025-05-25,Luton Town,Aston Villa,2,0
+EV01545,M00157,RO005,yellow_card,16,2025-05-25,Luton Town,Aston Villa,2,0
+EV01546,M00157,VI004,substitution,53,2025-05-25,Luton Town,Aston Villa,2,0
+EV01547,M00157,KO001,red_card,31,2025-05-25,Luton Town,Aston Villa,2,0
+EV01548,M00157,TA004,red_card,59,2025-05-25,Luton Town,Aston Villa,2,0
+EV01549,M00157,RO005,substitution,88,2025-05-25,Luton Town,Aston Villa,2,0
+EV01550,M00157,JO004,red_card,22,2025-05-25,Luton Town,Aston Villa,2,0
+EV01551,M00158,NI001,red_card,77,2024-12-07,Fulham,Chelsea,2,1
+EV01552,M00158,BE002,red_card,21,2024-12-07,Fulham,Chelsea,2,1
+EV01553,M00158,EN001,red_card,31,2024-12-07,Fulham,Chelsea,2,1
+EV01554,M00158,RE002,yellow_card,28,2024-12-07,Fulham,Chelsea,2,1
+EV01555,M00158,AN003,substitution,50,2024-12-07,Fulham,Chelsea,2,1
+EV01556,M00158,GO001,substitution,45,2024-12-07,Fulham,Chelsea,2,1
+EV01557,M00158,CO001,red_card,80,2024-12-07,Fulham,Chelsea,2,1
+EV01558,M00158,LA001,red_card,88,2024-12-07,Fulham,Chelsea,2,1
+EV01559,M00158,EN001,red_card,22,2024-12-07,Fulham,Chelsea,2,1
+EV01560,M00158,MA008,substitution,43,2024-12-07,Fulham,Chelsea,2,1
+EV01561,M00158,RE001,goal,58,2024-12-07,Fulham,Chelsea,2,1
+EV01562,M00158,NI001,goal,89,2024-12-07,Fulham,Chelsea,2,1
+EV01563,M00159,PA003,goal,70,2024-09-19,Brighton,Liverpool,1,1
+EV01564,M00159,RO004,substitution,44,2024-09-19,Brighton,Liverpool,1,1
+EV01565,M00159,AL001,red_card,63,2024-09-19,Brighton,Liverpool,1,1
+EV01566,M00159,MO001,red_card,71,2024-09-19,Brighton,Liverpool,1,1
+EV01567,M00159,WE001,substitution,50,2024-09-19,Brighton,Liverpool,1,1
+EV01568,M00159,PA003,substitution,68,2024-09-19,Brighton,Liverpool,1,1
+EV01569,M00159,PA003,assist,70,2024-09-19,Brighton,Liverpool,1,1
+EV01570,M00159,TA003,red_card,4,2024-09-19,Brighton,Liverpool,1,1
+EV01571,M00159,PE001,assist,77,2024-09-19,Brighton,Liverpool,1,1
+EV01572,M00160,RO001,assist,60,2024-10-11,Manchester City,Brentford,4,1
+EV01573,M00160,RI004,assist,50,2024-10-11,Manchester City,Brentford,4,1
+EV01574,M00160,KO002,yellow_card,80,2024-10-11,Manchester City,Brentford,4,1
+EV01575,M00160,PH001,yellow_card,30,2024-10-11,Manchester City,Brentford,4,1
+EV01576,M00160,KA001,yellow_card,67,2024-10-11,Manchester City,Brentford,4,1
+EV01577,M00160,KA001,assist,51,2024-10-11,Manchester City,Brentford,4,1
+EV01578,M00160,JO001,substitution,76,2024-10-11,Manchester City,Brentford,4,1
+EV01579,M00160,MA001,red_card,84,2024-10-11,Manchester City,Brentford,4,1
+EV01580,M00161,TA004,substitution,49,2025-04-03,Luton Town,Chelsea,4,2
+EV01581,M00161,PA005,red_card,47,2025-04-03,Luton Town,Chelsea,4,2
+EV01582,M00161,RO002,red_card,88,2025-04-03,Luton Town,Chelsea,4,2
+EV01583,M00161,SU001,yellow_card,47,2025-04-03,Luton Town,Chelsea,4,2
+EV01584,M00161,NI001,red_card,15,2025-04-03,Luton Town,Chelsea,4,2
+EV01585,M00161,JA012,substitution,40,2025-04-03,Luton Town,Chelsea,4,2
+EV01586,M00161,TA004,assist,52,2025-04-03,Luton Town,Chelsea,4,2
+EV01587,M00161,RO005,goal,47,2025-04-03,Luton Town,Chelsea,4,2
+EV01588,M00161,RO002,assist,67,2025-04-03,Luton Town,Chelsea,4,2
+EV01589,M00161,TA004,assist,90,2025-04-03,Luton Town,Chelsea,4,2
+EV01590,M00161,JS001,red_card,22,2025-04-03,Luton Town,Chelsea,4,2
+EV01591,M00161,NI001,assist,53,2025-04-03,Luton Town,Chelsea,4,2
+EV01592,M00162,CA004,assist,22,2024-09-03,Ipswich Town,Brentford,0,0
+EV01593,M00162,NE002,red_card,39,2024-09-03,Ipswich Town,Brentford,0,0
+EV01594,M00162,NE002,yellow_card,43,2024-09-03,Ipswich Town,Brentford,0,0
+EV01595,M00162,YO002,red_card,33,2024-09-03,Ipswich Town,Brentford,0,0
+EV01596,M00162,RI004,goal,88,2024-09-03,Ipswich Town,Brentford,0,0
+EV01597,M00162,TR002,substitution,40,2024-09-03,Ipswich Town,Brentford,0,0
+EV01598,M00162,OL002,substitution,21,2024-09-03,Ipswich Town,Brentford,0,0
+EV01599,M00162,YO002,yellow_card,45,2024-09-03,Ipswich Town,Brentford,0,0
+EV01600,M00162,AL005,yellow_card,14,2024-09-03,Ipswich Town,Brentford,0,0
+EV01601,M00162,TR002,goal,62,2024-09-03,Ipswich Town,Brentford,0,0
+EV01602,M00162,KO002,yellow_card,70,2024-09-03,Ipswich Town,Brentford,0,0
+EV01603,M00162,JA010,goal,33,2024-09-03,Ipswich Town,Brentford,0,0
+EV01604,M00163,MU002,substitution,61,2024-09-05,West Ham,Newcastle,2,0
+EV01605,M00163,MI002,assist,39,2024-09-05,West Ham,Newcastle,2,0
+EV01606,M00163,PA004,red_card,22,2024-09-05,West Ham,Newcastle,2,0
+EV01607,M00163,JO014,goal,59,2024-09-05,West Ham,Newcastle,2,0
+EV01608,M00163,LU002,goal,68,2024-09-05,West Ham,Newcastle,2,0
+EV01609,M00163,BR005,assist,26,2024-09-05,West Ham,Newcastle,2,0
+EV01610,M00163,AL006,goal,53,2024-09-05,West Ham,Newcastle,2,0
+EV01611,M00163,AL006,red_card,62,2024-09-05,West Ham,Newcastle,2,0
+EV01612,M00163,JO015,goal,14,2024-09-05,West Ham,Newcastle,2,0
+EV01613,M00164,ED001,yellow_card,33,2025-05-22,Manchester City,Leicester City,4,1
+EV01614,M00164,KC001,substitution,79,2025-05-22,Manchester City,Leicester City,4,1
+EV01615,M00164,JO001,assist,2,2025-05-22,Manchester City,Leicester City,4,1
+EV01616,M00164,KC001,goal,30,2025-05-22,Manchester City,Leicester City,4,1
+EV01617,M00164,DO003,yellow_card,87,2025-05-22,Manchester City,Leicester City,4,1
+EV01618,M00164,KC001,goal,22,2025-05-22,Manchester City,Leicester City,4,1
+EV01619,M00164,HU002,goal,34,2025-05-22,Manchester City,Leicester City,4,1
+EV01620,M00164,DE003,yellow_card,17,2025-05-22,Manchester City,Leicester City,4,1
+EV01621,M00164,ER001,assist,11,2025-05-22,Manchester City,Leicester City,4,1
+EV01622,M00164,JU001,red_card,83,2025-05-22,Manchester City,Leicester City,4,1
+EV01623,M00165,HU002,red_card,20,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01624,M00165,TR003,red_card,2,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01625,M00165,SA001,substitution,60,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01626,M00165,PO001,substitution,58,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01627,M00165,SA001,goal,42,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01628,M00165,RA003,goal,20,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01629,M00165,HU002,red_card,23,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01630,M00165,JO013,red_card,61,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01631,M00165,SA001,substitution,75,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01632,M00165,TR003,yellow_card,22,2024-08-23,Wolverhampton,Leicester City,2,3
+EV01633,M00166,PE002,red_card,67,2025-03-16,Everton,Brentford,0,0
+EV01634,M00166,RA002,assist,79,2025-03-16,Everton,Brentford,0,0
+EV01635,M00166,DA005,assist,10,2025-03-16,Everton,Brentford,0,0
+EV01636,M00166,JA008,goal,29,2025-03-16,Everton,Brentford,0,0
+EV01637,M00166,YO002,red_card,51,2025-03-16,Everton,Brentford,0,0
+EV01638,M00166,NI002,substitution,17,2025-03-16,Everton,Brentford,0,0
+EV01639,M00166,NI002,assist,62,2025-03-16,Everton,Brentford,0,0
+EV01640,M00166,JO007,yellow_card,29,2025-03-16,Everton,Brentford,0,0
+EV01641,M00166,RI002,substitution,9,2025-03-16,Everton,Brentford,0,0
+EV01642,M00167,YO002,goal,32,2025-04-27,Brentford,Bournemouth,0,1
+EV01643,M00167,DA005,red_card,11,2025-04-27,Brentford,Bournemouth,0,1
+EV01644,M00167,JO009,assist,13,2025-04-27,Brentford,Bournemouth,0,1
+EV01645,M00167,YO002,substitution,49,2025-04-27,Brentford,Bournemouth,0,1
+EV01646,M00167,JO009,substitution,37,2025-04-27,Brentford,Bournemouth,0,1
+EV01647,M00167,RA002,yellow_card,81,2025-04-27,Brentford,Bournemouth,0,1
+EV01648,M00167,BR004,yellow_card,90,2025-04-27,Brentford,Bournemouth,0,1
+EV01649,M00167,DA005,assist,26,2025-04-27,Brentford,Bournemouth,0,1
+EV01650,M00168,LU001,yellow_card,58,2025-03-27,Liverpool,Chelsea,4,1
+EV01651,M00168,CU001,goal,23,2025-03-27,Liverpool,Chelsea,4,1
+EV01652,M00168,AL001,red_card,42,2025-03-27,Liverpool,Chelsea,4,1
+EV01653,M00168,MO001,goal,5,2025-03-27,Liverpool,Chelsea,4,1
+EV01654,M00168,MO001,red_card,11,2025-03-27,Liverpool,Chelsea,4,1
+EV01655,M00168,JS001,red_card,69,2025-03-27,Liverpool,Chelsea,4,1
+EV01656,M00168,VI001,red_card,27,2025-03-27,Liverpool,Chelsea,4,1
+EV01657,M00168,CO001,red_card,13,2025-03-27,Liverpool,Chelsea,4,1
+EV01658,M00168,AN001,assist,66,2025-03-27,Liverpool,Chelsea,4,1
+EV01659,M00169,MO003,red_card,17,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01660,M00169,WI002,yellow_card,35,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01661,M00169,ED002,red_card,29,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01662,M00169,ED002,goal,36,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01663,M00169,PE004,substitution,62,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01664,M00169,JO010,assist,82,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01665,M00169,JE001,substitution,75,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01666,M00169,CA005,substitution,56,2025-03-22,Crystal Palace,Chelsea,3,1
+EV01667,M00170,MA002,yellow_card,25,2025-05-03,Chelsea,Manchester United,0,0
+EV01668,M00170,MA003,assist,7,2025-05-03,Chelsea,Manchester United,0,0
+EV01669,M00170,AR001,yellow_card,33,2025-05-03,Chelsea,Manchester United,0,0
+EV01670,M00170,NI001,substitution,24,2025-05-03,Chelsea,Manchester United,0,0
+EV01671,M00170,MA003,yellow_card,32,2025-05-03,Chelsea,Manchester United,0,0
+EV01672,M00170,MO003,assist,59,2025-05-03,Chelsea,Manchester United,0,0
+EV01673,M00170,CO001,red_card,88,2025-05-03,Chelsea,Manchester United,0,0
+EV01674,M00170,MA003,assist,83,2025-05-03,Chelsea,Manchester United,0,0
+EV01675,M00171,PO001,yellow_card,85,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01676,M00171,SA001,goal,19,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01677,M00171,TR003,goal,9,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01678,M00171,MO001,substitution,40,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01679,M00171,PO001,goal,78,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01680,M00171,SE001,assist,9,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01681,M00171,LU001,substitution,36,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01682,M00171,DO001,substitution,4,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01683,M00171,PO001,assist,16,2024-10-21,Liverpool,Wolverhampton,4,4
+EV01684,M00172,CA001,assist,68,2025-02-09,Southampton,Manchester United,0,1
+EV01685,M00172,AR001,goal,41,2025-02-09,Southampton,Manchester United,0,1
+EV01686,M00172,CA001,red_card,43,2025-02-09,Southampton,Manchester United,0,1
+EV01687,M00172,KA003,goal,39,2025-02-09,Southampton,Manchester United,0,1
+EV01688,M00172,LI001,assist,2,2025-02-09,Southampton,Manchester United,0,1
+EV01689,M00172,JA009,assist,40,2025-02-09,Southampton,Manchester United,0,1
+EV01690,M00172,RI003,substitution,40,2025-02-09,Southampton,Manchester United,0,1
+EV01691,M00172,MA002,red_card,47,2025-02-09,Southampton,Manchester United,0,1
+EV01692,M00173,DO003,substitution,28,2025-01-07,Leicester City,Brentford,0,4
+EV01693,M00173,EN002,assist,88,2025-01-07,Leicester City,Brentford,0,4
+EV01694,M00173,NI003,yellow_card,90,2025-01-07,Leicester City,Brentford,0,4
+EV01695,M00173,RIC001,assist,30,2025-01-07,Leicester City,Brentford,0,4
+EV01696,M00173,KO002,yellow_card,89,2025-01-07,Leicester City,Brentford,0,4
+EV01697,M00173,MI004,yellow_card,21,2025-01-07,Leicester City,Brentford,0,4
+EV01698,M00173,CO002,substitution,36,2025-01-07,Leicester City,Brentford,0,4
+EV01699,M00173,DO003,red_card,45,2025-01-07,Leicester City,Brentford,0,4
+EV01700,M00173,YU002,red_card,78,2025-01-07,Leicester City,Brentford,0,4
+EV01701,M00173,DO003,substitution,44,2025-01-07,Leicester City,Brentford,0,4
+EV01702,M00173,HU002,yellow_card,29,2025-01-07,Leicester City,Brentford,0,4
+EV01703,M00174,ER001,yellow_card,81,2024-12-04,Liverpool,Manchester City,2,0
+EV01704,M00174,JU001,goal,64,2024-12-04,Liverpool,Manchester City,2,0
+EV01705,M00174,KC001,goal,56,2024-12-04,Liverpool,Manchester City,2,0
+EV01706,M00174,JA001,red_card,90,2024-12-04,Liverpool,Manchester City,2,0
+EV01707,M00174,KA001,goal,66,2024-12-04,Liverpool,Manchester City,2,0
+EV01708,M00174,AN001,yellow_card,48,2024-12-04,Liverpool,Manchester City,2,0
+EV01709,M00174,AN001,yellow_card,39,2024-12-04,Liverpool,Manchester City,2,0
+EV01710,M00174,JU001,assist,90,2024-12-04,Liverpool,Manchester City,2,0
+EV01711,M00175,WY001,yellow_card,46,2024-10-29,Manchester United,Southampton,1,0
+EV01712,M00175,DA001,assist,78,2024-10-29,Manchester United,Southampton,1,0
+EV01713,M00175,JA002,yellow_card,83,2024-10-29,Manchester United,Southampton,1,0
+EV01714,M00175,CA001,substitution,36,2024-10-29,Manchester United,Southampton,1,0
+EV01715,M00175,PE003,yellow_card,64,2024-10-29,Manchester United,Southampton,1,0
+EV01716,M00175,AN002,substitution,37,2024-10-29,Manchester United,Southampton,1,0
+EV01717,M00175,AR001,red_card,73,2024-10-29,Manchester United,Southampton,1,0
+EV01718,M00175,CA003,yellow_card,25,2024-10-29,Manchester United,Southampton,1,0
+EV01719,M00175,RI003,goal,26,2024-10-29,Manchester United,Southampton,1,0
+EV01720,M00175,CA001,goal,26,2024-10-29,Manchester United,Southampton,1,0
+EV01721,M00175,AN002,substitution,76,2024-10-29,Manchester United,Southampton,1,0
+EV01722,M00175,LI001,substitution,88,2024-10-29,Manchester United,Southampton,1,0
+EV01723,M00176,MA007,substitution,53,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01724,M00176,LO001,goal,71,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01725,M00176,LO001,assist,24,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01726,M00176,BR003,red_card,27,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01727,M00176,PO001,goal,71,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01728,M00176,SC001,yellow_card,61,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01729,M00176,JO005,substitution,83,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01730,M00176,RA003,red_card,90,2025-02-14,Nottingham Forest,Wolverhampton,0,1
+EV01731,M00177,WE001,assist,45,2025-05-14,Newcastle,Brighton,2,3
+EV01732,M00177,WE001,goal,40,2025-05-14,Newcastle,Brighton,2,3
+EV01733,M00177,AL006,red_card,88,2025-05-14,Newcastle,Brighton,2,3
+EV01734,M00177,JO014,assist,79,2025-05-14,Newcastle,Brighton,2,3
+EV01735,M00177,AL006,substitution,80,2025-05-14,Newcastle,Brighton,2,3
+EV01736,M00177,TI001,red_card,8,2025-05-14,Newcastle,Brighton,2,3
+EV01737,M00177,WE001,assist,87,2025-05-14,Newcastle,Brighton,2,3
+EV01738,M00177,DI002,yellow_card,72,2025-05-14,Newcastle,Brighton,2,3
+EV01739,M00177,AN004,substitution,10,2025-05-14,Newcastle,Brighton,2,3
+EV01740,M00177,JA006,red_card,47,2025-05-14,Newcastle,Brighton,2,3
+EV01741,M00178,JO005,yellow_card,62,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01742,M00178,MA008,assist,50,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01743,M00178,WA001,goal,38,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01744,M00178,BR003,goal,81,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01745,M00178,MA008,yellow_card,46,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01746,M00178,WI001,assist,39,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01747,M00178,AL002,red_card,67,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01748,M00178,WI001,red_card,42,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01749,M00178,AN003,substitution,19,2025-04-02,Fulham,Nottingham Forest,0,0
+EV01750,M00179,BR001,goal,10,2025-03-25,Brighton,Manchester United,0,4
+EV01751,M00179,PE001,assist,54,2025-03-25,Brighton,Manchester United,0,4
+EV01752,M00179,JA005,yellow_card,65,2025-03-25,Brighton,Manchester United,0,4
+EV01753,M00179,DA001,assist,31,2025-03-25,Brighton,Manchester United,0,4
+EV01754,M00179,AN002,goal,78,2025-03-25,Brighton,Manchester United,0,4
+EV01755,M00179,DA001,yellow_card,5,2025-03-25,Brighton,Manchester United,0,4
+EV01756,M00179,JA005,goal,28,2025-03-25,Brighton,Manchester United,0,4
+EV01757,M00179,AI001,substitution,78,2025-03-25,Brighton,Manchester United,0,4
+EV01758,M00180,SC001,red_card,29,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01759,M00180,VI004,assist,79,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01760,M00180,AW001,goal,9,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01761,M00180,VI004,goal,74,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01762,M00180,JO005,assist,62,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01763,M00180,MU001,red_card,54,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01764,M00180,LE003,substitution,86,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01765,M00180,CA006,assist,29,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01766,M00180,CA006,goal,27,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01767,M00180,JA012,substitution,28,2025-02-06,Luton Town,Nottingham Forest,1,2
+EV01768,M00181,JA011,red_card,89,2024-08-18,Leicester City,Liverpool,1,3
+EV01769,M00181,JO002,goal,48,2024-08-18,Leicester City,Liverpool,1,3
+EV01770,M00181,WI003,yellow_card,61,2024-08-18,Leicester City,Liverpool,1,3
+EV01771,M00181,WI003,substitution,63,2024-08-18,Leicester City,Liverpool,1,3
+EV01772,M00181,WI003,goal,18,2024-08-18,Leicester City,Liverpool,1,3
+EV01773,M00181,CO002,substitution,90,2024-08-18,Leicester City,Liverpool,1,3
+EV01774,M00181,RY001,yellow_card,28,2024-08-18,Leicester City,Liverpool,1,3
+EV01775,M00181,AL001,assist,76,2024-08-18,Leicester City,Liverpool,1,3
+EV01776,M00181,YU002,substitution,31,2024-08-18,Leicester City,Liverpool,1,3
+EV01777,M00182,EM002,substitution,23,2024-10-01,Aston Villa,Chelsea,3,0
+EV01778,M00182,RE001,yellow_card,82,2024-10-01,Aston Villa,Chelsea,3,0
+EV01779,M00182,RO003,yellow_card,64,2024-10-01,Aston Villa,Chelsea,3,0
+EV01780,M00182,JA004,assist,89,2024-10-01,Aston Villa,Chelsea,3,0
+EV01781,M00182,RO002,goal,15,2024-10-01,Aston Villa,Chelsea,3,0
+EV01782,M00182,RO002,red_card,19,2024-10-01,Aston Villa,Chelsea,3,0
+EV01783,M00182,LE001,substitution,60,2024-10-01,Aston Villa,Chelsea,3,0
+EV01784,M00182,BE002,assist,67,2024-10-01,Aston Villa,Chelsea,3,0
+EV01785,M00182,KO001,substitution,5,2024-10-01,Aston Villa,Chelsea,3,0
+EV01786,M00183,BR001,red_card,15,2025-02-25,Manchester United,Chelsea,3,0
+EV01787,M00183,HA001,yellow_card,78,2025-02-25,Manchester United,Chelsea,3,0
+EV01788,M00183,CA001,substitution,28,2025-02-25,Manchester United,Chelsea,3,0
+EV01789,M00183,LI001,substitution,2,2025-02-25,Manchester United,Chelsea,3,0
+EV01790,M00183,CA001,yellow_card,81,2025-02-25,Manchester United,Chelsea,3,0
+EV01791,M00183,BE002,goal,84,2025-02-25,Manchester United,Chelsea,3,0
+EV01792,M00183,MA003,assist,87,2025-02-25,Manchester United,Chelsea,3,0
+EV01793,M00183,AR001,yellow_card,57,2025-02-25,Manchester United,Chelsea,3,0
+EV01794,M00183,LI001,red_card,9,2025-02-25,Manchester United,Chelsea,3,0
+EV01795,M00183,AN002,goal,73,2025-02-25,Manchester United,Chelsea,3,0
+EV01796,M00183,AN002,red_card,52,2025-02-25,Manchester United,Chelsea,3,0
+EV01797,M00184,VI002,yellow_card,54,2024-12-12,Manchester City,Tottenham,3,1
+EV01798,M00184,ER001,goal,65,2024-12-12,Manchester City,Tottenham,3,1
+EV01799,M00184,SO001,goal,6,2024-12-12,Manchester City,Tottenham,3,1
+EV01800,M00184,ER001,goal,58,2024-12-12,Manchester City,Tottenham,3,1
+EV01801,M00184,PH001,goal,59,2024-12-12,Manchester City,Tottenham,3,1
+EV01802,M00184,PI001,assist,44,2024-12-12,Manchester City,Tottenham,3,1
+EV01803,M00184,JA001,goal,52,2024-12-12,Manchester City,Tottenham,3,1
+EV01804,M00184,DA002,goal,8,2024-12-12,Manchester City,Tottenham,3,1
+EV01805,M00184,KC001,substitution,46,2024-12-12,Manchester City,Tottenham,3,1
+EV01806,M00184,YO001,goal,52,2024-12-12,Manchester City,Tottenham,3,1
+EV01807,M00184,JO001,substitution,12,2024-12-12,Manchester City,Tottenham,3,1
+EV01808,M00184,PA001,assist,77,2024-12-12,Manchester City,Tottenham,3,1
+EV01809,M00185,RY001,red_card,3,2025-05-18,Liverpool,Chelsea,0,4
+EV01810,M00185,RO002,goal,44,2025-05-18,Liverpool,Chelsea,0,4
+EV01811,M00185,BE002,red_card,22,2025-05-18,Liverpool,Chelsea,0,4
+EV01812,M00185,RO002,yellow_card,29,2025-05-18,Liverpool,Chelsea,0,4
+EV01813,M00185,RY001,substitution,24,2025-05-18,Liverpool,Chelsea,0,4
+EV01814,M00185,JO002,substitution,21,2025-05-18,Liverpool,Chelsea,0,4
+EV01815,M00185,RY001,yellow_card,24,2025-05-18,Liverpool,Chelsea,0,4
+EV01816,M00185,MO001,red_card,19,2025-05-18,Liverpool,Chelsea,0,4
+EV01817,M00186,KO001,yellow_card,87,2025-01-30,Aston Villa,Chelsea,3,1
+EV01818,M00186,EM002,substitution,74,2025-01-30,Aston Villa,Chelsea,3,1
+EV01819,M00186,EM002,red_card,3,2025-01-30,Aston Villa,Chelsea,3,1
+EV01820,M00186,MA003,yellow_card,76,2025-01-30,Aston Villa,Chelsea,3,1
+EV01821,M00186,PA002,yellow_card,88,2025-01-30,Aston Villa,Chelsea,3,1
+EV01822,M00186,JA004,substitution,37,2025-01-30,Aston Villa,Chelsea,3,1
+EV01823,M00186,BE002,goal,68,2025-01-30,Aston Villa,Chelsea,3,1
+EV01824,M00186,MO003,assist,46,2025-01-30,Aston Villa,Chelsea,3,1
+EV01825,M00187,NE002,red_card,11,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01826,M00187,BU001,yellow_card,14,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01827,M00187,BE001,assist,81,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01828,M00187,AE001,substitution,14,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01829,M00187,KA002,substitution,68,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01830,M00187,JO003,substitution,45,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01831,M00187,GA001,substitution,28,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01832,M00187,TR002,assist,78,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01833,M00187,LE002,yellow_card,52,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01834,M00187,TR002,yellow_card,37,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01835,M00187,TR002,red_card,27,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01836,M00187,BU001,goal,46,2024-09-26,Arsenal,Ipswich Town,4,0
+EV01837,M00188,MI003,goal,86,2024-12-21,Ipswich Town,Everton,0,0
+EV01838,M00188,RI002,yellow_card,59,2024-12-21,Ipswich Town,Everton,0,0
+EV01839,M00188,MI003,goal,8,2024-12-21,Ipswich Town,Everton,0,0
+EV01840,M00188,KI001,goal,18,2024-12-21,Ipswich Town,Everton,0,0
+EV01841,M00188,JA010,yellow_card,88,2024-12-21,Ipswich Town,Everton,0,0
+EV01842,M00188,Wal001,red_card,3,2024-12-21,Ipswich Town,Everton,0,0
+EV01843,M00188,LE002,substitution,26,2024-12-21,Ipswich Town,Everton,0,0
+EV01844,M00188,LE002,substitution,44,2024-12-21,Ipswich Town,Everton,0,0
+EV01845,M00188,AL004,red_card,45,2024-12-21,Ipswich Town,Everton,0,0
+EV01846,M00188,JA008,yellow_card,36,2024-12-21,Ipswich Town,Everton,0,0
+EV01847,M00189,JO011,assist,8,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01848,M00189,JO005,goal,73,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01849,M00189,JA011,substitution,16,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01850,M00189,JO005,goal,68,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01851,M00189,MA007,assist,4,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01852,M00189,SC001,goal,76,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01853,M00189,CO002,substitution,50,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01854,M00189,WI003,assist,23,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01855,M00189,HU002,red_card,8,2025-03-30,Leicester City,Nottingham Forest,3,3
+EV01856,M00190,JO008,red_card,9,2024-10-18,Southampton,Bournemouth,3,4
+EV01857,M00190,PE003,substitution,89,2024-10-18,Southampton,Bournemouth,3,4
+EV01858,M00190,GA002,yellow_card,27,2024-10-18,Southampton,Bournemouth,3,4
+EV01859,M00190,HA002,substitution,88,2024-10-18,Southampton,Bournemouth,3,4
+EV01860,M00190,MI001,assist,40,2024-10-18,Southampton,Bournemouth,3,4
+EV01861,M00190,AT001,yellow_card,56,2024-10-18,Southampton,Bournemouth,3,4
+EV01862,M00190,AT001,red_card,41,2024-10-18,Southampton,Bournemouth,3,4
+EV01863,M00190,RI003,substitution,73,2024-10-18,Southampton,Bournemouth,3,4
+EV01864,M00191,TA002,substitution,84,2025-01-27,Bournemouth,Tottenham,1,3
+EV01865,M00191,PA001,red_card,42,2025-01-27,Bournemouth,Tottenham,1,3
+EV01866,M00191,YO001,red_card,41,2025-01-27,Bournemouth,Tottenham,1,3
+EV01867,M00191,AT001,substitution,54,2025-01-27,Bournemouth,Tottenham,1,3
+EV01868,M00191,PA001,assist,70,2025-01-27,Bournemouth,Tottenham,1,3
+EV01869,M00191,CR001,goal,60,2025-01-27,Bournemouth,Tottenham,1,3
+EV01870,M00191,DW001,red_card,15,2025-01-27,Bournemouth,Tottenham,1,3
+EV01871,M00191,DO002,assist,23,2025-01-27,Bournemouth,Tottenham,1,3
+EV01872,M00191,JA003,goal,59,2025-01-27,Bournemouth,Tottenham,1,3
+EV01873,M00191,BR002,red_card,68,2025-01-27,Bournemouth,Tottenham,1,3
+EV01874,M00191,DA002,yellow_card,20,2025-01-27,Bournemouth,Tottenham,1,3
+EV01875,M00192,MI004,goal,77,2024-10-27,Brentford,Tottenham,1,0
+EV01876,M00192,BR004,goal,19,2024-10-27,Brentford,Tottenham,1,0
+EV01877,M00192,SO001,goal,28,2024-10-27,Brentford,Tottenham,1,0
+EV01878,M00192,RA002,yellow_card,82,2024-10-27,Brentford,Tottenham,1,0
+EV01879,M00192,PI001,red_card,52,2024-10-27,Brentford,Tottenham,1,0
+EV01880,M00192,EN002,red_card,26,2024-10-27,Brentford,Tottenham,1,0
+EV01881,M00192,BR004,substitution,56,2024-10-27,Brentford,Tottenham,1,0
+EV01882,M00192,SO001,assist,35,2024-10-27,Brentford,Tottenham,1,0
+EV01883,M00193,DA005,goal,12,2025-03-18,Brentford,Newcastle,4,0
+EV01884,M00193,DI002,red_card,30,2025-03-18,Brentford,Newcastle,4,0
+EV01885,M00193,RI004,substitution,75,2025-03-18,Brentford,Newcastle,4,0
+EV01886,M00193,YO002,red_card,42,2025-03-18,Brentford,Newcastle,4,0
+EV01887,M00193,EN002,substitution,2,2025-03-18,Brentford,Newcastle,4,0
+EV01888,M00193,NI003,yellow_card,13,2025-03-18,Brentford,Newcastle,4,0
+EV01889,M00193,BR005,goal,76,2025-03-18,Brentford,Newcastle,4,0
+EV01890,M00193,NI004,red_card,37,2025-03-18,Brentford,Newcastle,4,0
+EV01891,M00194,MI001,substitution,4,2024-11-28,Bournemouth,Southampton,0,2
+EV01892,M00194,JA003,substitution,55,2024-11-28,Bournemouth,Southampton,0,2
+EV01893,M00194,EM001,goal,72,2024-11-28,Bournemouth,Southampton,0,2
+EV01894,M00194,JA009,goal,7,2024-11-28,Bournemouth,Southampton,0,2
+EV01895,M00194,TA002,red_card,56,2024-11-28,Bournemouth,Southampton,0,2
+EV01896,M00194,JA003,assist,73,2024-11-28,Bournemouth,Southampton,0,2
+EV01897,M00194,EM001,yellow_card,78,2024-11-28,Bournemouth,Southampton,0,2
+EV01898,M00194,DO002,red_card,59,2024-11-28,Bournemouth,Southampton,0,2
+EV01899,M00194,RI003,red_card,82,2024-11-28,Bournemouth,Southampton,0,2
+EV01900,M00194,DW001,substitution,7,2024-11-28,Bournemouth,Southampton,0,2
+EV01901,M00194,PE003,assist,5,2024-11-28,Bournemouth,Southampton,0,2
+EV01902,M00195,JA010,goal,80,2024-12-06,Everton,Ipswich Town,4,2
+EV01903,M00195,OL002,red_card,90,2024-12-06,Everton,Ipswich Town,4,2
+EV01904,M00195,KI001,yellow_card,83,2024-12-06,Everton,Ipswich Town,4,2
+EV01905,M00195,KI001,goal,84,2024-12-06,Everton,Ipswich Town,4,2
+EV01906,M00195,AL005,goal,9,2024-12-06,Everton,Ipswich Town,4,2
+EV01907,M00195,NE002,red_card,19,2024-12-06,Everton,Ipswich Town,4,2
+EV01908,M00195,JO007,yellow_card,47,2024-12-06,Everton,Ipswich Town,4,2
+EV01909,M00195,DA004,red_card,12,2024-12-06,Everton,Ipswich Town,4,2
+EV01910,M00195,KI001,red_card,73,2024-12-06,Everton,Ipswich Town,4,2
+EV01911,M00196,RA001,goal,33,2025-05-03,Fulham,Liverpool,3,4
+EV01912,M00196,TR001,assist,12,2025-05-03,Fulham,Liverpool,3,4
+EV01913,M00196,DO001,goal,18,2025-05-03,Fulham,Liverpool,3,4
+EV01914,M00196,AL002,substitution,65,2025-05-03,Fulham,Liverpool,3,4
+EV01915,M00196,TR001,red_card,7,2025-05-03,Fulham,Liverpool,3,4
+EV01916,M00196,BE003,goal,74,2025-05-03,Fulham,Liverpool,3,4
+EV01917,M00196,RE002,goal,50,2025-05-03,Fulham,Liverpool,3,4
+EV01918,M00196,RY001,yellow_card,69,2025-05-03,Fulham,Liverpool,3,4
+EV01919,M00196,BE003,substitution,75,2025-05-03,Fulham,Liverpool,3,4
+EV01920,M00196,MA008,substitution,56,2025-05-03,Fulham,Liverpool,3,4
+EV01921,M00196,RE002,yellow_card,66,2025-05-03,Fulham,Liverpool,3,4
+EV01922,M00196,LU001,goal,24,2025-05-03,Fulham,Liverpool,3,4
+EV01923,M00197,HU001,goal,43,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01924,M00197,DW001,goal,60,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01925,M00197,HU001,red_card,80,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01926,M00197,NE002,goal,41,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01927,M00197,OL002,yellow_card,19,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01928,M00197,KI001,substitution,7,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01929,M00197,KI001,goal,10,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01930,M00197,TR002,red_card,24,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01931,M00197,MA005,red_card,89,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01932,M00197,LE002,assist,88,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01933,M00197,CA004,assist,63,2025-01-23,Ipswich Town,Bournemouth,1,4
+EV01934,M00198,EM001,assist,15,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01935,M00198,JA003,red_card,49,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01936,M00198,SA001,assist,86,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01937,M00198,GA003,substitution,5,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01938,M00198,AT001,red_card,53,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01939,M00198,DO002,red_card,24,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01940,M00198,JA003,red_card,30,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01941,M00198,AB001,red_card,35,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01942,M00198,JO013,goal,70,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01943,M00198,GA003,assist,3,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01944,M00198,AB001,assist,7,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01945,M00198,TR003,substitution,24,2024-10-21,Wolverhampton,Bournemouth,4,3
+EV01946,M00199,VI001,substitution,62,2024-09-05,Liverpool,Luton Town,4,2
+EV01947,M00199,TR001,yellow_card,46,2024-09-05,Liverpool,Luton Town,4,2
+EV01948,M00199,AN001,goal,77,2024-09-05,Liverpool,Luton Town,4,2
+EV01949,M00199,JA012,goal,57,2024-09-05,Liverpool,Luton Town,4,2
+EV01950,M00199,JA012,goal,31,2024-09-05,Liverpool,Luton Town,4,2
+EV01951,M00199,AL001,substitution,29,2024-09-05,Liverpool,Luton Town,4,2
+EV01952,M00199,VI001,substitution,1,2024-09-05,Liverpool,Luton Town,4,2
+EV01953,M00199,CU001,goal,37,2024-09-05,Liverpool,Luton Town,4,2
+EV01954,M00199,RY002,assist,32,2024-09-05,Liverpool,Luton Town,4,2
+EV01955,M00199,VI001,yellow_card,43,2024-09-05,Liverpool,Luton Town,4,2
+EV01956,M00199,LU001,substitution,72,2024-09-05,Liverpool,Luton Town,4,2
+EV01957,M00200,CO002,goal,3,2025-04-07,Manchester City,Leicester City,1,4
+EV01958,M00200,KA001,substitution,82,2025-04-07,Manchester City,Leicester City,1,4
+EV01959,M00200,ER001,substitution,72,2025-04-07,Manchester City,Leicester City,1,4
+EV01960,M00200,DO003,assist,8,2025-04-07,Manchester City,Leicester City,1,4
+EV01961,M00200,ER001,substitution,54,2025-04-07,Manchester City,Leicester City,1,4
+EV01962,M00200,ST001,goal,58,2025-04-07,Manchester City,Leicester City,1,4
+EV01963,M00200,YU002,assist,51,2025-04-07,Manchester City,Leicester City,1,4
+EV01964,M00200,JO001,substitution,21,2025-04-07,Manchester City,Leicester City,1,4
+EV01965,M00200,JA011,goal,90,2025-04-07,Manchester City,Leicester City,1,4
+EV01966,M00200,JA001,substitution,38,2025-04-07,Manchester City,Leicester City,1,4
+EV01967,M00200,JU001,substitution,21,2025-04-07,Manchester City,Leicester City,1,4
+EV01968,M00200,KC001,substitution,87,2025-04-07,Manchester City,Leicester City,1,4
