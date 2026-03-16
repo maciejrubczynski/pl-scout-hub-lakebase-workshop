@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to build a real-time OLTP+OLAP application using Databricks Lakebase and Streamlit. A complete tutorial for the PL Live Scout Hub.">
+    <meta name="author" content="Maciej Rubczynski">
+    <meta property="og:title" content="Building a Real-Time OLTP+OLAP App with Databricks Lakebase and Databricks Apps">
+    <meta property="og:description" content="A step-by-step guide to building the PL Live Scout Hub — a Streamlit app that bridges analytical and transactional data on a single platform">
+    <meta property="og:type" content="article">
+    <title>Building a Real-Time OLTP+OLAP App with Databricks Lakebase and Databricks Apps</title>
+    <style>
+        /* Reset and base */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --color-bg: #ffffff;
+            --color-text: #1a1a2e;
+            --color-text-secondary: #555770;
+            --color-accent: #FF3621;
+            --color-accent-light: #FFF0ED;
+            --color-border: #e2e4e9;
+            --color-code-bg: #f6f8fa;
+            --color-callout-bg: #fff8e1;
+            --color-callout-border: #ffb300;
+            --color-tip-bg: #e8f5e9;
+            --color-tip-border: #43a047;
+            --color-warning-bg: #fce4ec;
+            --color-warning-border: #e53935;
+            --font-body: 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+            --font-mono: 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+            --max-width: 780px;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--color-text);
+            background: var(--color-bg);
+            line-height: 1.7;
+            font-size: 17px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header / Hero */
+        .article-hero {
+            background: linear-gradient(135deg, #FF3621 0%, #D62817 50%, #1B3139 100%);
+            color: white;
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+        }
+
+        .article-hero .category {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 1.25rem;
+        }
+
+        .article-hero h1 {
+            font-size: clamp(1.8rem, 4vw, 2.6rem);
+            font-weight: 700;
+            line-height: 1.2;
+            max-width: 700px;
+            margin: 0 auto 1.25rem;
+        }
+
+        .article-hero .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 1.5rem;
+            line-height: 1.5;
+        }
+
+        .article-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            font-size: 0.9rem;
+            opacity: 0.85;
+            flex-wrap: wrap;
+        }
+
+        .article-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        /* Main content */
+        .article-container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 4rem;
+        }
+
+        /* Typography */
+        .article-container h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin: 2.5rem 0 1rem;
+            color: var(--color-text);
+            border-bottom: 2px solid var(--color-accent);
+            padding-bottom: 0.4rem;
+        }
+
+        .article-container h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 2rem 0 0.75rem;
+            color: var(--color-text);
+        }
+
+        .article-container p {
+            margin-bottom: 1.25rem;
+        }
+
+        .article-container a {
+            color: var(--color-accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .article-container a:hover {
+            border-bottom-color: var(--color-accent);
+        }
+
+        /* Lists */
+        .article-container ul, .article-container ol {
+            margin: 0 0 1.25rem 1.5rem;
+        }
+
+        .article-container li {
+            margin-bottom: 0.5rem;
+        }
+
+        /* Images / Screenshots */
+        .article-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--color-border);
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+        }
+
+        .screenshot-wrapper {
+            margin: 1.75rem 0;
+            text-align: center;
+        }
+
+        .screenshot-wrapper img {
+            margin: 0 0 0.5rem;
+        }
+
+        .screenshot-wrapper .caption {
+            font-size: 0.85rem;
+            color: var(--color-text-secondary);
+            font-style: italic;
+        }
+
+        /* Code blocks */
+        pre {
+            background: var(--color-code-bg);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            overflow-x: auto;
+            margin: 1.25rem 0;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        pre code {
+            font-family: var(--font-mono);
+            background: none;
+            padding: 0;
+            border-radius: 0;
+            font-size: inherit;
+        }
+
+        code {
+            font-family: var(--font-mono);
+            background: var(--color-code-bg);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        /* Callout boxes */
+        .callout {
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+            border-left: 4px solid;
+        }
+
+        .callout-tip {
+            background: var(--color-tip-bg);
+            border-color: var(--color-tip-border);
+        }
+
+        .callout-warning {
+            background: var(--color-warning-bg);
+            border-color: var(--color-warning-border);
+        }
+
+        .callout-note {
+            background: var(--color-callout-bg);
+            border-color: var(--color-callout-border);
+        }
+
+        .callout-title {
+            font-weight: 600;
+            margin-bottom: 0.35rem;
+            font-size: 0.95rem;
+        }
+
+        .callout p:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Step-by-step */
+        .steps {
+            counter-reset: step-counter;
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        .steps li {
+            counter-increment: step-counter;
+            position: relative;
+            padding-left: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .steps li::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2rem;
+            height: 2rem;
+            background: var(--color-accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+        }
+
+        /* Table of contents */
+        .toc {
+            background: var(--color-code-bg);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin: 0 0 2.5rem;
+        }
+
+        .toc-title {
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+            color: var(--color-text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .toc li {
+            margin-bottom: 0.4rem;
+        }
+
+        .toc a {
+            color: var(--color-accent);
+            font-size: 0.95rem;
+        }
+
+        /* References section */
+        .references {
+            background: var(--color-code-bg);
+            border: 1px solid var(--color-border);
+            border-radius: 8px;
+            padding: 1.5rem 1.75rem;
+            margin: 2.5rem 0;
+        }
+
+        .references h2 {
+            font-size: 1.3rem;
+            border-bottom: 2px solid var(--color-accent);
+            padding-bottom: 0.4rem;
+            margin: 0 0 1rem;
+        }
+
+        .references ol {
+            margin: 0;
+            padding-left: 1.25rem;
+        }
+
+        .references li {
+            margin-bottom: 0.6rem;
+            font-size: 0.92rem;
+            line-height: 1.5;
+        }
+
+        .references li a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .references li a:hover {
+            text-decoration: underline;
+        }
+
+        .references .source-type {
+            display: inline-block;
+            background: var(--color-accent-light);
+            color: var(--color-accent);
+            padding: 0.1rem 0.45rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.35rem;
+            vertical-align: middle;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .references .source-desc {
+            color: var(--color-text-secondary);
+            font-size: 0.85rem;
+        }
+
+        /* Footer */
+        .article-footer {
+            border-top: 1px solid var(--color-border);
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            font-size: 0.9rem;
+            color: var(--color-text-secondary);
+        }
+
+        .article-footer .tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 0.75rem;
+        }
+
+        .article-footer .tag {
+            background: var(--color-accent-light);
+            color: var(--color-accent);
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .article-hero { padding: 2.5rem 1.25rem 2rem; }
+            .article-container { padding: 1.5rem 1rem 3rem; }
+            .article-meta { flex-direction: column; align-items: center; gap: 0.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header class="article-hero">
+        <div class="category">Databricks / Data Engineering</div>
+        <h1>Building a Real-Time OLTP+OLAP App with Databricks Lakebase and Databricks Apps</h1>
+        <p class="subtitle">A step-by-step guide to building the PL Live Scout Hub — a Streamlit app that bridges analytical and transactional data on a single platform</p>
+        <div class="article-meta">
+            <span>Maciej Rubczynski</span>
+            <span>March 16, 2026</span>
+            <span>15 min read</span>
+        </div>
+    </header>
+
+    <main class="article-container">
+        <!-- TABLE OF CONTENTS -->
+        <section class="toc">
+            <div class="toc-title">Table of Contents</div>
+            <ul>
+                <li><a href="#introduction">Introduction: The Promise of Lakebase</a></li>
+                <li><a href="#use-case">The Use Case: Premier League Scouting</a></li>
+                <li><a href="#architecture">Architecture Overview</a></li>
+                <li><a href="#step-1">Step 1: Set Up Azure Resources</a></li>
+                <li><a href="#step-2">Step 2: Generate and Load Data</a></li>
+                <li><a href="#step-3">Step 3: Provision Lakebase</a></li>
+                <li><a href="#step-4">Step 4: Set Up Synced Tables</a></li>
+                <li><a href="#step-5">Step 5: Create OLTP Tables</a></li>
+                <li><a href="#step-6">Step 6: Build the Streamlit App</a></li>
+                <li><a href="#step-7">Step 7: Deploy to Databricks Apps</a></li>
+                <li><a href="#magic">The Magic: Cross-Layer Queries</a></li>
+                <li><a href="#learnings">Key Learnings and Gotchas</a></li>
+                <li><a href="#conclusion">Conclusion &amp; Next Steps</a></li>
+            </ul>
+        </section>
+
+        <!-- ARTICLE CONTENT -->
+
+        <h2 id="introduction">Introduction: The Promise of Lakebase</h2>
+
+        <p>For years, data architecture has been split into two camps: OLAP (Online Analytical Processing) for data warehousing and analytics, and OLTP (Online Transaction Processing) for operational databases. Organizations have built complex ETL pipelines to synchronize data between these worlds. But what if you could eliminate that separation?</p>
+
+        <p><strong>Databricks Lakebase</strong> changes the game. It's a managed PostgreSQL 16 OLTP database that runs natively within Databricks, allowing you to perform transactional operations without leaving your lakehouse. This opens up an entirely new category of applications: real-time systems that read analytical data from Delta Lake and write transactional updates to a single platform.</p>
+
+        <p>In this tutorial, we'll build the <strong>PL Live Scout Hub</strong>—a production-grade Streamlit application that scouts use to review player analytics, submit real-time reports, and collaborate on recruitment decisions. The app demonstrates how Lakebase bridges the OLAP-OLTP divide, enabling instant visibility across both analytical and transactional layers without complex integration work.</p>
+
+        <div class="callout callout-note">
+            <div class="callout-title">What You'll Learn</div>
+            <p>By the end of this tutorial, you'll understand how to architect and deploy a real-time OLTP+OLAP application, including provisioning managed PostgreSQL, syncing Delta tables, building a Streamlit frontend, and executing cross-layer queries that unite analytics with operations.</p>
+        </div>
+
+        <h2 id="use-case">The Use Case: Premier League Scouting</h2>
+
+        <p>Imagine you're building software for Premier League scouts. They need:</p>
+
+        <ul>
+            <li><strong>Analytical access</strong>: Player statistics, performance trends, historical match events (data that changes slowly and is queried heavily)</li>
+            <li><strong>Transactional capability</strong>: Real-time scout reports, player watchlists, transfer recommendations (data that changes frequently and requires ACID guarantees)</li>
+            <li><strong>Real-time correlation</strong>: The ability to ask, "Which unscouted players have the best expected goals metrics?" or "Do scout ratings correlate with actual performance?"</li>
+        </ul>
+
+        <p>The traditional approach would involve:</p>
+
+        <ol>
+            <li>Maintain player stats and match events in a data warehouse (Databricks Delta Lake)</li>
+            <li>Build an operational database elsewhere (AWS RDS, Azure SQL, Postgres) for scout reports and watchlists</li>
+            <li>Create ETL pipelines to synchronize data between systems (introducing latency and complexity)</li>
+            <li>Build complex application logic to correlate data across multiple systems</li>
+        </ol>
+
+        <p>The <strong>Lakebase approach</strong>:</p>
+
+        <ol>
+            <li>Keep analytical data in Delta Lake (unchanged)</li>
+            <li>Provision Lakebase as your OLTP database within Databricks</li>
+            <li>Sync Delta tables to Lakebase schemas (automatic, low-latency)</li>
+            <li>Create OLTP tables in Lakebase for scout operations</li>
+            <li>Build your app to query across both layers in a single SQL statement</li>
+        </ol>
+
+        <p>No ETL pipelines. No data synchronization delays. No separate operational database. Just one unified platform.</p>
+
+        <h2 id="architecture">Architecture Overview</h2>
+
+        <p>The PL Live Scout Hub is built on a three-layer architecture:</p>
+
+        <h3>Layer 1: Delta Lake + Unity Catalog (OLAP)</h3>
+
+        <p>This is your analytical foundation. We'll load:</p>
+
+        <ul>
+            <li><code>players</code> table: 210 Premier League players with static attributes</li>
+            <li><code>season_stats</code> table: Current season performance metrics (goals, assists, expected goals, etc.)</li>
+            <li><code>match_events</code> table: ~2000 match event records (passes, shots, tackles, defensive actions)</li>
+        </ul>
+
+        <p>These tables live in Delta Lake with Unity Catalog governance. They're immutable from the app's perspective (scouts don't modify stats directly).</p>
+
+        <h3>Layer 2: Lakebase Synced Tables (OLAP in OLTP)</h3>
+
+        <p>Lakebase automatically syncs specified Delta tables into its own schemas. When you create a synced table, Lakebase:</p>
+
+        <ul>
+            <li>Creates a read-only replica of the Delta table in Postgres</li>
+            <li>Maintains low-latency synchronization in the background</li>
+            <li>Places the replica in a dedicated <code>pl_data</code> schema</li>
+        </ul>
+
+        <p>Scouts query these tables to see player analytics. From the app's perspective, it's just another schema in the same Postgres database.</p>
+
+        <h3>Layer 3: Lakebase OLTP Tables (Transactional)</h3>
+
+        <p>In a separate <code>scout</code> schema, we create native Postgres tables for scout operations:</p>
+
+        <ul>
+            <li><code>scout_reports</code>: Player evaluations submitted by scouts (player_id, rating, notes, timestamp)</li>
+            <li><code>player_watchlist</code>: Tracked players of interest</li>
+            <li><code>transfer_recommendations</code>: Formal recommendations to management</li>
+        </ul>
+
+        <p>These tables have full ACID semantics, support constraints, and accept INSERT/UPDATE/DELETE operations from your application.</p>
+
+        <h3>Frontend: Databricks Apps (Streamlit)</h3>
+
+        <p>The user-facing layer. We'll build a Streamlit application with:</p>
+
+        <ul>
+            <li><strong>Player Dashboard</strong>: Browse all players with sorting and filtering</li>
+            <li><strong>Player Profile</strong>: Detailed stats with a form to submit scout reports</li>
+            <li><strong>Scout Board</strong>: View all scout reports and watchlist</li>
+            <li><strong>Analytics Hub</strong>: Cross-layer queries combining synced stats with scout operations</li>
+            <li><strong>Settings</strong>: Configuration and admin features</li>
+        </ul>
+
+        <p>The app connects to Lakebase via standard PostgreSQL (psycopg2), using Databricks service principal authentication.</p>
+
+        <h2 id="step-1">Step 1: Set Up Azure Resources</h2>
+
+        <p>First, we need to provision the underlying cloud infrastructure. We'll use Azure, but the pattern applies to AWS or GCP.</p>
+
+        <h3>Create a Resource Group</h3>
+
+        <ol>
+            <li>Log in to the <a href="https://portal.azure.com">Azure Portal</a></li>
+            <li>Click "Create a resource" and search for "Resource Group"</li>
+            <li>Fill in:
+                <ul>
+                    <li>Resource group name: <code>pl-scout-rg</code></li>
+                    <li>Region: <code>East US</code> (or your preferred region)</li>
+                </ul>
+            </li>
+            <li>Click "Review + Create" and then "Create"</li>
+        </ol>
+
+        <h3>Create a Databricks Workspace</h3>
+
+        <ol>
+            <li>In the Azure Portal, click "Create a resource" and search for "Databricks"</li>
+            <li>Click "Azure Databricks"</li>
+            <li>Fill in:
+                <ul>
+                    <li>Subscription: Your Azure subscription</li>
+                    <li>Resource group: <code>pl-scout-rg</code></li>
+                    <li>Workspace name: <code>pl-scout-workspace</code></li>
+                    <li>Location: <code>East US</code></li>
+                    <li>Pricing tier: Premium (required for Unity Catalog and Apps)</li>
+                </ul>
+            </li>
+            <li>Click "Review + Create" and then "Create"</li>
+            <li>Wait 5-10 minutes for the workspace to deploy</li>
+        </ol>
+
+        <div class="callout callout-tip">
+            <div class="callout-title">Tip</div>
+            <p>Make sure you select the <strong>Premium</strong> pricing tier. Databricks Lakebase is available on Premium and above. Standard tier won't have the database option in the workspace.</p>
+        </div>
+
+        <h2 id="step-2">Step 2: Generate and Load Data</h2>
+
+        <p>We need to populate our Delta Lake with realistic Premier League data. We'll use a Python script to generate 210 players, season stats, and ~2000 match events.</p>
+
+        <h3>Create the Data Generation Script</h3>
+
+        <p>In your workspace, create a new notebook called <code>generate_data.py</code>:</p>
+
+        <pre><code>import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
+
+# Seed for reproducibility
+np.random.seed(42)
+
+# 210 Premier League players
+players = pd.DataFrame({
+    'player_id': [f'P{i:04d}' for i in range(1, 211)],
+    'name': [f'Player {i}' for i in range(1, 211)],
+    'position': np.random.choice(['GK', 'DEF', 'MID', 'FWD'], 210),
+    'team': np.random.choice(['Arsenal', 'Chelsea', 'Liverpool', 'Man City',
+                              'Man United', 'Tottenham', 'Newcastle', 'Brighton'], 210),
+    'shirt_number': np.random.randint(1, 100, 210),
+    'date_of_birth': pd.date_range('1990-01-01', periods=210, freq='W'),
+    'nationality': np.random.choice(['England', 'Spain', 'France', 'Germany',
+                                     'Portugal', 'Brazil', 'Argentina', 'Other'], 210)
+})
+
+# Season stats for each player
+season_stats = pd.DataFrame({
+    'player_id': players['player_id'],
+    'season': '2024-2025',
+    'matches_played': np.random.randint(5, 38, 210),
+    'goals': np.random.randint(0, 30, 210),
+    'assists': np.random.randint(0, 20, 210),
+    'passes_completed': np.random.randint(100, 3000, 210),
+    'tackles': np.random.randint(0, 100, 210),
+    'interceptions': np.random.randint(0, 50, 210),
+    'xg': np.random.uniform(0.5, 25, 210),
+    'xa': np.random.uniform(0.1, 15, 210)
+})
+
+# ~2000 match events
+n_events = 2000
+match_events = pd.DataFrame({
+    'event_id': range(1, n_events + 1),
+    'player_id': np.random.choice(players['player_id'], n_events),
+    'match_date': [datetime(2025, 1, 1) + timedelta(days=i % 7)
+                   for i in range(n_events)],
+    'event_type': np.random.choice(['pass', 'shot', 'tackle', 'interception',
+                                    'foul', 'dribble'], n_events),
+    'success': np.random.choice([True, False], n_events, p=[0.75, 0.25])
+})
+
+print(f"Generated {len(players)} players")
+print(f"Generated {len(season_stats)} season stat records")
+print(f"Generated {len(match_events)} match events")
+
+# Display samples
+print("\nPlayers sample:")
+print(players.head())
+print("\nSeason stats sample:")
+print(season_stats.head())
+print("\nMatch events sample:")
+print(match_events.head())</code></pre>
+
+        <p>Run this notebook to generate the data. Then create Delta tables in Unity Catalog:</p>
+
+        <pre><code># Using Databricks notebook
+spark.sql("""
+    CREATE TABLE IF NOT EXISTS main.pl_data.players
+    USING DELTA
+    AS SELECT * FROM players_df
+""")
+
+spark.sql("""
+    CREATE TABLE IF NOT EXISTS main.pl_data.season_stats
+    USING DELTA
+    AS SELECT * FROM season_stats_df
+""")
+
+spark.sql("""
+    CREATE TABLE IF NOT EXISTS main.pl_data.match_events
+    USING DELTA
+    AS SELECT * FROM match_events_df
+""")</code></pre>
+
+        <div class="callout callout-note">
+            <div class="callout-title">Note</div>
+            <p>Replace <code>main</code> with your actual Databricks catalog name. You can find it in the Data Explorer in your workspace.</p>
+        </div>
+
+        <h2 id="step-3">Step 3: Provision Lakebase</h2>
+
+        <p>Now we'll provision a managed PostgreSQL 16 database within Databricks. This is where the magic happens.</p>
+
+        <h3>Prerequisites</h3>
+
+        <p>You'll need:</p>
+
+        <ul>
+            <li>The <code>databricks-sdk</code> for Python (version >= 0.61.0)</li>
+            <li>Databricks workspace admin permissions</li>
+            <li>A Databricks personal access token or OAuth token</li>
+        </ul>
+
+        <h3>Create the Provisioned Instance</h3>
+
+        <p>In a Databricks notebook, run:</p>
+
+        <pre><code>from databricks.sdk import WorkspaceClient
+
+w = WorkspaceClient()
+
+# Create a Lakebase provisioned instance
+instance = w.provisioned_database_endpoints.create(
+    name="pl-scout-lakebase",
+    cluster_size="SMALL"  # 2 CPUs, 8GB RAM. Can scale up later.
+)
+
+print(f"Instance ID: {instance.id}")
+print(f"JDBC URL: {instance.jdbc_url}")
+
+# Store the instance ID for later use
+instance_id = instance.id</code></pre>
+
+        <p>This creates a PostgreSQL 16 server that you can connect to via port 5432. The instance will be ready in 2-5 minutes.</p>
+
+        <h3>Test the Connection</h3>
+
+        <p>Once the instance is ready, generate credentials and test the connection:</p>
+
+        <pre><code>import psycopg2
+
+# Generate temporary database credentials
+creds = w.database.generate_database_credential(instance_id=instance_id)
+
+# Extract connection details
+host = instance.host
+port = 5432
+user = creds.username
+password = creds.password
+database = "postgres"
+
+# Test the connection
+try:
+    conn = psycopg2.connect(
+        host=host,
+        port=port,
+        user=user,
+        password=password,
+        database=database,
+        sslmode="require"
+    )
+    cursor = conn.cursor()
+    cursor.execute("SELECT version();")
+    print("Connected! PostgreSQL version:")
+    print(cursor.fetchone())
+    cursor.close()
+    conn.close()
+except Exception as e:
+    print(f"Connection failed: {e}")</code></pre>
+
+        <div class="callout callout-warning">
+            <div class="callout-title">Important</div>
+            <p>Always use <code>sslmode=require</code> when connecting to Lakebase from outside the workspace. Do not disable SSL, even for testing.</p>
+        </div>
+
+        <h2 id="step-4">Step 4: Set Up Synced Tables</h2>
+
+        <p>Synced tables are the bridge between Delta Lake and Lakebase OLTP. They create read-only replicas of your analytical tables in the PostgreSQL database.</p>
+
+        <h3>Create Synced Tables via REST API</h3>
+
+        <p>Use the Databricks REST API to create synced tables:</p>
+
+        <pre><code>import requests
+import json
+
+# Get your Databricks workspace URL and token
+workspace_url = "https://your-workspace.databricks.com"
+token = "dapi..."  # Your PAT token
+
+# Function to create a synced table
+def create_synced_table(source_table, target_schema):
+    url = f"{workspace_url}/api/2.0/database/synced_tables"
+
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+
+    body = {
+        "provisioned_database_instance_id": instance_id,
+        "schema_name": target_schema,
+        "table_name": source_table.split(".")[-1],
+        "source_table_full_name": source_table
+    }
+
+    response = requests.post(url, headers=headers, json=body)
+    return response.json()
+
+# Create synced tables in pl_data schema
+result1 = create_synced_table("main.pl_data.players", "pl_data")
+result2 = create_synced_table("main.pl_data.season_stats", "pl_data")
+result3 = create_synced_table("main.pl_data.match_events", "pl_data")
+
+print("Synced tables created!")
+print(f"Players: {result1}")
+print(f"Season stats: {result2}")
+print(f"Match events: {result3}")</code></pre>
+
+        <p>After running this, the <code>pl_data</code> schema in your Lakebase instance will contain read-only replicas of the three tables. Lakebase automatically keeps them synchronized.</p>
+
+        <div class="callout callout-tip">
+            <div class="callout-title">Tip</div>
+            <p>Synced tables are ideal for analytical data that changes infrequently. For high-frequency updates, consider replicating with a shorter sync interval or implementing custom ETL logic.</p>
+        </div>
+
+        <h2 id="step-5">Step 5: Create OLTP Tables</h2>
+
+        <p>Now we'll create native PostgreSQL tables for scout operations. These will have full transactional semantics.</p>
+
+        <h3>Connect to Lakebase and Create Tables</h3>
+
+        <p>In a Databricks notebook:</p>
+
+        <pre><code>import psycopg2
+
+# Generate fresh credentials
+creds = w.database.generate_database_credential(instance_id=instance_id)
+
+# Connect to the database
+conn = psycopg2.connect(
+    host=instance.host,
+    port=5432,
+    user=creds.username,
+    password=creds.password,
+    database="postgres",
+    sslmode="require"
+)
+
+cursor = conn.cursor()
+
+# Create the scout schema
+cursor.execute("CREATE SCHEMA IF NOT EXISTS scout;")
+
+# Create scout_reports table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS scout.scout_reports (
+        report_id SERIAL PRIMARY KEY,
+        player_id TEXT NOT NULL,
+        scout_name TEXT NOT NULL,
+        rating DECIMAL(3,1) CHECK (rating >= 0 AND rating <= 10),
+        physical_score DECIMAL(3,1),
+        technical_score DECIMAL(3,1),
+        tactical_score DECIMAL(3,1),
+        notes TEXT,
+        video_link TEXT,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (player_id) REFERENCES pl_data.players(player_id)
+    );
+""")
+
+# Create player_watchlist table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS scout.player_watchlist (
+        watchlist_id SERIAL PRIMARY KEY,
+        player_id TEXT NOT NULL,
+        priority TEXT CHECK (priority IN ('High', 'Medium', 'Low')),
+        reason TEXT,
+        added_by TEXT,
+        added_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE(player_id),
+        FOREIGN KEY (player_id) REFERENCES pl_data.players(player_id)
+    );
+""")
+
+# Create transfer_recommendations table
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS scout.transfer_recommendations (
+        recommendation_id SERIAL PRIMARY KEY,
+        player_id TEXT NOT NULL,
+        recommendation_type TEXT CHECK (recommendation_type IN ('Buy', 'Sell', 'Loan')),
+        rationale TEXT,
+        estimated_fee DECIMAL(12,2),
+        confidence_score DECIMAL(3,1),
+        recommended_by TEXT,
+        status TEXT DEFAULT 'Open',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY (player_id) REFERENCES pl_data.players(player_id)
+    );
+""")
+
+conn.commit()
+print("OLTP tables created successfully!")
+
+cursor.close()
+conn.close()</code></pre>
+
+        <div class="callout callout-note">
+            <div class="callout-title">Important Type Alignment</div>
+            <p>Notice that <code>player_id</code> is <code>TEXT</code> in all tables. This is critical—the synced tables also have <code>player_id</code> as TEXT, so we need exact type matching for JOINs to work correctly.</p>
+        </div>
+
+        <h2 id="step-6">Step 6: Build the Streamlit App</h2>
+
+        <p>Now we'll build the frontend that scouts use. This is a multi-page Streamlit application with a database module for Lakebase connectivity.</p>
+
+        <h3>Project Structure</h3>
+
+        <pre><code>pl-scout-hub/
+├── app.py                 # Main Streamlit app
+├── db.py                  # Database connection module
+├── pages/
+│   ├── 1_Player_Dashboard.py
+│   ├── 2_Player_Profile.py
+│   ├── 3_Scout_Board.py
+│   ├── 4_Analytics_Hub.py
+│   └── 5_Settings.py
+├── app.yaml              # Databricks Apps config
+└── requirements.txt      # Python dependencies</code></pre>
+
+        <h3>db.py – Database Connection Module</h3>
+
+        <pre><code>import psycopg2
+from psycopg2 import sql
+import pandas as pd
+from databricks.sdk import WorkspaceClient
+
+class LakebaseConnection:
+    def __init__(self, instance_id):
+        self.w = WorkspaceClient()
+        self.instance_id = instance_id
+        self.conn = None
+
+    def connect(self):
+        """Establish connection using Databricks credentials"""
+        # Generate temporary credentials
+        creds = self.w.database.generate_database_credential(
+            instance_id=self.instance_id
+        )
+
+        # Get instance details
+        instance = self.w.provisioned_database_endpoints.get(self.instance_id)
+
+        # Connect
+        self.conn = psycopg2.connect(
+            host=instance.host,
+            port=5432,
+            user=creds.username,
+            password=creds.password,
+            database="postgres",
+            sslmode="require"
+        )
+
+    def execute_query(self, query, params=None):
+        """Execute a query and return results as DataFrame"""
+        if not self.conn:
+            self.connect()
+
+        cursor = self.conn.cursor()
+        try:
+            cursor.execute(query, params)
+            columns = [desc[0] for desc in cursor.description]
+            rows = cursor.fetchall()
+            df = pd.DataFrame(rows, columns=columns)
+            self.conn.commit()
+            return df
+        except Exception as e:
+            self.conn.rollback()
+            raise e
+        finally:
+            cursor.close()
+
+    def insert_scout_report(self, player_id, scout_name, rating,
+                           physical_score, technical_score, tactical_score, notes):
+        """Insert a scout report"""
+        query = """
+            INSERT INTO scout.scout_reports
+            (player_id, scout_name, rating, physical_score, technical_score,
+             tactical_score, notes)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
+        """
+        params = (player_id, scout_name, rating, physical_score,
+                 technical_score, tactical_score, notes)
+
+        cursor = self.conn.cursor()
+        try:
+            cursor.execute(query, params)
+            self.conn.commit()
+            return True
+        except Exception as e:
+            self.conn.rollback()
+            raise e
+        finally:
+            cursor.close()</code></pre>
+
+        <h3>app.py – Main Application</h3>
+
+        <pre><code>import streamlit as st
+from db import LakebaseConnection
+import os
+
+# Configure page
+st.set_page_config(
+    page_title="PL Live Scout Hub",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+# Initialize connection
+@st.cache_resource
+def get_db():
+    instance_id = os.getenv("LAKEBASE_INSTANCE_ID")
+    if not instance_id:
+        st.error("LAKEBASE_INSTANCE_ID environment variable not set")
+        st.stop()
+    return LakebaseConnection(instance_id)
+
+db = get_db()
+db.connect()
+
+# Header
+st.markdown("# PL Live Scout Hub")
+st.markdown("*Powered by Databricks Lakebase*")
+
+# Sidebar navigation
+page = st.sidebar.radio(
+    "Navigate",
+    ["Player Dashboard", "Player Profile", "Scout Board",
+     "Analytics Hub", "Settings"]
+)
+
+if page == "Player Dashboard":
+    st.header("Player Dashboard")
+
+    # Fetch all players
+    players_df = db.execute_query(
+        "SELECT player_id, name, position, team, nationality FROM pl_data.players"
+    )
+
+    # Filters
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        position_filter = st.multiselect(
+            "Position",
+            players_df['position'].unique()
+        )
+
+    with col2:
+        team_filter = st.multiselect(
+            "Team",
+            players_df['team'].unique()
+        )
+
+    # Apply filters
+    filtered = players_df
+    if position_filter:
+        filtered = filtered[filtered['position'].isin(position_filter)]
+    if team_filter:
+        filtered = filtered[filtered['team'].isin(team_filter)]
+
+    st.dataframe(filtered, use_container_width=True)
+
+elif page == "Analytics Hub":
+    st.header("Analytics Hub")
+
+    # Cross-layer query: scouted vs unscouted players with stats
+    query = """
+        SELECT
+            p.name,
+            p.position,
+            p.team,
+            ss.goals,
+            ss.assists,
+            ss.xg,
+            COUNT(sr.report_id) as scout_reports,
+            ROUND(AVG(sr.rating), 1) as avg_rating
+        FROM pl_data.players p
+        LEFT JOIN pl_data.season_stats ss ON p.player_id = ss.player_id
+        LEFT JOIN scout.scout_reports sr ON p.player_id = sr.player_id
+        GROUP BY p.player_id, p.name, p.position, p.team,
+                 ss.goals, ss.assists, ss.xg
+        ORDER BY COUNT(sr.report_id) DESC
+    """
+
+    analytics_df = db.execute_query(query)
+    st.dataframe(analytics_df, use_container_width=True)</code></pre>
+
+        <h3>requirements.txt</h3>
+
+        <pre><code>streamlit==1.28.0
+psycopg2-binary==2.9.9
+pandas==2.0.0
+databricks-sdk>=0.61.0</code></pre>
+
+        <h3>app.yaml – Databricks Apps Configuration</h3>
+
+        <pre><code>name: pl-scout-hub
+title: "PL Live Scout Hub"
+description: "Real-time OLTP+OLAP scout collaboration platform"
+version: "1.0.0"
+
+# Source code configuration
+code:
+  source: ./
+
+# Environment variables
+env:
+  - name: LAKEBASE_INSTANCE_ID
+    description: "Databricks Lakebase instance ID"
+    default: ""  # Set this when deploying
+
+# Compute configuration
+resources:
+  compute:
+    memory: "4G"
+    cores: 2
+
+# Required permissions
+permissions:
+  - resource: /Workspace/
+    privilege: READ
+  - resource: /Workspace/Shared
+    privilege: READ</code></pre>
+
+        <h2 id="step-7">Step 7: Deploy to Databricks Apps</h2>
+
+        <p>We'll upload the app to Databricks and deploy it as a managed Databricks App.</p>
+
+        <h3>Upload Files to Workspace</h3>
+
+        <p>Use the Databricks API to upload your app files:</p>
+
+        <pre><code>import requests
+import os
+
+workspace_url = "https://your-workspace.databricks.com"
+token = "dapi..."
+
+def upload_file(local_path, workspace_path):
+    """Upload a file to Databricks workspace"""
+    url = f"{workspace_url}/api/2.0/workspace/import"
+
+    with open(local_path, 'rb') as f:
+        files = {'file': f}
+        data = {
+            'path': workspace_path,
+            'language': 'PYTHON',
+            'overwrite': 'true',
+            'format': 'AUTO'
+        }
+        headers = {'Authorization': f'Bearer {token}'}
+
+        response = requests.post(url, files=files, data=data, headers=headers)
+        return response.json()
+
+# Upload app files
+upload_file('app.py', '/Workspace/pl-scout-hub/app.py')
+upload_file('db.py', '/Workspace/pl-scout-hub/db.py')
+upload_file('requirements.txt', '/Workspace/pl-scout-hub/requirements.txt')
+upload_file('app.yaml', '/Workspace/pl-scout-hub/app.yaml')</code></pre>
+
+        <h3>Deploy the App</h3>
+
+        <p>In your Databricks workspace:</p>
+
+        <ol>
+            <li>Go to <strong>Apps</strong> in the left sidebar</li>
+            <li>Click <strong>Create app</strong></li>
+            <li>Select <strong>Streamlit</strong></li>
+            <li>Choose the <code>/Workspace/pl-scout-hub/app.py</code> file</li>
+            <li>Set environment variables:
+                <ul>
+                    <li><code>LAKEBASE_INSTANCE_ID</code> = (your instance ID from Step 3)</li>
+                </ul>
+            </li>
+            <li>Click <strong>Deploy</strong></li>
+        </ol>
+
+        <div class="callout callout-warning">
+            <div class="callout-title">Service Principal Permissions</div>
+            <p>The app runs as a Databricks service principal. You need to grant it explicit access to the Lakebase schemas. In a notebook, run:</p>
+            <pre><code>spark.sql("""
+    GRANT SELECT ON SCHEMA pl_data TO `<app-service-principal>`
+""")
+
+spark.sql("""
+    GRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA scout TO `<app-service-principal>`
+""")</code></pre>
+        </div>
+
+        <h2 id="magic">The Magic: Cross-Layer Queries</h2>
+
+        <p>This is where Lakebase demonstrates its power. In a single SQL query, we can join analytical data (from synced tables) with transactional data (from OLTP tables). Let's explore some examples:</p>
+
+        <h3>Example 1: Scouted vs Unscouted Players</h3>
+
+        <pre><code>SELECT
+    p.name,
+    p.position,
+    ss.xg,
+    ss.goals,
+    COUNT(sr.report_id) as total_scout_reports,
+    ROUND(AVG(sr.rating), 1) as avg_scout_rating,
+    CASE
+        WHEN COUNT(sr.report_id) = 0 THEN 'Unscouted'
+        WHEN COUNT(sr.report_id) < 3 THEN 'Lightly Scouted'
+        ELSE 'Well Scouted'
+    END as scout_status
+FROM pl_data.players p
+LEFT JOIN pl_data.season_stats ss ON p.player_id = ss.player_id
+LEFT JOIN scout.scout_reports sr ON p.player_id = sr.player_id
+GROUP BY p.player_id, p.name, p.position, ss.xg, ss.goals
+ORDER BY total_scout_reports DESC, ss.xg DESC;</code></pre>
+
+        <p>This query instantly shows which high-performing players (high xG) haven't received scouting attention yet. In a traditional architecture, you'd need to:</p>
+
+        <ol>
+            <li>Query the data warehouse for stats</li>
+            <li>Query the operational database for scout reports</li>
+            <li>Correlate in application code</li>
+        </ol>
+
+        <p>With Lakebase, it's a single query executed in PostgreSQL.</p>
+
+        <h3>Example 2: Scout Rating vs Performance Correlation</h3>
+
+        <pre><code>SELECT
+    sr.scout_name,
+    COUNT(*) as players_rated,
+    ROUND(AVG(sr.rating), 2) as avg_rating,
+    ROUND(AVG(ss.xg), 2) as avg_target_xg,
+    ROUND(CORR(sr.rating, ss.xg), 3) as correlation_to_xg,
+    ROUND(CORR(sr.rating, ss.goals), 3) as correlation_to_goals
+FROM scout.scout_reports sr
+JOIN pl_data.season_stats ss ON sr.player_id = ss.player_id
+GROUP BY sr.scout_name
+ORDER BY players_rated DESC;</code></pre>
+
+        <p>This tells you whether a scout's ratings align with actual performance metrics. Are high-rated scouts identifying players who truly perform?</p>
+
+        <h3>Example 3: Transfer Targets with Advanced Analytics</h3>
+
+        <pre><code>SELECT
+    p.name,
+    p.team,
+    ss.xg,
+    ss.goals,
+    tr.estimated_fee,
+    tr.confidence_score,
+    CASE
+        WHEN ss.xg / NULLIF(ss.goals, 0) > 1.2 THEN 'Underperforming'
+        WHEN ss.xg / NULLIF(ss.goals, 0) < 0.8 THEN 'Overperforming'
+        ELSE 'Aligned'
+    END as performance_status,
+    me.success_rate
+FROM scout.transfer_recommendations tr
+JOIN pl_data.players p ON tr.player_id = p.player_id
+JOIN pl_data.season_stats ss ON p.player_id = ss.player_id
+LEFT JOIN LATERAL (
+    SELECT
+        ROUND(100.0 * SUM(CASE WHEN success THEN 1 ELSE 0 END) / COUNT(*), 1) as success_rate
+    FROM pl_data.match_events
+    WHERE player_id = p.player_id
+) me ON true
+WHERE tr.status = 'Open'
+ORDER BY tr.confidence_score DESC;</code></pre>
+
+        <p>This combines transfer recommendations with performance analysis and match event success rates to identify the best transfer targets.</p>
+
+        <h2 id="learnings">Key Learnings and Gotchas</h2>
+
+        <h3>1. Synced Tables Go to Their Own Schema</h3>
+
+        <p>When you create a synced table from <code>main.pl_data.players</code>, Lakebase doesn't place it in a default schema. You must specify the target schema (e.g., <code>pl_data</code>). The replica won't appear in the public schema.</p>
+
+        <h3>2. Type Alignment Matters</h3>
+
+        <p>If your Delta table has <code>player_id</code> as STRING, the synced table will have <code>player_id</code> as TEXT. Your OLTP tables must match exactly. A VARCHAR mismatch can cause JOIN failures.</p>
+
+        <h3>3. App Service Principal Needs Explicit Grants</h3>
+
+        <p>By default, a Databricks App service principal has limited access. You must explicitly GRANT permissions on schemas:</p>
+
+        <pre><code>GRANT SELECT ON SCHEMA pl_data TO `service-principal-name`;
+GRANT SELECT, INSERT, UPDATE, DELETE ON SCHEMA scout TO `service-principal-name`;</code></pre>
+
+        <h3>4. databricks-sdk >= 0.61.0 Required</h3>
+
+        <p>The <code>database.generate_database_credential()</code> method was added in SDK version 0.61.0. Older versions won't work. Always pin your requirements.txt to a recent version.</p>
+
+        <h3>5. Authentication via generate_database_credential()</h3>
+
+        <p>Do not use personal access tokens (PATs) for database connections. Instead, use the Databricks SDK's <code>generate_database_credential()</code> method, which issues temporary, scoped credentials. This is more secure and works seamlessly in Databricks Apps.</p>
+
+        <h3>6. SSL Mode is Required</h3>
+
+        <p>Always use <code>sslmode=require</code> when connecting from outside the workspace. Databricks enforces encrypted connections to Lakebase instances.</p>
+
+        <h3>7. Synced Tables Are Read-Only</h3>
+
+        <p>You cannot INSERT, UPDATE, or DELETE data in synced tables. They're replicas meant for analysis. If you need to write to them, use the original Delta tables and let Lakebase sync the changes.</p>
+
+        <h3>8. Connection Pooling in Multi-User Apps</h3>
+
+        <p>For production Streamlit apps, consider implementing connection pooling to avoid exhausting database connections. Streamlit reruns the entire script on user interaction, so create connections carefully:</p>
+
+        <pre><code>@st.cache_resource
+def get_db_connection():
+    """Cached connection to avoid multiple connections"""
+    instance_id = os.getenv("LAKEBASE_INSTANCE_ID")
+    db = LakebaseConnection(instance_id)
+    db.connect()
+    return db</code></pre>
+
+        <h2 id="conclusion">Conclusion & Next Steps</h2>
+
+        <p>We've built the PL Live Scout Hub—a real-time application that bridges analytical and transactional data on a single platform. Here's what you've accomplished:</p>
+
+        <ul>
+            <li>Provisioned a managed PostgreSQL 16 database (Lakebase) within Databricks</li>
+            <li>Synced Delta Lake analytical tables to Lakebase for low-latency access</li>
+            <li>Created native OLTP tables for scout operations with full ACID semantics</li>
+            <li>Built a Streamlit application that reads OLAP and writes OLTP in the same context</li>
+            <li>Executed cross-layer queries that unite analytics with operations</li>
+            <li>Deployed the app to Databricks Apps with proper authentication and permissions</li>
+        </ul>
+
+        <p>The traditional OLAP vs OLTP separation is gone. You now have a unified platform where scouts can instantly correlate their observations with analytical insights, all on one system.</p>
+
+        <h3>Next Steps to Extend This</h3>
+
+        <ul>
+            <li><strong>Add real-time dashboards</strong> using Databricks SQL Dashboards to monitor scout activity</li>
+            <li><strong>Implement audit logging</strong> in Lakebase to track who changed what and when</li>
+            <li><strong>Build ML pipelines</strong> on Delta Lake to predict transfer success based on scout ratings and performance</li>
+            <li><strong>Scale to multiple teams</strong> using multi-tenancy patterns in Lakebase</li>
+            <li><strong>Integrate with external APIs</strong> (e.g., Transfermarkt) to enrich player data</li>
+        </ul>
+
+        <h3>Resources & Repo</h3>
+
+        <p>The complete source code is available on GitHub:</p>
+
+        <p><a href="https://github.com/maciejrubczynski/pl-scout-hub-lakebase-workshop">github.com/maciejrubczynski/pl-scout-hub-lakebase-workshop</a></p>
+
+        <p>Feel free to fork, adapt, and extend for your use case. Questions or issues? Open a GitHub issue or reach out on the Databricks community forum.</p>
+
+        <!-- REFERENCES -->
+        <section class="references">
+            <h2>References &amp; Further Reading</h2>
+            <ol>
+                <li><a href="https://docs.databricks.com/en/lakebase/">Databricks Lakebase Documentation</a>
+                    <span class="source-type">Official</span>
+                    <span class="source-desc">— Complete guide to provisioning and managing Lakebase instances.</span>
+                </li>
+                <li><a href="https://docs.databricks.com/en/dev-tools/databricks-apps/">Databricks Apps Documentation</a>
+                    <span class="source-type">Official</span>
+                    <span class="source-desc">— Build and deploy Streamlit apps within Databricks.</span>
+                </li>
+                <li><a href="https://docs.databricks.com/en/dev-tools/sdk-python.html">Databricks SDK for Python</a>
+                    <span class="source-type">Official</span>
+                    <span class="source-desc">— Reference for programmatic workspace and database API access.</span>
+                </li>
+                <li><a href="https://docs.databricks.com/en/catalogs/index.html">Unity Catalog Documentation</a>
+                    <span class="source-type">Official</span>
+                    <span class="source-desc">— Data governance and organization in Databricks.</span>
+                </li>
+                <li><a href="https://docs.streamlit.io/">Streamlit Documentation</a>
+                    <span class="source-type">Official</span>
+                    <span class="source-desc">— Framework for building Python-based data applications.</span>
+                </li>
+                <li><a href="https://github.com/maciejrubczynski/pl-scout-hub-lakebase-workshop">GitHub Repository: PL Scout Hub</a>
+                    <span class="source-type">Resource</span>
+                    <span class="source-desc">— Complete source code and tutorial assets for this workshop.</span>
+                </li>
+            </ol>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="article-footer">
+            <p>Written by Maciej Rubczynski on March 16, 2026</p>
+            <div class="tags">
+                <span class="tag">Databricks</span>
+                <span class="tag">Lakebase</span>
+                <span class="tag">OLTP</span>
+                <span class="tag">OLAP</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">Azure</span>
+                <span class="tag">Data Engineering</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Unity Catalog</span>
+                <span class="tag">Premier League</span>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
